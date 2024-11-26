@@ -1,176 +1,1944 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!-- Change the value of lang="en" attribute if your website's language is not English.
+You can find the code of your language here - https://www.w3schools.com/tags/ref_language_codes.asp -->
+<html lang="en">
     <head>
+
+        <title>Nursing Home Services in Kenya - Trusted Touch Nursing</title>
+        <meta name="description" content="Trusted Touch Nursing &mdash; One & Multi Page Creative Template">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="https://themeforest.net/user/bestlooker/portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Laravel</title>
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.png" type="image/png" sizes="any">
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="{{asset('theme/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('theme/css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('theme/css/style-responsive.css')}}">
+        <link rel="stylesheet" href="{{asset('theme/css/vertical-rhythm.min.css')}}">
+        <link rel="stylesheet" href="{{asset('theme/css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{asset('theme/css/owl.carousel.css')}}">
+        <link rel="stylesheet" href="{{asset('theme/css/splitting.css')}}">
+        <link rel="stylesheet" href="{{asset('theme/css/YTPlayer.css')}}">
+        <link rel="stylesheet" href="{{asset('theme/css/demo-main/demo-main.css')}}">
 
-        <!-- Styles / Scripts -->
-        @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @else
-            <style>
-                /* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.-left-20{left:-5rem}.top-0{top:0px}.-bottom-16{bottom:-4rem}.-left-16{left:-4rem}.-mx-3{margin-left:-0.75rem;margin-right:-0.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.flex{display:flex}.grid{display:grid}.hidden{display:none}.aspect-video{aspect-ratio:16 / 9}.size-12{width:3rem;height:3rem}.size-5{width:1.25rem;height:1.25rem}.size-6{width:1.5rem;height:1.5rem}.h-12{height:3rem}.h-40{height:10rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-\[calc\(100\%\+8rem\)\]{width:calc(100% + 8rem)}.w-auto{width:auto}.max-w-\[877px\]{max-width:877px}.max-w-2xl{max-width:42rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.rounded-\[10px\]{border-radius:10px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-sm{border-radius:0.125rem}.bg-\[\#FF2D20\]\/10{background-color:rgb(255 45 32 / 0.1)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.from-transparent{--tw-gradient-from:transparent var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-white{--tw-gradient-to:rgb(255 255 255 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-white{--tw-gradient-to:#fff var(--tw-gradient-to-position)}.stroke-\[\#FF2D20\]{stroke:#FF2D20}.object-cover{object-fit:cover}.object-top{object-position:top}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.pt-3{padding-top:0.75rem}.text-center{text-align:center}.font-sans{font-family:Figtree, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-sm\/relaxed{font-size:0.875rem;line-height:1.625}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-semibold{font-weight:600}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-\[0px_14px_34px_0px_rgba\(0\2c 0\2c 0\2c 0\.08\)\]{--tw-shadow:0px 14px 34px 0px rgba(0,0,0,0.08);--tw-shadow-colored:0px 14px 34px 0px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-transparent{--tw-ring-color:transparent}.ring-white\/\[0\.05\]{--tw-ring-color:rgb(255 255 255 / 0.05)}.drop-shadow-\[0px_4px_34px_rgba\(0\2c 0\2c 0\2c 0\.06\)\]{--tw-drop-shadow:drop-shadow(0px 4px 34px rgba(0,0,0,0.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-\[0px_4px_34px_rgba\(0\2c 0\2c 0\2c 0\.25\)\]{--tw-drop-shadow:drop-shadow(0px 4px 34px rgba(0,0,0,0.25));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.selection\:bg-\[\#FF2D20\] *::selection{--tw-bg-opacity:1;background-color:rgb(255 45 32 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-\[\#FF2D20\]::selection{--tw-bg-opacity:1;background-color:rgb(255 45 32 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))}.hover\:text-black\/70:hover{color:rgb(0 0 0 / 0.7)}.hover\:ring-black\/20:hover{--tw-ring-color:rgb(0 0 0 / 0.2)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus-visible\:ring-1:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 45 32 / var(--tw-ring-opacity))}@media (min-width: 640px){.sm\:size-16{width:4rem;height:4rem}.sm\:size-6{width:1.5rem;height:1.5rem}.sm\:pt-5{padding-top:1.25rem}}@media (min-width: 768px){.md\:row-span-3{grid-row:span 3 / span 3}}@media (min-width: 1024px){.lg\:col-start-2{grid-column-start:2}.lg\:h-16{height:4rem}.lg\:max-w-7xl{max-width:80rem}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:flex-col{flex-direction:column}.lg\:items-end{align-items:flex-end}.lg\:justify-center{justify-content:center}.lg\:gap-8{gap:2rem}.lg\:p-10{padding:2.5rem}.lg\:pb-10{padding-bottom:2.5rem}.lg\:pt-0{padding-top:0px}.lg\:text-\[\#FF2D20\]{--tw-text-opacity:1;color:rgb(255 45 32 / var(--tw-text-opacity))}}@media (prefers-color-scheme: dark){.dark\:block{display:block}.dark\:hidden{display:none}.dark\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity))}.dark\:bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity))}.dark\:via-zinc-900{--tw-gradient-to:rgb(24 24 27 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #18181b var(--tw-gradient-via-position), var(--tw-gradient-to)}.dark\:to-zinc-900{--tw-gradient-to:#18181b var(--tw-gradient-to-position)}.dark\:text-white\/50{color:rgb(255 255 255 / 0.5)}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:text-white\/70{color:rgb(255 255 255 / 0.7)}.dark\:ring-zinc-800{--tw-ring-opacity:1;--tw-ring-color:rgb(39 39 42 / var(--tw-ring-opacity))}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:hover\:text-white\/70:hover{color:rgb(255 255 255 / 0.7)}.dark\:hover\:text-white\/80:hover{color:rgb(255 255 255 / 0.8)}.dark\:hover\:ring-zinc-700:hover{--tw-ring-opacity:1;--tw-ring-color:rgb(63 63 70 / var(--tw-ring-opacity))}.dark\:focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 45 32 / var(--tw-ring-opacity))}.dark\:focus-visible\:ring-white:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255 / var(--tw-ring-opacity))}}
-            </style>
-        @endif
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
     </head>
-    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
-            <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" alt="Laravel background" />
-            <div class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
-                <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
-                    <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
-                        <div class="flex lg:justify-center lg:col-start-2">
-                            <svg class="h-12 w-auto text-white lg:h-16 lg:text-[#FF2D20]" viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="currentColor"/></svg>
-                        </div>
-                        @if (Route::has('login'))
-                            <nav class="-mx-3 flex flex-1 justify-end">
-                                @auth
-                                    <a
-                                        href="{{ url('/dashboard') }}"
-                                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                    >
-                                        Dashboard
-                                    </a>
-                                @else
-                                    <a
-                                        href="{{ route('login') }}"
-                                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                    >
-                                        Log in
-                                    </a>
+    <body class="appear-animate">
 
-                                    @if (Route::has('register'))
-                                        <a
-                                            href="{{ route('register') }}"
-                                            class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                        >
-                                            Register
-                                        </a>
-                                    @endif
-                                @endauth
-                            </nav>
-                        @endif
-                    </header>
+        <!-- Page Loader -->
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+        <!-- End Page Loader -->
 
-                    <main class="mt-6">
-                        <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
-                            <a
-                                href="https://laravel.com/docs"
-                                id="docs-card"
-                                class="flex flex-col items-start gap-6 overflow-hidden rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] md:row-span-3 lg:p-10 lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div id="screenshot-container" class="relative flex w-full flex-1 items-stretch">
-                                    <img
-                                        src="https://laravel.com/assets/img/welcome/docs-light.svg"
-                                        alt="Laravel documentation screenshot"
-                                        class="aspect-video h-full w-full flex-1 rounded-[10px] object-top object-cover drop-shadow-[0px_4px_34px_rgba(0,0,0,0.06)] dark:hidden"
-                                        onerror="
-                                            document.getElementById('screenshot-container').classList.add('!hidden');
-                                            document.getElementById('docs-card').classList.add('!row-span-1');
-                                            document.getElementById('docs-card-content').classList.add('!flex-row');
-                                            document.getElementById('background').classList.add('!hidden');
-                                        "
-                                    />
-                                    <img
-                                        src="https://laravel.com/assets/img/welcome/docs-dark.svg"
-                                        alt="Laravel documentation screenshot"
-                                        class="hidden aspect-video h-full w-full flex-1 rounded-[10px] object-top object-cover drop-shadow-[0px_4px_34px_rgba(0,0,0,0.25)] dark:block"
-                                    />
-                                    <div
-                                        class="absolute -bottom-16 -left-16 h-40 w-[calc(100%+8rem)] bg-gradient-to-b from-transparent via-white to-white dark:via-zinc-900 dark:to-zinc-900"
-                                    ></div>
-                                </div>
+        <!-- Skip to Content -->
+        <a href="#main" class="btn skip-to-content">Skip to Content</a>
+        <!-- End Skip to Content -->
 
-                                <div class="relative flex items-center gap-6 lg:items-end">
-                                    <div id="docs-card-content" class="flex items-start gap-6 lg:flex-col">
-                                        <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                            <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FF2D20" d="M23 4a1 1 0 0 0-1.447-.894L12.224 7.77a.5.5 0 0 1-.448 0L2.447 3.106A1 1 0 0 0 1 4v13.382a1.99 1.99 0 0 0 1.105 1.79l9.448 4.728c.14.065.293.1.447.1.154-.005.306-.04.447-.105l9.453-4.724a1.99 1.99 0 0 0 1.1-1.789V4ZM3 6.023a.25.25 0 0 1 .362-.223l7.5 3.75a.251.251 0 0 1 .138.223v11.2a.25.25 0 0 1-.362.224l-7.5-3.75a.25.25 0 0 1-.138-.22V6.023Zm18 11.2a.25.25 0 0 1-.138.224l-7.5 3.75a.249.249 0 0 1-.329-.099.249.249 0 0 1-.033-.12V9.772a.251.251 0 0 1 .138-.224l7.5-3.75a.25.25 0 0 1 .362.224v11.2Z"/><path fill="#FF2D20" d="m3.55 1.893 8 4.048a1.008 1.008 0 0 0 .9 0l8-4.048a1 1 0 0 0-.9-1.785l-7.322 3.706a.506.506 0 0 1-.452 0L4.454.108a1 1 0 0 0-.9 1.785H3.55Z"/></svg>
+        <!-- Page Wrap -->
+        <div class="page" id="top">
+
+            <!-- Navigation Panel -->
+            <nav class="main-nav dark light-after-scroll transparent stick-fixed wow-menubar">
+                <div class="main-nav-sub full-wrapper">
+
+                    <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format.
+                    If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
+                    image size for support of retina screens. See details in the template documentation. *) -->
+                    <div class="nav-logo-wrap local-scroll">
+                        <a href="index.html" class="logo">
+                            <img src="{{asset('uploads/logo.png')}}" alt="Trusted Touch Nursing Services" width="205"  class="logo-white">
+                            <img src="{{asset('uploads/logo.png')}}" alt="Trusted Touch Nursing Services" width="205"  class="logo-dark">
+                        </a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <div class="mobile-nav" role="button" tabindex="0">
+                        <i class="mobile-nav-icon"></i>
+                        <span class="visually-hidden">Menu</span>
+                    </div>
+
+                    <!-- Main Menu -->
+                    <div class="inner-nav desktop-nav">
+                        <ul class="clearlist local-scroll">
+
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">Who We Are</a></li>
+                            <li><a href="#services">What We Do</a></li>
+                            <li><a href="#impact">Why Choose TTN?</a></li>
+
+                            <li><a href="#contact">Contact Us</a></li>
+
+                        </ul>
+
+                        <ul class="items-end clearlist">
+
+                            <!-- Languages -->
+                            <li>
+                                <a href="#" class="mn-has-sub opacity-1">En <i class="mi-chevron-down"></i></a>
+
+                                <ul class="mn-sub to-left">
+                                    <li><a href="#">English</a></li>
+
+                                </ul>
+
+                            </li>
+                            <!-- End Languages -->
+
+                            <li><a href="main-pages-contact-1.html" class="opacity-1 no-hover"><span class="link-hover-anim underline" data-link-animate="y">Let's work together</span></a></li>
+
+                        </ul>
+
+                    </div>
+                    <!-- End Main Menu -->
+
+                </div>
+            </nav>
+            <!-- End Navigation Panel -->
+
+            <main id="main">
+
+                <!-- Fullwidth Slider -->
+                <div class="home-section fullwidth-slider-fade bg-dark light-content" id="home">
+
+                    <!-- Slide Item -->
+                    <section class="home-section bg-scroll bg-dark-alpha-60 light-content" style="background-image: url('{{asset('uploads/13.jpg')}}')">
+                        <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
+
+                            <!-- Home Section Content -->
+                            <div class="home-content">
+                                <div class="row">
+
+                                    <!-- Home Section Text -->
+                                    <div class="col-md-10 offset-md-1 mb-20 mb-sm-0">
+
+                                        <h2 class="hs-title-11 mb-30 mb-xs-10 owl-animate-fadeInUp theme-blue"  style="font-weight:800">
+                                            Personalized Care, Exceptional Services
+                                        </h2>
+
+                                        <h1 class="hs-title-12 mb-50 mb-sm-30 theme-orange">
+                                            <span class="theme-orange" style="color:#ea854b; font-weight:700">Your Number One Nursing Home Services in Kenya</span>
+                                        </h1>
+
+                                        <div class="local-scroll owl-animate-fadeInUp owl-delay-700 wch-unset">
+                                            <a href="#" class="btn btn-mod btn-border-thick-blue btn-large btn-round ms-1 me-1 mt-2 align-middle" data-btn-animate="y">Learn More</a>
+                                            <a href="#" class="btn btn-mod btn-border-thick-orange btn-w btn-large btn-round ms-1 me-1 mt-2 align-middle bgs-blue" data-btn-animate="y">Get In Touch</a>
                                         </div>
 
-                                        <div class="pt-3 sm:pt-5 lg:pt-0">
-                                            <h2 class="text-xl font-semibold text-black dark:text-white">Documentation</h2>
+                                    </div>
+                                    <!-- End Home Section Text -->
 
-                                            <p class="mt-4 text-sm/relaxed">
-                                                Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                            </p>
+                                </div>
+                            </div>
+                            <!-- End Home Section Content -->
+
+                            <!-- Scroll Down -->
+                            <div class="local-scroll scroll-down-wrap-4 d-none d-sm-block wow fadeInUp" data-wow-offset="0">
+                                <div class="full-wrapper text-end">
+                                    <a href="#about" class="scroll-down-4">
+                                        <i class="mi-arrow-down size-24"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Scroll Down -->
+
+                            <!-- Status -->
+                            <div class="hs-status d-none d-sm-block wow fadeInUp" data-wow-offset="0">
+                                Equity Bank Building,
+                                Dagoretti along Karen Road
+                            </div>
+                            <!-- End Status -->
+
+                        </div>
+                    </section>
+                    <!-- End Slide Item -->
+
+
+
+                </div>
+                <!-- End Fullwidth Slider -->
+
+
+                <!-- About Section -->
+                <section class="page-section" id="about">
+                    <div class="container position-relative">
+
+                        {{-- <div class="row mb-60 mb-xs-30">
+
+                            <div class="col-md-6">
+                                <h2 class="section-caption mb-xs-10">Our Story</h2>
+
+                            </div>
+
+                            <div class="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
+
+                                <!-- Decorative Dots -->
+                                <div class="decoration-2 d-none d-md-block" data-rellax-y="" data-rellax-speed="0.7" data-rellax-percentage="-0.2">
+                                    <img src="images/decoration-2.svg" alt="">
+                                </div>
+                                <!-- End Decorative Dots -->
+
+                                <a href="#" class="link-hover-anim underline align-middle" data-link-animate="y">Learn more about us <i class="mi-arrow-right size-18"></i></a>
+
+                            </div>
+
+                        </div> --}}
+
+                        <div class="row wow fadeInUp" data-wow-delay="0.5s">
+
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+
+                                    <!-- Image -->
+                                    <div class="position-relative">
+                                        <img src="{{asset('uploads/7.jpg')}}" class="image-fullwidth relative border-gradient-right"  alt="Image Description">
+                                    </div>
+                                    <!-- End Image -->
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+
+
+
+                                <p class="section-descr mb-0 wow fadeInUp" data-wow-delay="0.4s">
+                                    <br>
+                                    At Trusted Touch Nursing (TTN), we are deeply committed to
+                                    supporting families in nurturing their little ones through
+                                    professional, personalized care that caters to each child’s
+                                    unique journey from birth through early childhood.<br><br>
+                                    Our skilled team of maternity, neonatal, and pediatric nurses
+                                    brings extensive experience and a compassionate touch to
+                                    every family, ensuring that both parents and babies receive
+                                    the best possible care. We understand the importance of
+                                    attentive, specialized support during these formative years,
+                                    and we partner closely with families to foster a safe, nurturing,
+                                    and development-focused environment at home.
+                                    <br><br>
+                                    Whether it’s providing expert guidance on newborn care,
+                                    helping with feeding and sleep routines, or ensuring the
+                                    health and well-being of both mother and child, TTN is here to
+                                    make the transition into parenthood as smooth and fulfilling
+                                    as possible. Our approach combines medical expertise with
+                                    warmth and sensitivity, giving families the peace of mind that
+                                    their little ones are in capable, caring hands.
+                                </p>
+
+                                <br>
+                                <a href="#" class="btn btn-mod btn-large btn-round mt-2 align-middle border-gradient-left" data-btn-animate="y" tabindex="0" style="background-color: #0376c2; font-weight:700 ">
+                                    <span class="btn-animate-y"><span class="btn-animate-y-1" style="color: #ffffff;">learn More About Us</span>
+                                    <span class="btn-animate-y-2" aria-hidden="true" style="color: #ffffff;">learn More About Us</span></span>
+                                </a>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End About Section -->
+
+
+                {{-- <!-- Team Section -->
+                <section class="page-section bg-orange" id="mission">
+                    <div class="container position-relative">
+
+                        <div class="row">
+
+                            <!-- Quote -->
+                            <div class="col-md-6 mb-sm-60 mb-xs-40 d-flex align-items-center">
+                                <blockquote class="testimonial mb-0 wow fadeInUp">
+                                    <div class="blockquote-icon" aria-hidden="true">”</div>
+                                    <p>
+                                        We are strong team who brings innovative ideas into production.
+                                    </p>
+                                    <footer>
+                                        <div class="section-line mb-10"></div>
+                                        Thomas Johnson
+                                        <div class="small">Developer, Co-founder</div>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <!-- End Quote -->
+
+                            <!-- Team Carousel -->
+                            <div class="col-md-6">
+                                <div>
+                                    <div class="team-carousel">
+
+                                        <!-- Team item -->
+                                        <div class="team-carousel-item">
+                                            <div class="team-item">
+                                                <div class="team-item-image">
+
+                                                    <img src="images/team/team-1.jpg" class="wow scaleOutIn" alt="Image Description">
+
+                                                    <div class="team-item-detail">
+                                                        <div class="team-social-links">
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Facebook
+                                                                </div>
+                                                                <i class="fa-facebook-f"></i>
+                                                            </a>
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Twitter
+                                                                </div>
+                                                                <i class="fa-twitter"></i>
+                                                            </a>
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Pinterest
+                                                                </div>
+                                                                <i class="fa-pinterest-p"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="team-item-descr">
+                                                    <div class="team-item-name">
+                                                        Thomas Johnson
+                                                    </div>
+                                                    <div class="team-item-role">
+                                                        Developer, co-founder
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Team item -->
+
+                                        <!-- Team item -->
+                                        <div class="team-carousel-item">
+                                            <div class="team-item">
+                                                <div class="team-item-image">
+
+                                                    <img src="images/team/team-2.jpg" class="wow scaleOutIn" alt="Image Description">
+
+                                                    <div class="team-item-detail">
+                                                        <div class="team-social-links">
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Facebook
+                                                                </div>
+                                                                <i class="fa-facebook-f"></i>
+                                                            </a>
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Twitter
+                                                                </div>
+                                                                <i class="fa-twitter"></i>
+                                                            </a>
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Pinterest
+                                                                </div>
+                                                                <i class="fa-pinterest-p"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="team-item-descr">
+                                                    <div class="team-item-name">
+                                                        Emma Johnson
+                                                    </div>
+                                                    <div class="team-item-role">
+                                                        UI/UX Designer, co-founder
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Team item -->
+
+                                        <!-- Team item -->
+                                        <div class="team-carousel-item">
+                                            <div class="team-item">
+                                                <div class="team-item-image">
+
+                                                    <img src="images/team/team-4.jpg" alt="Image Description">
+
+                                                    <div class="team-item-detail">
+                                                        <div class="team-social-links">
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Facebook
+                                                                </div>
+                                                                <i class="fa-facebook-f"></i>
+                                                            </a>
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Twitter
+                                                                </div>
+                                                                <i class="fa-twitter"></i>
+                                                            </a>
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Pinterest
+                                                                </div>
+                                                                <i class="fa-pinterest-p"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="team-item-descr">
+                                                    <div class="team-item-name">
+                                                        Marta Laning
+                                                    </div>
+                                                    <div class="team-item-role">
+                                                        Web developer
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Team item -->
+
+                                        <!-- Team item -->
+                                        <div class="team-carousel-item">
+                                            <div class="team-item">
+                                                <div class="team-item-image">
+
+                                                    <img src="images/team/team-3.jpg" alt="Image Description">
+
+                                                    <div class="team-item-detail">
+                                                        <div class="team-social-links">
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Facebook
+                                                                </div>
+                                                                <i class="fa-facebook-f"></i>
+                                                            </a>
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Twitter
+                                                                </div>
+                                                                <i class="fa-twitter"></i>
+                                                            </a>
+
+                                                            <a href="#" target="_blank" rel="noopener nofollow">
+                                                                <div class="visually-hidden">
+                                                                    Pinterest
+                                                                </div>
+                                                                <i class="fa-pinterest-p"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="team-item-descr">
+                                                    <div class="team-item-name">
+                                                        Marta Laning
+                                                    </div>
+                                                    <div class="team-item-role">
+                                                        Art director, designer
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Team item -->
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Team Carousel -->
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- Team Section --> --}}
+
+
+                 <!-- Team Section -->
+                 <section class="page-section bg-orange" id="team">
+                    <div class="container position-relative">
+
+                        <div class="row">
+
+                            <!-- Quote -->
+                            <div class="col-md-6 mb-sm-60 mb-xs-40">
+
+
+                                    <h1 class="mission">
+                                        Vision
+                                    </h1>
+                                    <p class="section-descr mission-descr mb-0 wow fadeInUp animated">
+                                        To be the leading provider of nursing
+                                        care services, known for unwavering
+                                        dedication to trust, compassion, and
+                                        cultural sensitivity.
+                                    </p>
+
+                            </div>
+                            <!-- End Quote -->
+
+                            <!-- Team Carousel -->
+                            <div class="col-md-6 right">
+                                <h1 class="mission ">
+                                    Mission
+                                </h1>
+                                <p class="section-descr mission-descr mb-0 wow fadeInUp animated">
+                                    To deliver compassionate, trust-
+                                    centered care while celebrating
+                                    diversity and upholding the highest
+                                    standards of professionalism.
+                                </p>
+                            </div>
+                            <!-- End Team Carousel -->
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- Team Section -->
+                <!-- Services Section -->
+                <section class="page-section" id="services">
+                    <div class="container position-relative">
+
+                        <div class="row">
+
+                            <div class="col-lg-6 mb-md-60 mb-sm-30">
+
+                                <h2 class="section-caption mb-xs-10">Our Services</h2>
+                                <h3 class="section-title mb-30"><span class="wow charsAnimIn" data-splitting="chars">We provide the best development solutions.</span></h3>
+
+                                <div class="row">
+                                    <div class="col-lg-10">
+                                        <p class="section-descr mb-50 mb-sm-30 wow fadeInUp" data-wow-delay="0.4s">
+                                            The power of design help us to solve complex problems and cultivate business solutions.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <ul class="nav nav-tabs services-tabs wow fadeInUp" data-wow-delay="0.55s" role="tablist">
+                                    <li role="presentation">
+                                        <a href="#services-item-1" class="active" aria-controls="services-item-1" role="tab" aria-selected="true" data-bs-toggle="tab">Brand Strategy <span class="number">01</span></a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#services-item-2" aria-controls="services-item-2" role="tab" aria-selected="false" data-bs-toggle="tab">Art Direction <span class="number">02</span></a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#services-item-3" aria-controls="services-item-3" role="tab" aria-selected="false" data-bs-toggle="tab">Creative Design <span class="number">03</span></a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#services-item-4" aria-controls="services-item-4" role="tab" aria-selected="false" data-bs-toggle="tab">Development <span class="number">04</span></a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#services-item-5" aria-controls="services-item-5" role="tab" aria-selected="false" data-bs-toggle="tab">Photography <span class="number">05</span></a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#services-item-6" aria-controls="services-item-6" role="tab" aria-selected="false" data-bs-toggle="tab">Marketing <span class="number">06</span></a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-lg-6 d-flex wow fadeInLeft" data-wow-delay="0.55s" data-wow-offset="275">
+
+                                <div class="tab-content services-content">
+
+                                    <!-- Tab Content -->
+                                    <div class="tab-pane services-content-item show fade active" id="services-item-1" role="tabpanel">
+
+                                        <div class="services-text">
+                                            <div class="services-text-container">
+                                                <h4 class="services-title">Brand Strategy</h4>
+                                                <p class="text-gray mb-0">
+                                                    The core identity reflects consistent  associations with the brand whereas the extended identity involves the intricate details of the brand that help generate a constant motif.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <img class="services-image" src="images/services/service-1.jpg" alt="Image Description">
+
+                                    </div>
+                                    <!-- End Tab Content -->
+
+                                    <!-- Tab Content -->
+                                    <div class="tab-pane services-content-item fade" id="services-item-2" role="tabpanel">
+
+                                        <div class="services-text">
+                                            <div class="services-text-container">
+                                                <h4 class="services-title">Art Direction</h4>
+                                                <p class="text-gray mb-0">
+                                                    The core identity reflects consistent  associations with the brand whereas the extended identity involves the intricate details of the brand that help generate a constant motif.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <img class="services-image" src="images/services/service-2.jpg" alt="Image Description">
+
+                                    </div>
+                                    <!-- End Tab Content -->
+
+                                    <!-- Tab Content -->
+                                    <div class="tab-pane services-content-item fade" id="services-item-3" role="tabpanel">
+
+                                        <div class="services-text">
+                                            <div class="services-text-container">
+                                                <h4 class="services-title">Creative Design</h4>
+                                                <p class="text-gray mb-0">
+                                                    The core identity reflects consistent  associations with the brand whereas the extended identity involves the intricate details of the brand that help generate a constant motif.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <img class="services-image" src="images/services/service-3.jpg" alt="Image Description">
+
+                                    </div>
+                                    <!-- End Tab Content -->
+
+                                    <!-- Tab Content -->
+                                    <div class="tab-pane services-content-item fade" id="services-item-4" role="tabpanel">
+
+                                        <div class="services-text">
+                                            <div class="services-text-container">
+                                                <h4 class="services-title">Development</h4>
+                                                <p class="text-gray mb-0">
+                                                    The core identity reflects consistent  associations with the brand whereas the extended identity involves the intricate details of the brand that help generate a constant motif.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <img class="services-image" src="images/services/service-4.jpg" alt="Image Description">
+
+                                    </div>
+                                    <!-- End Tab Content -->
+
+                                    <!-- Tab Content -->
+                                    <div class="tab-pane services-content-item fade" id="services-item-5" role="tabpanel">
+
+                                        <div class="services-text">
+                                            <div class="services-text-container">
+                                                <h4 class="services-title">Photography</h4>
+                                                <p class="text-gray mb-0">
+                                                    The core identity reflects consistent  associations with the brand whereas the extended identity involves the intricate details of the brand that help generate a constant motif.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <img class="services-image" src="images/services/service-5.jpg" alt="Image Description">
+
+                                    </div>
+                                    <!-- End Tab Content -->
+
+                                    <!-- Tab Content -->
+                                    <div class="tab-pane services-content-item fade" id="services-item-6" role="tabpanel">
+
+                                        <div class="services-text">
+                                            <div class="services-text-container">
+                                                <h4 class="services-title">Marketing</h4>
+                                                <p class="text-gray mb-0">
+                                                    The core identity reflects consistent  associations with the brand whereas the extended identity involves the intricate details of the brand that help generate a constant motif.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <img class="services-image" src="images/services/service-6.jpg" alt="Image Description">
+
+                                    </div>
+                                    <!-- End Tab Content -->
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Services Section -->
+
+
+                <!-- Achievements Section -->
+                <section class="page-section bg-dark-1 bg-dark-alpha-90 parallax-5 light-content" style="background-image: url(images/full-width-images/section-bg-2.jpg)">
+                    <div class="container position-relative">
+
+                        <div class="row">
+
+                            <div class="col-lg-4 mb-md-60 mb-xs-50">
+
+                                <h2 class="section-title mb-20 wow fadeInUp">Check recent achievements.</h2>
+
+                                <p class="section-descr mb-40 wow fadeInUp" data-wow-delay="0.1s">
+                                    We provide the effective ideas that grow businesses of our clients.
+                                </p>
+
+                                <div class="local-scroll wow fadeInUp" data-wow-delay="0.2s">
+                                    <a href="main-pages-contact-1.html" class="btn btn-mod btn-w btn-large btn-round btn-hover-anim"><span>Request Price</span></a>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-7 offset-lg-1">
+
+                                <!-- Numbers Grid -->
+                                <div class="row mt-n50 mt-xs-n30">
+
+                                    <!-- Number Item -->
+                                    <div class="col-sm-6 col-lg-5 mt-50 mt-xs-30 wow fadeScaleIn" data-wow-delay="0.4s">
+                                        <div class="number-title mb-10">
+                                            28%
+                                        </div>
+                                        <div class="number-descr">
+                                            Resent tincidunt lacus sedenim posuere posuere nulla acusan.
                                         </div>
                                     </div>
+                                    <!-- End Number Item -->
 
-                                    <svg class="size-6 shrink-0 stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
+                                    <!-- Number Item -->
+                                    <div class="col-sm-6 col-lg-5 offset-lg-2 mt-50 mt-xs-30 wow fadeScaleIn" data-wow-delay="0.6s">
+                                        <div class="number-title mb-10">
+                                            1.5k
+                                        </div>
+                                        <div class="number-descr">
+                                            Curabitur eu quam auctor nuca convallis metus nec feugia.
+                                        </div>
+                                    </div>
+                                    <!-- End Number Item -->
+
+                                    <!-- Number Item -->
+                                    <div class="col-sm-6 col-lg-5 mt-50 mt-xs-30 wow fadeScaleIn" data-wow-delay="0.8s">
+                                        <div class="number-title mb-10">
+                                            30+
+                                        </div>
+                                        <div class="number-descr">
+                                            Pellentesque pharetra libero eget vestibulum ullamcorper.
+                                        </div>
+                                    </div>
+                                    <!-- End Number Item -->
+
+                                    <!-- Number Item -->
+                                    <div class="col-sm-6 col-lg-5 offset-lg-2 mt-50 mt-xs-30 wow fadeScaleIn" data-wow-delay="1s">
+                                        <div class="number-title mb-10">
+                                            2x
+                                        </div>
+                                        <div class="number-descr">
+                                            Suspendisse a scelerisque vitae rutrum posuere sec lacus.
+                                        </div>
+                                    </div>
+                                    <!-- End Number Item -->
+
                                 </div>
-                            </a>
+                                <!-- End Numbers Grid -->
 
-                            <a
-                                href="https://laracasts.com"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="#FF2D20"><path d="M24 8.25a.5.5 0 0 0-.5-.5H.5a.5.5 0 0 0-.5.5v12a2.5 2.5 0 0 0 2.5 2.5h19a2.5 2.5 0 0 0 2.5-2.5v-12Zm-7.765 5.868a1.221 1.221 0 0 1 0 2.264l-6.626 2.776A1.153 1.153 0 0 1 8 18.123v-5.746a1.151 1.151 0 0 1 1.609-1.035l6.626 2.776ZM19.564 1.677a.25.25 0 0 0-.177-.427H15.6a.106.106 0 0 0-.072.03l-4.54 4.543a.25.25 0 0 0 .177.427h3.783c.027 0 .054-.01.073-.03l4.543-4.543ZM22.071 1.318a.047.047 0 0 0-.045.013l-4.492 4.492a.249.249 0 0 0 .038.385.25.25 0 0 0 .14.042h5.784a.5.5 0 0 0 .5-.5v-2a2.5 2.5 0 0 0-1.925-2.432ZM13.014 1.677a.25.25 0 0 0-.178-.427H9.101a.106.106 0 0 0-.073.03l-4.54 4.543a.25.25 0 0 0 .177.427H8.4a.106.106 0 0 0 .073-.03l4.54-4.543ZM6.513 1.677a.25.25 0 0 0-.177-.427H2.5A2.5 2.5 0 0 0 0 3.75v2a.5.5 0 0 0 .5.5h1.4a.106.106 0 0 0 .073-.03l4.54-4.543Z"/></g></svg>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Achievements Section -->
+
+
+                <!-- Portfolio Section -->
+                <section class="page-section" id="portfolio">
+                    <div class="container">
+
+                        <div class="row mb-60 mb-md-40">
+
+                            <div class="col-lg-5">
+
+                                <h2 class="section-caption mb-xs-10">Our Portfolio</h2>
+
+                                <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">Creativity meets technology here.</span></h3>
+
+                            </div>
+
+                            <div class="col-lg-7">
+
+                                <!-- Works Filter -->
+                                <div class="works-filter text-md-left text-lg-end mt-50 mt-md-30">
+                                    <a href="#" class="filter active" role="button" aria-pressed="true" data-filter="*">All works</a>
+                                    <a href="#branding" class="filter" role="button" aria-pressed="false" data-filter=".branding">Branding</a>
+                                    <a href="#design" class="filter" role="button" aria-pressed="false" data-filter=".design">Design</a>
+                                    <a href="#development" class="filter" role="button" aria-pressed="false" data-filter=".development">Development</a>
                                 </div>
+                                <!-- End Works Filter -->
 
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laracasts</h2>
+                            </div>
 
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                    </p>
-                                </div>
+                        </div>
 
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                            </a>
+                        <!-- Works Grid -->
+                        <ul class="works-grid work-grid-3 work-grid-gut-lg masonry" id="work-grid">
 
-                            <a
-                                href="https://laravel-news.com"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="#FF2D20"><path d="M8.75 4.5H5.5c-.69 0-1.25.56-1.25 1.25v4.75c0 .69.56 1.25 1.25 1.25h3.25c.69 0 1.25-.56 1.25-1.25V5.75c0-.69-.56-1.25-1.25-1.25Z"/><path d="M24 10a3 3 0 0 0-3-3h-2V2.5a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2V20a3.5 3.5 0 0 0 3.5 3.5h17A3.5 3.5 0 0 0 24 20V10ZM3.5 21.5A1.5 1.5 0 0 1 2 20V3a.5.5 0 0 1 .5-.5h14a.5.5 0 0 1 .5.5v17c0 .295.037.588.11.874a.5.5 0 0 1-.484.625L3.5 21.5ZM22 20a1.5 1.5 0 1 1-3 0V9.5a.5.5 0 0 1 .5-.5H21a1 1 0 0 1 1 1v10Z"/><path d="M12.751 6.047h2a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-2A.75.75 0 0 1 12 7.3v-.5a.75.75 0 0 1 .751-.753ZM12.751 10.047h2a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-2A.75.75 0 0 1 12 11.3v-.5a.75.75 0 0 1 .751-.753ZM4.751 14.047h10a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-10A.75.75 0 0 1 4 15.3v-.5a.75.75 0 0 1 .751-.753ZM4.75 18.047h7.5a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-7.5A.75.75 0 0 1 4 19.3v-.5a.75.75 0 0 1 .75-.753Z"/></g></svg>
-                                </div>
+                            <!-- Work Item (Lightbox) -->
+                            <li class="work-item mt-90 mt-md-0 mix development">
+                                <a href="images/portfolio/masonry/full-project-1.jpg" class="work-lightbox-link mfp-image">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/portfolio/masonry/projects-1.jpg" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s">
+                                    </div>
+                                    <div class="work-intro text-start">
+                                        <h3 class="work-title">Medium Scene</h3>
+                                        <div class="work-descr">
+                                            Lightbox
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
 
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laravel News</h2>
+                            <!-- Work Item (External Page) -->
+                            <li class="work-item mix branding design">
+                                <a href="main-portfolio-single-1.html" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/portfolio/masonry/projects-2.jpg" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s">
+                                    </div>
+                                    <div class="work-intro text-start">
+                                        <h3 class="work-title">Rise of Design</h3>
+                                        <div class="work-descr">
+                                            External Page
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
 
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                    </p>
-                                </div>
+                            <!-- Work Item (External Page) -->
+                            <li class="work-item mt-90 mt-md-0 mix branding">
+                                <a href="main-portfolio-single-1.html" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/portfolio/masonry/projects-3.jpg" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s">
+                                    </div>
+                                    <div class="work-intro text-start">
+                                        <h3 class="work-title">Visual Stranger</h3>
+                                        <div class="work-descr">
+                                            External Page
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
 
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                            </a>
+                            <!-- Work Item (External Page) -->
+                            <li class="work-item mix design development">
+                                <a href="main-portfolio-single-1.html" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/portfolio/masonry/projects-4.jpg" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s">
+                                    </div>
+                                    <div class="work-intro text-start">
+                                        <h3 class="work-title">Amplitude</h3>
+                                        <div class="work-descr">
+                                            External Page
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
 
-                            <div class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                        <g fill="#FF2D20">
-                                            <path
-                                                d="M16.597 12.635a.247.247 0 0 0-.08-.237 2.234 2.234 0 0 1-.769-1.68c.001-.195.03-.39.084-.578a.25.25 0 0 0-.09-.267 8.8 8.8 0 0 0-4.826-1.66.25.25 0 0 0-.268.181 2.5 2.5 0 0 1-2.4 1.824.045.045 0 0 0-.045.037 12.255 12.255 0 0 0-.093 3.86.251.251 0 0 0 .208.214c2.22.366 4.367 1.08 6.362 2.118a.252.252 0 0 0 .32-.079 10.09 10.09 0 0 0 1.597-3.733ZM13.616 17.968a.25.25 0 0 0-.063-.407A19.697 19.697 0 0 0 8.91 15.98a.25.25 0 0 0-.287.325c.151.455.334.898.548 1.328.437.827.981 1.594 1.619 2.28a.249.249 0 0 0 .32.044 29.13 29.13 0 0 0 2.506-1.99ZM6.303 14.105a.25.25 0 0 0 .265-.274 13.048 13.048 0 0 1 .205-4.045.062.062 0 0 0-.022-.07 2.5 2.5 0 0 1-.777-.982.25.25 0 0 0-.271-.149 11 11 0 0 0-5.6 2.815.255.255 0 0 0-.075.163c-.008.135-.02.27-.02.406.002.8.084 1.598.246 2.381a.25.25 0 0 0 .303.193 19.924 19.924 0 0 1 5.746-.438ZM9.228 20.914a.25.25 0 0 0 .1-.393 11.53 11.53 0 0 1-1.5-2.22 12.238 12.238 0 0 1-.91-2.465.248.248 0 0 0-.22-.187 18.876 18.876 0 0 0-5.69.33.249.249 0 0 0-.179.336c.838 2.142 2.272 4 4.132 5.353a.254.254 0 0 0 .15.048c1.41-.01 2.807-.282 4.117-.802ZM18.93 12.957l-.005-.008a.25.25 0 0 0-.268-.082 2.21 2.21 0 0 1-.41.081.25.25 0 0 0-.217.2c-.582 2.66-2.127 5.35-5.75 7.843a.248.248 0 0 0-.09.299.25.25 0 0 0 .065.091 28.703 28.703 0 0 0 2.662 2.12.246.246 0 0 0 .209.037c2.579-.701 4.85-2.242 6.456-4.378a.25.25 0 0 0 .048-.189 13.51 13.51 0 0 0-2.7-6.014ZM5.702 7.058a.254.254 0 0 0 .2-.165A2.488 2.488 0 0 1 7.98 5.245a.093.093 0 0 0 .078-.062 19.734 19.734 0 0 1 3.055-4.74.25.25 0 0 0-.21-.41 12.009 12.009 0 0 0-10.4 8.558.25.25 0 0 0 .373.281 12.912 12.912 0 0 1 4.826-1.814ZM10.773 22.052a.25.25 0 0 0-.28-.046c-.758.356-1.55.635-2.365.833a.25.25 0 0 0-.022.48c1.252.43 2.568.65 3.893.65.1 0 .2 0 .3-.008a.25.25 0 0 0 .147-.444c-.526-.424-1.1-.917-1.673-1.465ZM18.744 8.436a.249.249 0 0 0 .15.228 2.246 2.246 0 0 1 1.352 2.054c0 .337-.08.67-.23.972a.25.25 0 0 0 .042.28l.007.009a15.016 15.016 0 0 1 2.52 4.6.25.25 0 0 0 .37.132.25.25 0 0 0 .096-.114c.623-1.464.944-3.039.945-4.63a12.005 12.005 0 0 0-5.78-10.258.25.25 0 0 0-.373.274c.547 2.109.85 4.274.901 6.453ZM9.61 5.38a.25.25 0 0 0 .08.31c.34.24.616.561.8.935a.25.25 0 0 0 .3.127.631.631 0 0 1 .206-.034c2.054.078 4.036.772 5.69 1.991a.251.251 0 0 0 .267.024c.046-.024.093-.047.141-.067a.25.25 0 0 0 .151-.23A29.98 29.98 0 0 0 15.957.764a.25.25 0 0 0-.16-.164 11.924 11.924 0 0 0-2.21-.518.252.252 0 0 0-.215.076A22.456 22.456 0 0 0 9.61 5.38Z"
-                                            />
-                                        </g>
-                                    </svg>
-                                </div>
+                            <!-- Work Item (External Page) -->
+                            <li class="work-item mix design">
+                                <a href="main-portfolio-single-1.html" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/portfolio/masonry/projects-5.jpg" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s">
+                                    </div>
+                                    <div class="work-intro text-start">
+                                        <h3 class="work-title">Super Awards</h3>
+                                        <div class="work-descr">
+                                            External Page
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
 
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Vibrant Ecosystem</h2>
+                            <!-- Work Item (Lightbox) -->
+                            <li class="work-item mix design branding">
+                                <a href="images/portfolio/masonry/full-project-6.jpg" class="work-lightbox-link mfp-image">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/portfolio/masonry/projects-6.jpg" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s">
+                                    </div>
+                                    <div class="work-intro text-start">
+                                        <h3 class="work-title">Design System</h3>
+                                        <div class="work-descr">
+                                            Lightbox
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
 
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white dark:focus-visible:ring-[#FF2D20]">Forge</a>, <a href="https://vapor.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Vapor</a>, <a href="https://nova.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Nova</a>, <a href="https://envoyer.io" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Envoyer</a>, and <a href="https://herd.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Herd</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Echo</a>, <a href="https://laravel.com/docs/horizon" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Telescope</a>, and more.
-                                    </p>
+                        </ul>
+                        <!-- End Works Grid -->
+
+                    </div>
+                </section>
+                <!-- End Portfolio Section -->
+
+
+                <!-- Divider -->
+                <hr class="mt-0 mb-0">
+                <!-- End Divider -->
+
+
+                <!-- Call Action Section -->
+                <section class="page-section">
+                    <div class="container position-relative">
+
+                        <!-- Decorative Waves -->
+                        <div class="decoration-3 d-none d-sm-block" data-rellax-y="" data-rellax-speed="-0.7" data-rellax-percentage="0.5">
+                            <img src="images/decoration-3.svg" alt="">
+                        </div>
+                        <!-- End Decorative Waves -->
+
+                        <div class="row text-center wow fadeInUp">
+                            <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                                <p class="section-descr mb-50 mb-sm-30">
+                                    The power of design help us to solve complex problems and cultivate business solutions.
+                                </p>
+                                <div class="local-scroll">
+                                    <a href="main-pages-contact-1.html" class="btn btn-mod btn-large btn-round btn-hover-anim"><span>Contact us</span></a>
                                 </div>
                             </div>
                         </div>
-                    </main>
 
-                    <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </footer>
-                </div>
-            </div>
+                    </div>
+                </section>
+                <!-- End Call Action Section -->
+
+
+                <!-- Divider -->
+                <hr class="mt-0 mb-0">
+                <!-- End Divider -->
+
+
+                <!-- Benefits Section -->
+                <section class="page-section">
+                    <div class="container position-relative">
+
+                        <!-- Grid -->
+                        <div class="row">
+
+                            <!-- Text -->
+                            <div class="col-md-12 col-lg-3 mb-md-50">
+
+                                <h2 class="section-caption mb-xs-10">Primary Benefits</h2>
+
+                                <h3 class="section-title-small mb-40">Why choose Trusted Touch Nursing?</h3>
+
+                                <div class="section-line"></div>
+
+                            </div>
+                            <!-- End Text -->
+
+                            <!-- Feature Item -->
+                            <div class="col-md-4 col-lg-3 d-flex align-items-stretch mb-sm-30">
+                                <div class="alt-features-item border-left mt-0">
+                                    <div class="alt-features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M21.62 20.196c1.055-.922 1.737-2.262 1.737-3.772 0-1.321-.521-2.515-1.357-3.412v-6.946l-11.001-6.066-11 6v12.131l11 5.869 5.468-2.917c.578.231 1.205.367 1.865.367.903 0 1.739-.258 2.471-.676l2.394 3.226.803-.596-2.38-3.208zm-11.121 2.404l-9.5-5.069v-10.447l9.5 4.946v10.57zm1-.001v-10.567l5.067-2.608.029.015.021-.04 4.384-2.256v5.039c-.774-.488-1.686-.782-2.668-.782-2.773 0-5.024 2.252-5.024 5.024 0 1.686.838 3.171 2.113 4.083l-3.922 2.092zm6.833-2.149c-2.219 0-4.024-1.808-4.024-4.026s1.805-4.025 4.024-4.025c2.22 0 4.025 1.807 4.025 4.025 0 2.218-1.805 4.026-4.025 4.026zm-.364-3.333l-1.306-1.147-.66.751 2.029 1.782 2.966-3.12-.725-.689-2.304 2.423zm-16.371-10.85l4.349-2.372 9.534 4.964-4.479 2.305-9.404-4.897zm9.4-5.127l9.404 5.186-3.832 1.972-9.565-4.98 3.993-2.178z"></path>
+                                        </svg>
+                                    </div>
+                                    <h4 class="alt-features-title">Unique Design</h4>
+                                    <div class="alt-features-descr">
+                                        Fusce aliquet quam eget neque ultrices elementum felis id arcu blandit sagittis.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Feature Item -->
+
+                            <!-- Feature Item -->
+                            <div class="col-md-4 col-lg-3 d-flex align-items-stretch mb-sm-30">
+                                <div class="alt-features-item border-left mt-0">
+                                    <div class="alt-features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M12 0c-3.371 2.866-5.484 3-9 3v11.535c0 4.603 3.203 5.804 9 9.465 5.797-3.661 9-4.862 9-9.465v-11.535c-3.516 0-5.629-.134-9-3zm0 1.292c2.942 2.31 5.12 2.655 8 2.701v10.542c0 3.891-2.638 4.943-8 8.284-5.375-3.35-8-4.414-8-8.284v-10.542c2.88-.046 5.058-.391 8-2.701zm5 7.739l-5.992 6.623-3.672-3.931.701-.683 3.008 3.184 5.227-5.878.728.685z"></path>
+                                        </svg>
+                                    </div>
+                                    <h4 class="alt-features-title">Quality Code</h4>
+                                    <div class="alt-features-descr">
+                                        Lorem ipsum dolor sit amet rembe adipiscing elite Inwege maximus ligula imsum.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Feature Item -->
+
+                            <!-- Feature Item -->
+                            <div class="col-md-4 col-lg-3 d-flex align-items-stretch">
+                                <div class="alt-features-item border-left mt-0">
+                                    <div class="alt-features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M6.514 24.015h-3v-3.39c-2.08-.638-3.5-2.652-3.5-5.04 0-1.19.202-1.693 1.774-5.603.521-1.294 1.195-2.97 2.068-5.179.204-.518.67-.806 1.17-.802.482.004.941.284 1.146.802.718 1.817 1.302 3.274 1.777 4.454.26-.596.567-1.288.928-2.103.694-1.565 1.591-3.592 2.754-6.265.258-.592.881-.906 1.397-.888.572.015 1.126.329 1.369.888 1.163 2.673 2.06 4.7 2.754 6.265 2.094 4.727 2.363 5.334 2.363 6.764 0 2.927-2.078 5.422-5 6.082v4.015h-3v-4.015c-.943-.213-1.797-.617-2.523-1.165-.612.845-1.466 1.48-2.477 1.79v3.39zm14.493-6c1.652 0 2.993 1.341 2.993 2.993s-1.341 2.993-2.993 2.993-2.993-1.341-2.993-2.993 1.341-2.993 2.993-2.993zm.007.993c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2zm-7.5 3.993v-3.839c4.906-.786 5-4.751 5-5.244 0-1.218-.216-1.705-2.277-6.359-2.134-4.82-2.721-6.198-2.755-6.261-.079-.145-.193-.292-.455-.297-.238 0-.37.092-.481.297-.034.063-.621 1.441-2.755 6.261-2.061 4.654-2.277 5.141-2.277 6.359 0 .493.094 4.458 5 5.244v3.839h1zm-6.123-12.448l-.08-.198c-1.589-3.957-2.04-5.116-2.067-5.171-.072-.151-.15-.226-.226-.228-.109 0-.188.13-.235.228-.028.05-.316.818-2.066 5.171-1.542 3.833-1.703 4.233-1.703 5.23 0 1.988 1.076 3.728 3.5 4.25v3.166h1v-3.166c1.266-.273 2.159-.876 2.725-1.666-1.078-1.12-1.725-2.619-1.725-4.251 0-.979.126-1.572.877-3.365z"></path>
+                                        </svg>
+                                    </div>
+                                    <h4 class="alt-features-title">Clean and Minimal</h4>
+                                    <div class="alt-features-descr">
+                                        Maecenas volutpat, diam enime volutpa cramas luctus interdum sodales.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Feature Item -->
+
+                       </div>
+                       <!-- End Grid -->
+
+                    </div>
+                </section>
+                <!-- End Benefits Section -->
+
+
+                <!-- Testimonials Section -->
+                <section class="page-section pt-0 pb-0">
+                    <div class="container position-relative">
+
+                        <div class="pt-80 pb-80 pt-sm-70 pb-sm-70 px-4 bg-gray-light-1">
+                            <div class="row">
+                                <div class="col-lg-8 offset-lg-2 wow fadeInUp">
+
+                                    <div class="row">
+                                        <div class="col-md-10 offset-md-1 text-center">
+                                            <h2 class="section-title mb-70 mb-sm-40">Trusted Touch Nursing is trusted by <span class="mark-decoration-1">10,000+</span> customers.</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonials-slider-1 pb-xs-80">
+
+                                        <!-- Slide Item -->
+                                        <div>
+                                            <blockquote class="mb-0">
+
+                                                <div class="blockquote-icon" aria-hidden="true">”</div>
+
+                                                <p>
+                                                    This is template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!
+                                                </p>
+
+                                                <div class="section-line mt-40"></div>
+
+                                                <footer class="ts1-author mt-20 clearfix">
+                                                    <div class="ts1-author-img float-start">
+                                                        <img class="rounded-circle" width="44" height="44" src="images/ts1-user.jpg" alt="Image description is here">
+                                                    </div>
+                                                    <div>
+                                                        Adam Peterson
+                                                        <div class="small">
+                                                            Business Owner
+                                                        </div>
+                                                    </div>
+                                                </footer>
+
+                                            </blockquote>
+                                        </div>
+                                        <!-- End Slide Item -->
+
+                                        <!-- Slide Item -->
+                                        <div>
+                                            <blockquote class="mb-0">
+
+                                                <div class="blockquote-icon" aria-hidden="true">”</div>
+
+                                                <p>
+                                                    This is template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!
+                                                </p>
+
+                                                <div class="section-line mt-40"></div>
+
+                                                <footer class="ts1-author mt-20 clearfix">
+                                                    <div class="ts1-author-img float-start">
+                                                        <img class="rounded-circle" width="44" height="44" src="images/ts1-user.jpg" alt="Image description is here">
+                                                    </div>
+                                                    <div>
+                                                        Adam Peterson
+                                                        <div class="small">
+                                                            Business Owner
+                                                        </div>
+                                                    </div>
+                                                </footer>
+
+                                            </blockquote>
+                                        </div>
+                                        <!-- End Slide Item -->
+
+                                        <!-- Slide Item -->
+                                        <div>
+                                            <blockquote class="mb-0">
+
+                                                <div class="blockquote-icon" aria-hidden="true">”</div>
+
+                                                <p>
+                                                    This is template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!
+                                                </p>
+
+                                                <div class="section-line mt-40"></div>
+
+                                                <footer class="ts1-author mt-20 clearfix">
+                                                    <div class="ts1-author-img float-start">
+                                                        <img class="rounded-circle" width="44" height="44" src="images/ts1-user.jpg" alt="Image description is here">
+                                                    </div>
+                                                    <div>
+                                                        Adam Peterson
+                                                        <div class="small">
+                                                            Business Owner
+                                                        </div>
+                                                    </div>
+                                                </footer>
+
+                                            </blockquote>
+                                        </div>
+                                        <!-- End Slide Item -->
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Testimonials Section -->
+
+
+                <!-- Logotypes Section-->
+                <section class="page-section">
+                    <div class="container position-relative">
+
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2 text-center">
+
+                                <h2 class="section-title-tiny mb-30">Trusted by Leading Companies</h2>
+
+                                <div class="logo-grid">
+                                    <img class="logo-grid-img" src="images/clients-logos/logo-grid/logo-1.png" width="110" height="33" alt="Image description is here">
+                                    <img class="logo-grid-img" src="images/clients-logos/logo-grid/logo-2.png" width="119" height="33" alt="Image description is here">
+                                    <img class="logo-grid-img" src="images/clients-logos/logo-grid/logo-3.png" width="79" height="33" alt="Image description is here">
+                                    <img class="logo-grid-img" src="images/clients-logos/logo-grid/logo-4.png" width="122" height="33" alt="Image description is here">
+                                    <img class="logo-grid-img" src="images/clients-logos/logo-grid/logo-5.png" width="100" height="33" alt="Image description is here">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Logotypes Section-->
+
+                <!-- Features Slider Section -->
+                <section class="page-section bg-dark bg-dark-alpha-70 light-content" style="background-image: url(images/full-width-images/section-bg-4.jpg)">
+                    <div class="container position-relative">
+
+                        <div class="wow fadeInUp">
+                            <div class="item-carousel owl-carousel">
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M17.517 10.012c.151.23.087.541-.144.692l-2.2 1.444c-.085.056-.179.082-.274.082-.162 0-.322-.079-.418-.225-.152-.231-.087-.541.143-.692l2.201-1.445c.23-.151.541-.089.692.144m-6.242-2.595l1.111-2.385c.116-.252.414-.36.664-.243.25.117.36.413.242.664l-1.111 2.386c-.085.181-.265.288-.453.288l-.211-.047c-.25-.115-.359-.413-.242-.663m-2.624.613c1.377-2.652 1.484-5.104.318-7.286-.178-.333.066-.734.441-.734.177 0 .351.095.442.264 1.33 2.49 1.225 5.254-.314 8.217-.089.171-.263.269-.444.269-.078 0-.156-.018-.23-.056-.245-.127-.341-.429-.213-.674m15.349 5.526c0 .352-.351.588-.671.47-2.808-1.028-5.254-.821-7.271.611-.088.063-.189.093-.29.093-.155 0-.309-.073-.406-.21-.16-.224-.108-.537.117-.696 2.301-1.637 5.059-1.884 8.193-.737.203.074.328.266.328.469m-16.484-2.608l2.865 7.517-2.248.964-2.753-7.512.778-2.176 1.358 1.207zm3.785 7.124l-2.168-5.687 5.025 4.463-2.857 1.224zm-8.27.419l.989 2.699-2.307.989 1.318-3.688zm1.823-5.103l2.358 6.435-2.271.973-1.384-3.777 1.297-3.631zm-4.853 10.612l15.997-6.853-10.283-9.137-5.714 15.99zm20.46-15.629l.552-.694.281.841.831.309-.713.528-.038.886-.723-.516-.854.238.268-.846-.491-.739.887-.007zm-1.384.885l-.639 2.019 2.041-.568 1.724 1.23.089-2.115 1.704-1.258-1.985-.739-.672-2.008-1.315 1.658-2.118.017 1.171 1.764zm-2.167-4.194c.593-.044.924-.141 1.074-.315.176-.204.226-.647.165-1.433-.023-.276.183-.517.459-.539.277-.016.515.18.537.456.063.806.059 1.62-.402 2.156-.429.499-1.13.602-1.76.647-.702.052-.72.243-.774.878-.056.67-.152 1.744-1.84 1.933-1.017.115-1.433.33-1.377 1.956.008.275-.207.325-.484.325h-.016c-.269 0-.491-.022-.5-.291-.049-1.461.191-2.655 2.265-2.887.874-.099.9-.404.956-1.072.054-.635.145-1.7 1.697-1.814m5.264-3.048c.454 0 .823.37.823.824 0 .454-.369.823-.823.823-.454 0-.824-.369-.824-.823 0-.454.37-.824.824-.824m0 2.647c1.006 0 1.823-.817 1.823-1.823s-.817-1.823-1.823-1.823c-1.007 0-1.824.817-1.824 1.823s.817 1.823 1.824 1.823m-8.446-3.662c.552 0 1 .449 1 .999 0 .551-.448.999-1 .999s-1-.448-1-.999c0-.55.448-.999 1-.999m0 2.998c1.103 0 1.999-.896 1.999-1.999 0-1.103-.896-1.998-1.999-1.998-1.104 0-2 .895-2 1.998s.896 1.999 2 1.999"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        Simplicity
+                                    </div>
+                                    <div class="features-descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue rhoncus enim, in pharetra lacus.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M22 9.74l-2 1.02v7.24c-1.007 2.041-5.606 3-8.5 3-3.175 0-7.389-.994-8.5-3v-7.796l-3-1.896 12-5.308 11 6.231v8.769l1 3h-3l1-3v-8.26zm-18 1.095v6.873c.958 1.28 4.217 2.292 7.5 2.292 2.894 0 6.589-.959 7.5-2.269v-6.462l-7.923 4.039-7.077-4.473zm-1.881-2.371l9.011 5.694 9.759-4.974-8.944-5.066-9.826 4.346z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        Accountability
+                                    </div>
+                                    <div class="features-descr">
+                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M3.278 3.956c-.459 0-.883.211-1.103.552-.363.561-.218 1.315.352 1.832.383.346.888.546 1.385.546.581 0 1.093-.268 1.444-.755l3.208-4.373-.502-.366-2.928 3.966-.4-.557c-.39-.546-.908-.845-1.456-.845m.634 3.928c-.743 0-1.492-.293-2.056-.804-.578-.525-.883-1.211-.883-1.891 0-1.62 1.426-2.232 2.305-2.232.675 0 1.308.265 1.829.756l2.742-3.713 2.112 1.541-3.797 5.177c-.542.751-1.342 1.166-2.252 1.166m15.386-7.839l-1.2 2.215-2.476.455 1.735 1.825-.332 2.496 2.273-1.086 2.271 1.086-.331-2.496 1.735-1.825-2.476-.455-1.199-2.215zm0 2.098l.548 1.013 1.132.208-.793.834.152 1.142-1.039-.496-1.039.496.152-1.142-.794-.834 1.132-.208.549-1.013m-7.312 3.894c-2.48 0-4.494 2.014-4.494 4.494 0 2.482 2.014 4.494 4.494 4.494 2.481 0 4.495-2.012 4.495-4.494 0-2.48-2.014-4.494-4.495-4.494m0 .999c1.928 0 3.496 1.569 3.496 3.495 0 1.927-1.568 3.495-3.496 3.495-1.927 0-3.495-1.568-3.495-3.495 0-1.926 1.568-3.495 3.495-3.495m-4.983 15.965h9.974v-2.778c0-1.256.204-1.786.661-2.494l1.024-1.58c1.148-1.764 2.233-3.43 2.792-4.491.078-.148.03-.328-.112-.418-.168-.109-.403-.076-.536.07-.671.734-2.03 2.164-4.041 4.251l-.369.396c-.951 1.04-1.53 1.54-4.287 1.54h-.123c-2.859-.014-3.442-.515-4.391-1.554l-.356-.382c-1.999-2.074-3.359-3.504-4.042-4.251-.133-.146-.368-.177-.535-.07-.142.091-.189.271-.112.418.585 1.112 1.828 3.18 3.796 6.323.479.766.657 1.44.657 2.489v2.531zm10.973.999h-11.972v-3.53c0-.851-.132-1.363-.504-1.958-2.01-3.208-3.228-5.239-3.833-6.388-.321-.611-.126-1.352.455-1.725.565-.361 1.361-.258 1.812.236.668.731 2.059 2.195 4.024 4.233l.374.402c.786.86 1.111 1.216 3.659 1.228h.118c2.439 0 2.764-.355 3.55-1.215l.387-.415c2.005-2.08 3.358-3.504 4.024-4.232.452-.495 1.249-.598 1.811-.237.582.373.777 1.114.457 1.725-.582 1.101-1.677 2.786-2.839 4.57l-1.022 1.576c-.348.541-.501.889-.501 1.953v3.777z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        High Loyalty
+                                    </div>
+                                    <div class="features-descr">
+                                        Mauris a libero et diam sodales semper. Aenean elit leo, hendrerit nec dolor id, rutrum finibus velit.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M17.517 10.012c.151.23.087.541-.144.692l-2.2 1.444c-.085.056-.179.082-.274.082-.162 0-.322-.079-.418-.225-.152-.231-.087-.541.143-.692l2.201-1.445c.23-.151.541-.089.692.144m-6.242-2.595l1.111-2.385c.116-.252.414-.36.664-.243.25.117.36.413.242.664l-1.111 2.386c-.085.181-.265.288-.453.288l-.211-.047c-.25-.115-.359-.413-.242-.663m-2.624.613c1.377-2.652 1.484-5.104.318-7.286-.178-.333.066-.734.441-.734.177 0 .351.095.442.264 1.33 2.49 1.225 5.254-.314 8.217-.089.171-.263.269-.444.269-.078 0-.156-.018-.23-.056-.245-.127-.341-.429-.213-.674m15.349 5.526c0 .352-.351.588-.671.47-2.808-1.028-5.254-.821-7.271.611-.088.063-.189.093-.29.093-.155 0-.309-.073-.406-.21-.16-.224-.108-.537.117-.696 2.301-1.637 5.059-1.884 8.193-.737.203.074.328.266.328.469m-16.484-2.608l2.865 7.517-2.248.964-2.753-7.512.778-2.176 1.358 1.207zm3.785 7.124l-2.168-5.687 5.025 4.463-2.857 1.224zm-8.27.419l.989 2.699-2.307.989 1.318-3.688zm1.823-5.103l2.358 6.435-2.271.973-1.384-3.777 1.297-3.631zm-4.853 10.612l15.997-6.853-10.283-9.137-5.714 15.99zm20.46-15.629l.552-.694.281.841.831.309-.713.528-.038.886-.723-.516-.854.238.268-.846-.491-.739.887-.007zm-1.384.885l-.639 2.019 2.041-.568 1.724 1.23.089-2.115 1.704-1.258-1.985-.739-.672-2.008-1.315 1.658-2.118.017 1.171 1.764zm-2.167-4.194c.593-.044.924-.141 1.074-.315.176-.204.226-.647.165-1.433-.023-.276.183-.517.459-.539.277-.016.515.18.537.456.063.806.059 1.62-.402 2.156-.429.499-1.13.602-1.76.647-.702.052-.72.243-.774.878-.056.67-.152 1.744-1.84 1.933-1.017.115-1.433.33-1.377 1.956.008.275-.207.325-.484.325h-.016c-.269 0-.491-.022-.5-.291-.049-1.461.191-2.655 2.265-2.887.874-.099.9-.404.956-1.072.054-.635.145-1.7 1.697-1.814m5.264-3.048c.454 0 .823.37.823.824 0 .454-.369.823-.823.823-.454 0-.824-.369-.824-.823 0-.454.37-.824.824-.824m0 2.647c1.006 0 1.823-.817 1.823-1.823s-.817-1.823-1.823-1.823c-1.007 0-1.824.817-1.824 1.823s.817 1.823 1.824 1.823m-8.446-3.662c.552 0 1 .449 1 .999 0 .551-.448.999-1 .999s-1-.448-1-.999c0-.55.448-.999 1-.999m0 2.998c1.103 0 1.999-.896 1.999-1.999 0-1.103-.896-1.998-1.999-1.998-1.104 0-2 .895-2 1.998s.896 1.999 2 1.999"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        Simplicity
+                                    </div>
+                                    <div class="features-descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue rhoncus enim, in pharetra lacus.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M22 9.74l-2 1.02v7.24c-1.007 2.041-5.606 3-8.5 3-3.175 0-7.389-.994-8.5-3v-7.796l-3-1.896 12-5.308 11 6.231v8.769l1 3h-3l1-3v-8.26zm-18 1.095v6.873c.958 1.28 4.217 2.292 7.5 2.292 2.894 0 6.589-.959 7.5-2.269v-6.462l-7.923 4.039-7.077-4.473zm-1.881-2.371l9.011 5.694 9.759-4.974-8.944-5.066-9.826 4.346z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        Accountability
+                                    </div>
+                                    <div class="features-descr">
+                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M3.278 3.956c-.459 0-.883.211-1.103.552-.363.561-.218 1.315.352 1.832.383.346.888.546 1.385.546.581 0 1.093-.268 1.444-.755l3.208-4.373-.502-.366-2.928 3.966-.4-.557c-.39-.546-.908-.845-1.456-.845m.634 3.928c-.743 0-1.492-.293-2.056-.804-.578-.525-.883-1.211-.883-1.891 0-1.62 1.426-2.232 2.305-2.232.675 0 1.308.265 1.829.756l2.742-3.713 2.112 1.541-3.797 5.177c-.542.751-1.342 1.166-2.252 1.166m15.386-7.839l-1.2 2.215-2.476.455 1.735 1.825-.332 2.496 2.273-1.086 2.271 1.086-.331-2.496 1.735-1.825-2.476-.455-1.199-2.215zm0 2.098l.548 1.013 1.132.208-.793.834.152 1.142-1.039-.496-1.039.496.152-1.142-.794-.834 1.132-.208.549-1.013m-7.312 3.894c-2.48 0-4.494 2.014-4.494 4.494 0 2.482 2.014 4.494 4.494 4.494 2.481 0 4.495-2.012 4.495-4.494 0-2.48-2.014-4.494-4.495-4.494m0 .999c1.928 0 3.496 1.569 3.496 3.495 0 1.927-1.568 3.495-3.496 3.495-1.927 0-3.495-1.568-3.495-3.495 0-1.926 1.568-3.495 3.495-3.495m-4.983 15.965h9.974v-2.778c0-1.256.204-1.786.661-2.494l1.024-1.58c1.148-1.764 2.233-3.43 2.792-4.491.078-.148.03-.328-.112-.418-.168-.109-.403-.076-.536.07-.671.734-2.03 2.164-4.041 4.251l-.369.396c-.951 1.04-1.53 1.54-4.287 1.54h-.123c-2.859-.014-3.442-.515-4.391-1.554l-.356-.382c-1.999-2.074-3.359-3.504-4.042-4.251-.133-.146-.368-.177-.535-.07-.142.091-.189.271-.112.418.585 1.112 1.828 3.18 3.796 6.323.479.766.657 1.44.657 2.489v2.531zm10.973.999h-11.972v-3.53c0-.851-.132-1.363-.504-1.958-2.01-3.208-3.228-5.239-3.833-6.388-.321-.611-.126-1.352.455-1.725.565-.361 1.361-.258 1.812.236.668.731 2.059 2.195 4.024 4.233l.374.402c.786.86 1.111 1.216 3.659 1.228h.118c2.439 0 2.764-.355 3.55-1.215l.387-.415c2.005-2.08 3.358-3.504 4.024-4.232.452-.495 1.249-.598 1.811-.237.582.373.777 1.114.457 1.725-.582 1.101-1.677 2.786-2.839 4.57l-1.022 1.576c-.348.541-.501.889-.501 1.953v3.777z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        High Loyalty
+                                    </div>
+                                    <div class="features-descr">
+                                        Mauris a libero et diam sodales semper. Aenean elit leo, hendrerit nec dolor id, rutrum finibus velit.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M17.517 10.012c.151.23.087.541-.144.692l-2.2 1.444c-.085.056-.179.082-.274.082-.162 0-.322-.079-.418-.225-.152-.231-.087-.541.143-.692l2.201-1.445c.23-.151.541-.089.692.144m-6.242-2.595l1.111-2.385c.116-.252.414-.36.664-.243.25.117.36.413.242.664l-1.111 2.386c-.085.181-.265.288-.453.288l-.211-.047c-.25-.115-.359-.413-.242-.663m-2.624.613c1.377-2.652 1.484-5.104.318-7.286-.178-.333.066-.734.441-.734.177 0 .351.095.442.264 1.33 2.49 1.225 5.254-.314 8.217-.089.171-.263.269-.444.269-.078 0-.156-.018-.23-.056-.245-.127-.341-.429-.213-.674m15.349 5.526c0 .352-.351.588-.671.47-2.808-1.028-5.254-.821-7.271.611-.088.063-.189.093-.29.093-.155 0-.309-.073-.406-.21-.16-.224-.108-.537.117-.696 2.301-1.637 5.059-1.884 8.193-.737.203.074.328.266.328.469m-16.484-2.608l2.865 7.517-2.248.964-2.753-7.512.778-2.176 1.358 1.207zm3.785 7.124l-2.168-5.687 5.025 4.463-2.857 1.224zm-8.27.419l.989 2.699-2.307.989 1.318-3.688zm1.823-5.103l2.358 6.435-2.271.973-1.384-3.777 1.297-3.631zm-4.853 10.612l15.997-6.853-10.283-9.137-5.714 15.99zm20.46-15.629l.552-.694.281.841.831.309-.713.528-.038.886-.723-.516-.854.238.268-.846-.491-.739.887-.007zm-1.384.885l-.639 2.019 2.041-.568 1.724 1.23.089-2.115 1.704-1.258-1.985-.739-.672-2.008-1.315 1.658-2.118.017 1.171 1.764zm-2.167-4.194c.593-.044.924-.141 1.074-.315.176-.204.226-.647.165-1.433-.023-.276.183-.517.459-.539.277-.016.515.18.537.456.063.806.059 1.62-.402 2.156-.429.499-1.13.602-1.76.647-.702.052-.72.243-.774.878-.056.67-.152 1.744-1.84 1.933-1.017.115-1.433.33-1.377 1.956.008.275-.207.325-.484.325h-.016c-.269 0-.491-.022-.5-.291-.049-1.461.191-2.655 2.265-2.887.874-.099.9-.404.956-1.072.054-.635.145-1.7 1.697-1.814m5.264-3.048c.454 0 .823.37.823.824 0 .454-.369.823-.823.823-.454 0-.824-.369-.824-.823 0-.454.37-.824.824-.824m0 2.647c1.006 0 1.823-.817 1.823-1.823s-.817-1.823-1.823-1.823c-1.007 0-1.824.817-1.824 1.823s.817 1.823 1.824 1.823m-8.446-3.662c.552 0 1 .449 1 .999 0 .551-.448.999-1 .999s-1-.448-1-.999c0-.55.448-.999 1-.999m0 2.998c1.103 0 1.999-.896 1.999-1.999 0-1.103-.896-1.998-1.999-1.998-1.104 0-2 .895-2 1.998s.896 1.999 2 1.999"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        Simplicity
+                                    </div>
+                                    <div class="features-descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue rhoncus enim, in pharetra lacus.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M22 9.74l-2 1.02v7.24c-1.007 2.041-5.606 3-8.5 3-3.175 0-7.389-.994-8.5-3v-7.796l-3-1.896 12-5.308 11 6.231v8.769l1 3h-3l1-3v-8.26zm-18 1.095v6.873c.958 1.28 4.217 2.292 7.5 2.292 2.894 0 6.589-.959 7.5-2.269v-6.462l-7.923 4.039-7.077-4.473zm-1.881-2.371l9.011 5.694 9.759-4.974-8.944-5.066-9.826 4.346z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        Accountability
+                                    </div>
+                                    <div class="features-descr">
+                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                                <!-- Features Item -->
+                                <div class="features-item">
+                                    <div class="features-icon">
+                                        <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                            <path d="M3.278 3.956c-.459 0-.883.211-1.103.552-.363.561-.218 1.315.352 1.832.383.346.888.546 1.385.546.581 0 1.093-.268 1.444-.755l3.208-4.373-.502-.366-2.928 3.966-.4-.557c-.39-.546-.908-.845-1.456-.845m.634 3.928c-.743 0-1.492-.293-2.056-.804-.578-.525-.883-1.211-.883-1.891 0-1.62 1.426-2.232 2.305-2.232.675 0 1.308.265 1.829.756l2.742-3.713 2.112 1.541-3.797 5.177c-.542.751-1.342 1.166-2.252 1.166m15.386-7.839l-1.2 2.215-2.476.455 1.735 1.825-.332 2.496 2.273-1.086 2.271 1.086-.331-2.496 1.735-1.825-2.476-.455-1.199-2.215zm0 2.098l.548 1.013 1.132.208-.793.834.152 1.142-1.039-.496-1.039.496.152-1.142-.794-.834 1.132-.208.549-1.013m-7.312 3.894c-2.48 0-4.494 2.014-4.494 4.494 0 2.482 2.014 4.494 4.494 4.494 2.481 0 4.495-2.012 4.495-4.494 0-2.48-2.014-4.494-4.495-4.494m0 .999c1.928 0 3.496 1.569 3.496 3.495 0 1.927-1.568 3.495-3.496 3.495-1.927 0-3.495-1.568-3.495-3.495 0-1.926 1.568-3.495 3.495-3.495m-4.983 15.965h9.974v-2.778c0-1.256.204-1.786.661-2.494l1.024-1.58c1.148-1.764 2.233-3.43 2.792-4.491.078-.148.03-.328-.112-.418-.168-.109-.403-.076-.536.07-.671.734-2.03 2.164-4.041 4.251l-.369.396c-.951 1.04-1.53 1.54-4.287 1.54h-.123c-2.859-.014-3.442-.515-4.391-1.554l-.356-.382c-1.999-2.074-3.359-3.504-4.042-4.251-.133-.146-.368-.177-.535-.07-.142.091-.189.271-.112.418.585 1.112 1.828 3.18 3.796 6.323.479.766.657 1.44.657 2.489v2.531zm10.973.999h-11.972v-3.53c0-.851-.132-1.363-.504-1.958-2.01-3.208-3.228-5.239-3.833-6.388-.321-.611-.126-1.352.455-1.725.565-.361 1.361-.258 1.812.236.668.731 2.059 2.195 4.024 4.233l.374.402c.786.86 1.111 1.216 3.659 1.228h.118c2.439 0 2.764-.355 3.55-1.215l.387-.415c2.005-2.08 3.358-3.504 4.024-4.232.452-.495 1.249-.598 1.811-.237.582.373.777 1.114.457 1.725-.582 1.101-1.677 2.786-2.839 4.57l-1.022 1.576c-.348.541-.501.889-.501 1.953v3.777z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="features-title">
+                                        High Loyalty
+                                    </div>
+                                    <div class="features-descr">
+                                        Mauris a libero et diam sodales semper. Aenean elit leo, hendrerit nec dolor id, rutrum finibus velit.
+                                    </div>
+                                </div>
+                                <!-- End Features Item -->
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Features Slider Section -->
+
+                <!-- Call Action Section -->
+                <section class="page-section">
+                    <div class="container position-relative">
+                        <div class="row">
+
+                            <!-- Images -->
+                            <div class="col-lg-7 d-flex align-items-center mb-md-60 mb-xs-30">
+                                <div class="call-action-2-images">
+
+                                    <div class="call-action-2-image-1" data-rellax-y="" data-rellax-speed="0.5" data-rellax-percentage="0.7">
+                                        <img src="images/promo-3.jpg" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255">
+                                    </div>
+
+                                    <div class="call-action-2-image-2">
+                                        <img src="images/promo-4.jpg" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134">
+                                    </div>
+
+                                    <div class="call-action-2-image-3" data-rellax-y="" data-rellax-speed="-0.5" data-rellax-percentage="0.5">
+                                        <img src="images/promo-5.jpg" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Images -->
+
+                            <!-- Text -->
+                            <div class="col-lg-5 d-flex align-items-center">
+                                <div class="wow fadeInUp" data-wow-duration="1.2s" data-wow-offset="255">
+
+                                    <h2 class="section-title mb-50 mb-sm-20">How we work?</h2>
+
+                                    <div class="call-action-2-text mb-50 mb-sm-40">
+
+                                        <!-- Accordion -->
+                                        <dl class="accordion">
+                                            <dt>
+                                                <a href="#">01. Discussion</a>
+                                            </dt>
+                                            <dd class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
+                                            </dd>
+                                            <dt>
+                                                <a href="#">02. Design</a>
+                                            </dt>
+                                            <dd class="text-gray">
+                                                Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet dignissim pellentesque felis.
+                                            </dd>
+                                            <dt>
+                                                <a href="#">03. Development</a>
+                                            </dt>
+                                            <dd class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.
+                                            </dd>
+                                            <dt>
+                                                <a href="#">04. Production</a>
+                                            </dt>
+                                            <dd class="text-gray">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.
+                                            </dd>
+                                        </dl>
+                                        <!-- End Accordion -->
+
+                                    </div>
+
+                                    <div class="local-scroll">
+                                        <a href="main-pages-contact-1.html" class="btn btn-mod btn-large btn-round btn-hover-anim"><span>Start a Project</span></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Text -->
+
+                        </div>
+                    </div>
+                </section>
+                <!-- End Call Action Section -->
+
+
+                <!-- Divider -->
+                <hr class="mt-0 mb-0">
+                <!-- End Divider -->
+
+
+                <!-- Promo Section -->
+                <section class="page-section">
+                    <div class="container position-relative">
+
+                        <!-- Decorative Dots -->
+                        <div class="decoration-4 d-none d-md-block" data-rellax-y="" data-rellax-speed="-0.5" data-rellax-percentage=".7">
+                            <img src="images/decoration-2.svg" alt="">
+                        </div>
+                        <!-- End Decorative Dots -->
+
+                        <div class="row">
+
+                            <!-- Text -->
+                            <div class="col-lg-6 mb-md-60 mb-xs-30 d-flex align-items-center">
+                                <div class="wow fadeInUp" data-wow-duration="1.2s" data-wow-offset="205">
+
+                                    <div class="row">
+                                        <div class="col-lg-10">
+                                            <h2 class="section-title mb-60 mb-sm-30">Awesome Template With Clean Design</h2>
+                                        </div>
+                                    </div>
+
+                                    <!-- Features Grid -->
+                                    <div class="row alt-features-grid">
+
+                                        <!-- Features Item -->
+                                        <div class="col-lg-6">
+                                            <div class="alt-features-item">
+                                                <div class="alt-features-icon">
+                                                    <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                                        <path d="M21.62 20.196c1.055-.922 1.737-2.262 1.737-3.772 0-1.321-.521-2.515-1.357-3.412v-6.946l-11.001-6.066-11 6v12.131l11 5.869 5.468-2.917c.578.231 1.205.367 1.865.367.903 0 1.739-.258 2.471-.676l2.394 3.226.803-.596-2.38-3.208zm-11.121 2.404l-9.5-5.069v-10.447l9.5 4.946v10.57zm1-.001v-10.567l5.067-2.608.029.015.021-.04 4.384-2.256v5.039c-.774-.488-1.686-.782-2.668-.782-2.773 0-5.024 2.252-5.024 5.024 0 1.686.838 3.171 2.113 4.083l-3.922 2.092zm6.833-2.149c-2.219 0-4.024-1.808-4.024-4.026s1.805-4.025 4.024-4.025c2.22 0 4.025 1.807 4.025 4.025 0 2.218-1.805 4.026-4.025 4.026zm-.364-3.333l-1.306-1.147-.66.751 2.029 1.782 2.966-3.12-.725-.689-2.304 2.423zm-16.371-10.85l4.349-2.372 9.534 4.964-4.479 2.305-9.404-4.897zm9.4-5.127l9.404 5.186-3.832 1.972-9.565-4.98 3.993-2.178z"></path>
+                                                    </svg>
+                                                </div>
+                                                <h3 class="alt-features-title">Unique Design</h3>
+                                                <div class="alt-features-descr">
+                                                    Fusce aliquet quam eget neque ultrices elementum felis id arcu blandit sagittis.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Features Item -->
+
+                                        <!-- Features Item -->
+                                        <div class="col-lg-6">
+                                            <div class="alt-features-item">
+                                                <div class="alt-features-icon">
+                                                    <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                                        <path d="M12 0c-3.371 2.866-5.484 3-9 3v11.535c0 4.603 3.203 5.804 9 9.465 5.797-3.661 9-4.862 9-9.465v-11.535c-3.516 0-5.629-.134-9-3zm0 1.292c2.942 2.31 5.12 2.655 8 2.701v10.542c0 3.891-2.638 4.943-8 8.284-5.375-3.35-8-4.414-8-8.284v-10.542c2.88-.046 5.058-.391 8-2.701zm5 7.739l-5.992 6.623-3.672-3.931.701-.683 3.008 3.184 5.227-5.878.728.685z"></path>
+                                                    </svg>
+                                                </div>
+                                                <h3 class="alt-features-title">Quality Code</h3>
+                                                <div class="alt-features-descr">
+                                                    Lorem ipsum dolor sit amet rembe adipiscing eliteje Inwege maximus ligula.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Features Item -->
+
+                                        <!-- Features Item -->
+                                        <div class="col-lg-6">
+                                            <div class="alt-features-item">
+                                                <div class="alt-features-icon">
+                                                    <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                                        <path d="M6.514 24.015h-3v-3.39c-2.08-.638-3.5-2.652-3.5-5.04 0-1.19.202-1.693 1.774-5.603.521-1.294 1.195-2.97 2.068-5.179.204-.518.67-.806 1.17-.802.482.004.941.284 1.146.802.718 1.817 1.302 3.274 1.777 4.454.26-.596.567-1.288.928-2.103.694-1.565 1.591-3.592 2.754-6.265.258-.592.881-.906 1.397-.888.572.015 1.126.329 1.369.888 1.163 2.673 2.06 4.7 2.754 6.265 2.094 4.727 2.363 5.334 2.363 6.764 0 2.927-2.078 5.422-5 6.082v4.015h-3v-4.015c-.943-.213-1.797-.617-2.523-1.165-.612.845-1.466 1.48-2.477 1.79v3.39zm14.493-6c1.652 0 2.993 1.341 2.993 2.993s-1.341 2.993-2.993 2.993-2.993-1.341-2.993-2.993 1.341-2.993 2.993-2.993zm.007.993c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2zm-7.5 3.993v-3.839c4.906-.786 5-4.751 5-5.244 0-1.218-.216-1.705-2.277-6.359-2.134-4.82-2.721-6.198-2.755-6.261-.079-.145-.193-.292-.455-.297-.238 0-.37.092-.481.297-.034.063-.621 1.441-2.755 6.261-2.061 4.654-2.277 5.141-2.277 6.359 0 .493.094 4.458 5 5.244v3.839h1zm-6.123-12.448l-.08-.198c-1.589-3.957-2.04-5.116-2.067-5.171-.072-.151-.15-.226-.226-.228-.109 0-.188.13-.235.228-.028.05-.316.818-2.066 5.171-1.542 3.833-1.703 4.233-1.703 5.23 0 1.988 1.076 3.728 3.5 4.25v3.166h1v-3.166c1.266-.273 2.159-.876 2.725-1.666-1.078-1.12-1.725-2.619-1.725-4.251 0-.979.126-1.572.877-3.365z"></path>
+                                                    </svg>
+                                                </div>
+                                                <h3 class="alt-features-title">Clean and Minimal</h3>
+                                                <div class="alt-features-descr">
+                                                    Maecenas volutpat, diam enime volutpa cras luctus lorem interdum sodales.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Features Item -->
+
+                                        <!-- Features Item -->
+                                        <div class="col-lg-6">
+                                            <div class="alt-features-item">
+                                                <div class="alt-features-icon">
+                                                    <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                                        <path d="M16 3.383l-.924-.383-7.297 17.617.924.383 7.297-17.617zm.287 3.617l6.153 4.825-6.173 5.175.678.737 7.055-5.912-7.048-5.578-.665.753zm-8.478 0l-6.249 4.825 6.003 5.175-.679.737-6.884-5.912 7.144-5.578.665.753z"></path>
+                                                    </svg>
+                                                </div>
+                                                <h3 class="alt-features-title">Easy Customization</h3>
+                                                <div class="alt-features-descr">
+                                                    Praesent sed nisi eleifend lorem ember fermete acome ante lorem ipsum.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Features Item -->
+
+                                    </div>
+                                    <!-- End Features Grid -->
+
+                                </div>
+                            </div>
+                            <!-- End Text -->
+
+                            <!-- Images -->
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <div class="call-action-3-images mt-xs-0 text-end">
+
+                                    <div class="call-action-3-image-1">
+                                        <img src="images/promo-6.jpg" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="205">
+                                    </div>
+
+                                    <div class="call-action-3-image-2-wrap d-flex align-items-center">
+                                        <div class="call-action-3-image-2" data-rellax-y="" data-rellax-speed="0.85" data-rellax-percentage="0.5">
+                                            <img src="images/promo-7.jpg" alt="Image Description" class="wow scaleOutIn" data-wow-duration="1.2s">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Images -->
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Promo Section -->
+
+                <!-- Divider -->
+                <hr class="mt-0 mb-0">
+                <!-- End Divider -->
+
+                <!-- Blog Section -->
+                <section class="page-section" id="blog">
+                    <div class="container position-relative">
+
+                        <div class="row mb-60 mb-xs-30">
+
+                            <div class="col-md-6">
+                                <h2 class="section-caption mb-xs-10">Our Blog</h2>
+                                <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">The latest news</span></h3>
+                            </div>
+
+                            <div class="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
+                                <a href="main-blog-columns-2col.html" class="link-hover-anim underline align-middle" data-link-animate="y"> Read more in our blog <i class="mi-arrow-right size-18"></i></a>
+                            </div>
+
+                        </div>
+
+                        <!-- Blog Posts Grid -->
+                        <div class="row mt-n50">
+
+                            <!-- Post Item -->
+                            <div class="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft" data-wow-delay="0.1s">
+                                <div class="post-prev-container">
+
+                                    <div class="post-prev-img">
+                                        <a href="main-blog-single-sidebar-right.html"><img src="images/blog/post-prev-1.jpg" alt="Add Image Description"></a>
+                                    </div>
+
+                                    <h4 class="post-prev-title"><a href="main-blog-single-sidebar-right.html">Spotlight — Equinox Collection by Shane Griffin</a></h4>
+
+                                    <div class="post-prev-text">
+                                        Looking for inspiration to kick it off, I stumbled across the work of Shane Griffin, an artist and director based in New York...
+                                    </div>
+
+                                    <div class="post-prev-info clearfix">
+                                        <div class="float-start">
+                                            <a href="#"><img class="post-prev-author-img" width="30" height="30" src="images/blog/author/author-1.jpg" alt="Image Description"></a><a href="#">Adam Smith</a>
+                                        </div>
+                                        <div class="float-end"><a href="#">August 3</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Post Item -->
+
+                            <!-- Post Item -->
+                            <div class="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft" data-wow-delay="0.2s">
+                                <div class="post-prev-container">
+
+                                    <div class="post-prev-img">
+                                        <a href="main-blog-single-sidebar-right.html"><img src="images/blog/post-prev-2.jpg" alt="Add Image Description"></a>
+                                    </div>
+
+                                    <h4 class="post-prev-title"><a href="main-blog-single-sidebar-right.html">Random Explorations with Cinema 4D and Redshift</a></h4>
+
+                                    <div class="post-prev-text">
+                                        Nidia Dias is a 3D designer based in the Portugal with an incredible portfolio. From the professional work done with...
+                                    </div>
+
+                                    <div class="post-prev-info clearfix">
+                                        <div class="float-start">
+                                            <a href="#"><img class="post-prev-author-img" width="30" height="30" src="images/blog/author/author-2.jpg" alt="Image Description"></a><a href="#">Emma Kandel</a>
+                                        </div>
+                                        <div class="float-end"><a href="#">August 2</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Post Item -->
+
+                            <!-- Post Item -->
+                            <div class="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft" data-wow-delay="0.3s">
+                                <div class="post-prev-container">
+
+                                    <div class="post-prev-img">
+                                        <a href="main-blog-single-sidebar-right.html"><img src="images/blog/post-prev-3.jpg" alt="Add Image Description"></a>
+                                    </div>
+
+                                    <h4 class="post-prev-title"><a href="main-blog-single-sidebar-right.html">Visually Identity and Branding for Mexican Restaurant</a></h4>
+
+                                    <div class="post-prev-text">
+                                        Anta Petrenco shared a beautiful visual identity, branding and packaging design project on their Behance profile...
+                                    </div>
+
+                                    <div class="post-prev-info clearfix">
+                                        <div class="float-start">
+                                            <a href="#"><img class="post-prev-author-img" width="30" height="30" src="images/blog/author/author-3.jpg" alt="Image Description"></a><a href="#">Thomas Johnson</a>
+                                        </div>
+                                        <div class="float-end"><a href="#">August 1</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Post Item -->
+
+                        </div>
+                        <!-- End Blog Posts Grid -->
+
+                    </div>
+                </section>
+                <!-- End Blog Section -->
+
+
+                <!-- Newsletter Section -->
+                <section class="page-section bg-dark-1 bg-dark-alpha-90 light-content" style="background-image: url(images/full-width-images/section-bg-2.jpg)">
+                    <div class="container position-relative">
+
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2 col-xl-6 offset-xl-3 wow fadeInUp">
+
+                                <h2 class="section-title-small text-center mb-40">Stay informed with our newsletter.</h2>
+
+                                <form id="mailchimp" class="form">
+
+                                    <div class="d-sm-flex justify-content-between mb-20">
+                                        <label for="newsletter-email" class="visually-hidden">Your email</label>
+                                        <input placeholder="Enter your email" class="newsletter-field input-lg round" id="newsletter-email" name="newsletter-email" type="email" pattern=".{5,100}" required="" aria-required="true">
+                                        <button type="submit" aria-controls="subscribe-result" class="newsletter-button btn btn-mod btn-w btn-large btn-round btn-hover-anim">
+                                            <span>Subscribe Now</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="form-tip">
+                                        <i class="icon-info size-16"></i>
+                                        By sending the form you agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
+                                    </div>
+
+                                    <div id="subscribe-result" role="region" aria-live="polite" aria-atomic="true"></div>
+
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Newsletter Section -->
+
+
+                <!-- Contact Section -->
+                <section class="page-section" id="contact">
+                    <div class="container position-relative">
+
+                        <div class="row">
+
+                            <div class="col-lg-6">
+
+                                <div class="row mb-50">
+                                    <div class="col-lg-10">
+                                        <h2 class="section-caption mb-xs-10">Contact Us</h2>
+                                        <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">Let’s start the productive work.</span></h3>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <div class="row mb-60 mb-sm-50">
+
+                                    <!-- Contact Item -->
+                                    <div class="col-sm-6 mb-xs-30 d-flex align-items-stretch">
+                                        <div class="alt-features-item border-left mt-0 wow fadeScaleIn" data-wow-delay=".3s">
+                                            <div class="alt-features-icon">
+                                                <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                                    <path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"></path>
+                                                </svg>
+                                                <div class="alt-features-icon-s">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <h4 class="alt-features-title">Say hello</h4>
+                                            <div class="alt-features-descr clearlinks">
+                                                <div><a href="mailto:support@bestlooker.pro">support@bestlooker.pro</a></div>
+                                                <div>+1 837 652 8800</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Contact Item -->
+
+                                    <!-- Contact Item -->
+                                    <div class="col-sm-6 d-flex align-items-stretch">
+                                        <div class="alt-features-item border-left mt-0 wow fadeScaleIn" data-wow-delay=".5s">
+                                            <div class="alt-features-icon">
+                                                <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                                                    <path d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602"></path>
+                                                </svg>
+                                            </div>
+                                            <h4 class="alt-features-title">Location</h4>
+                                            <div class="alt-features-descr">
+                                                123 King Street, London W6 9JG, United Kingdom
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Contact Item -->
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row wow fadeInUp" data-wow-delay="0.5s">
+
+                            <div class="col-md-6 mb-sm-50">
+
+                                <!-- Contact Form -->
+                                <form class="form contact-form pe-lg-5" id="contact_form">
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+
+                                            <!-- Name -->
+                                            <div class="form-group">
+                                                <label for="name">Name</label>
+                                                <input type="text" name="name" id="name" class="input-lg round form-control" placeholder="Enter your name" pattern=".{3,100}" required="" aria-required="true">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+
+                                            <!-- Email -->
+                                            <div class="form-group">
+                                                <label for="email">Email</label>
+                                                <input type="email" name="email" id="email" class="input-lg round form-control" placeholder="Enter your email" pattern=".{5,100}" required="" aria-required="true">
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Message -->
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" class="input-lg round form-control" style="height: 130px;" placeholder="Enter your message"></textarea>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-5">
+
+                                            <!-- Send Button -->
+                                            <div class="pt-20">
+                                                <button class="submit_btn btn btn-mod btn-large btn-round btn-hover-anim" id="submit_btn" aria-controls="result">
+                                                    <span>Send Message</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-lg-7">
+
+                                            <!-- Inform Tip -->
+                                            <div class="form-tip pt-20 pt-sm-0 mt-sm-20">
+                                                <i class="icon-info size-16"></i>
+                                                All the fields are required. By sending the form you agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                   <div id="result" role="region" aria-live="polite" aria-atomic="true"></div>
+
+                                </form>
+                                <!-- End Contact Form -->
+
+                            </div>
+
+                            <div class="col-md-6 d-flex align-items-stretch">
+
+                                <!-- Google Map -->
+                                <div class="map-boxed">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3071.5318265717196!2d-75.60465104752062!3d39.660249785873326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703f3cdadbfdb%3A0x80d20252268fc006!2zMjQ1IFF1aWdsZXkgQmx2ZCBzdGUgaywgTmV3IENhc3RsZSwgREUgMTk3MjAsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1662469609333!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <!-- End Google Map -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Contact Section -->
+
+           </main>
+
+            <!-- Footer -->
+            <footer class="page-section footer bg-gray-light-1 pb-30">
+                <div class="container">
+
+                    <div class="row pb-120 pb-sm-80 pb-xs-50">
+
+                        <div class="col-md-4 col-lg-3 text-gray mb-sm-50">
+
+                            <div class="mb-30">
+                                <img src="images/logo-dark.svg" width="105" height="34" alt="Trusted Touch Nursing Services">
+                            </div>
+
+                            <p>
+                                Integer auctor aliquet martor, sed lorem malesuada eros blandit eget. Proin lacinia mortoc id odio vestibulum.
+                            </p>
+
+                            <div class="clearlinks">
+                                <strong>T.</strong> <a href="tel:+18376528800">+1 837 652 8800</a>
+                            </div>
+
+                            <div class="clearlinks">
+                                <strong>E.</strong> <a href="mailto:support@bestlooker.pro">support@bestlooker.pro</a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-7 offset-md-1 offset-lg-2">
+                            <div class="row mt-n30">
+
+                                <!-- Footer Widget -->
+                                <div class="col-sm-4 mt-30">
+
+                                    <h3 class="fw-title">Company</h3>
+
+                                    <ul class="fw-menu clearlist">
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+
+                                </div>
+                                <!-- End Footer Widget -->
+
+                                <!-- Footer Widget -->
+                                <div class="col-sm-4 mt-30">
+
+                                    <h3 class="fw-title">Social Media</h3>
+
+                                    <ul class="fw-menu clearlist">
+                                        <li>
+                                            <a href="#" rel="noopener nofollow" target="_blank">
+                                                <i class="fa-facebook"></i>
+                                                Facebook
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" rel="noopener nofollow" target="_blank">
+                                                <i class="fa-youtube"></i>
+                                                Youtube
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" rel="noopener nofollow" target="_blank">
+                                                <i class="fa-pinterest"></i>
+                                                Pinterest
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" rel="noopener nofollow" target="_blank">
+                                                <i class="fa-linkedin"></i>
+                                                LinkedIn
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <!-- End Footer Widget -->
+
+                                <!-- Footer Widget -->
+                                <div class="col-sm-4 mt-30">
+
+                                    <h3 class="fw-title">Legal & Press</h3>
+
+                                    <ul class="fw-menu clearlist">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Presskit</a></li>
+                                    </ul>
+
+                                </div>
+                                <!-- End Footer Widget -->
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Footer Text -->
+                    <div class="row text-gray">
+
+                        <div class="col-md-4 col-lg-3">
+                            <b>© Bestlooker 2023.</b>
+                        </div>
+
+                        <div class="col-md-7 offset-md-1 offset-lg-2 clearfix">
+
+                            <b>Based in London, United Kingdom.</b>
+
+                            <!-- Back to Top Link -->
+                            <div class="local-scroll float-end mt-n20 mt-sm-10">
+                                <a href="#top" class="link-to-top">
+                                    <i class="mi-arrow-up size-24"></i>
+                                    <span class="visually-hidden">Scroll to top</span>
+                                </a>
+                            </div>
+                            <!-- End Back to Top Link -->
+
+                        </div>
+
+                    </div>
+                    <!-- End Footer Text -->
+
+                 </div>
+            </footer>
+            <!-- End Footer -->
+
         </div>
+        <!-- End Page Wrap -->
+
+        <!-- JS -->
+        <script src="{{asset('theme/js/jquery.min.js')}}"></script>
+        <script src="{{asset('theme/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{asset('theme/js/plugins.js')}}"></script>
+        <script src="{{asset('theme/js/jquery.ajaxchimp.min.js')}}"></script>
+        <script src="{{asset('theme/js/contact-form.js')}}"></script>
+        <script src="{{asset('theme/js/all.js')}}"></script>
+        <!-- End JS -->
+
     </body>
 </html>
