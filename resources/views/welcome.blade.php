@@ -252,235 +252,25 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                 <!-- End About Section -->
 
 
-                {{-- <!-- Team Section -->
-                <section class="page-section bg-orange" id="mission">
-                    <div class="container position-relative">
+                    {{-- <!-- Image Section -->
+                    <section class="page-section bg-dark-1 bg-dark-alpha-70 light-content bg-scroll pb-0 z-index-1" style="background-image: url('{{asset('uploads/15.png')}}')">
+                        <div class="container position-relative">
 
-                        <div class="row">
-
-                            <!-- Quote -->
-                            <div class="col-md-6 mb-sm-60 mb-xs-40 d-flex align-items-center">
-                                <blockquote class="testimonial mb-0 wow fadeInUp">
-                                    <div class="blockquote-icon" aria-hidden="true">”</div>
-                                    <p>
-                                        We are strong team who brings innovative ideas into production.
-                                    </p>
-                                    <footer>
-                                        <div class="section-line mb-10"></div>
-                                        Thomas Johnson
-                                        <div class="small">Developer, Co-founder</div>
-                                    </footer>
-                                </blockquote>
-                            </div>
-                            <!-- End Quote -->
-
-                            <!-- Team Carousel -->
-                            <div class="col-md-6">
-                                <div>
-                                    <div class="team-carousel">
-
-                                        <!-- Team item -->
-                                        <div class="team-carousel-item">
-                                            <div class="team-item">
-                                                <div class="team-item-image">
-
-                                                    <img src="images/team/team-1.jpg" class="wow scaleOutIn" alt="Image Description">
-
-                                                    <div class="team-item-detail">
-                                                        <div class="team-social-links">
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Facebook
-                                                                </div>
-                                                                <i class="fa-facebook-f"></i>
-                                                            </a>
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Twitter
-                                                                </div>
-                                                                <i class="fa-twitter"></i>
-                                                            </a>
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Pinterest
-                                                                </div>
-                                                                <i class="fa-pinterest-p"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                                <div class="team-item-descr">
-                                                    <div class="team-item-name">
-                                                        Thomas Johnson
-                                                    </div>
-                                                    <div class="team-item-role">
-                                                        Developer, co-founder
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Team item -->
-
-                                        <!-- Team item -->
-                                        <div class="team-carousel-item">
-                                            <div class="team-item">
-                                                <div class="team-item-image">
-
-                                                    <img src="images/team/team-2.jpg" class="wow scaleOutIn" alt="Image Description">
-
-                                                    <div class="team-item-detail">
-                                                        <div class="team-social-links">
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Facebook
-                                                                </div>
-                                                                <i class="fa-facebook-f"></i>
-                                                            </a>
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Twitter
-                                                                </div>
-                                                                <i class="fa-twitter"></i>
-                                                            </a>
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Pinterest
-                                                                </div>
-                                                                <i class="fa-pinterest-p"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                                <div class="team-item-descr">
-                                                    <div class="team-item-name">
-                                                        Emma Johnson
-                                                    </div>
-                                                    <div class="team-item-role">
-                                                        UI/UX Designer, co-founder
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Team item -->
-
-                                        <!-- Team item -->
-                                        <div class="team-carousel-item">
-                                            <div class="team-item">
-                                                <div class="team-item-image">
-
-                                                    <img src="images/team/team-4.jpg" alt="Image Description">
-
-                                                    <div class="team-item-detail">
-                                                        <div class="team-social-links">
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Facebook
-                                                                </div>
-                                                                <i class="fa-facebook-f"></i>
-                                                            </a>
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Twitter
-                                                                </div>
-                                                                <i class="fa-twitter"></i>
-                                                            </a>
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Pinterest
-                                                                </div>
-                                                                <i class="fa-pinterest-p"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                                <div class="team-item-descr">
-                                                    <div class="team-item-name">
-                                                        Marta Laning
-                                                    </div>
-                                                    <div class="team-item-role">
-                                                        Web developer
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Team item -->
-
-                                        <!-- Team item -->
-                                        <div class="team-carousel-item">
-                                            <div class="team-item">
-                                                <div class="team-item-image">
-
-                                                    <img src="images/team/team-3.jpg" alt="Image Description">
-
-                                                    <div class="team-item-detail">
-                                                        <div class="team-social-links">
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Facebook
-                                                                </div>
-                                                                <i class="fa-facebook-f"></i>
-                                                            </a>
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Twitter
-                                                                </div>
-                                                                <i class="fa-twitter"></i>
-                                                            </a>
-
-                                                            <a href="#" target="_blank" rel="noopener nofollow">
-                                                                <div class="visually-hidden">
-                                                                    Pinterest
-                                                                </div>
-                                                                <i class="fa-pinterest-p"></i>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                                <div class="team-item-descr">
-                                                    <div class="team-item-name">
-                                                        Marta Laning
-                                                    </div>
-                                                    <div class="team-item-role">
-                                                        Art director, designer
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Team item -->
-
-                                    </div>
+                            <div class="row">
+                                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                                    <h2 class="section-title-medium font-alt uppercase text-center mb-10">
+                                        <span class="wow charsAnimInLong" data-splitting="chars">Established in 2019</span>
+                                    </h2>
+                                    <p class="section-title-descr font-alt text-center wow fadeInUp" data-wow-delay="0.1s">We believe that things should be useful yet beautiful.</p>
+                                    <img src="{{asset('uploads/4.jpg')}}" class="mt-70 mt-md-40 mt-sm-20 mb-n100 mb-md-n70 mb-sm-n50" style="border-radius:10px" alt="Image Description">
                                 </div>
                             </div>
-                            <!-- End Team Carousel -->
 
                         </div>
-
-                    </div>
-                </section>
-                <!-- Team Section --> --}}
-
-
-                 <!-- Team Section -->
-                 <section class="page-section bg-orange" id="team">
+                    </section>
+                    <!-- End Image Section --> --}}
+                 <!-- Mission -->
+                 <section class="page-section bg-orange" id="team" >
                     <div class="container position-relative">
 
                         <div class="row">
@@ -520,7 +310,68 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                     </div>
                 </section>
-                <!-- Team Section -->
+                <!-- Mission -->
+
+                <!-- Call to Action Section -->
+                <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
+
+                    <!-- Desktop Overlay -->
+                    <div class="bg-overlay bg-gradient-theme d-none d-md-block"></div>
+                    <!-- End Desktop Overlay -->
+
+                    <!-- Mobile Overlay -->
+                    <div class="bg-overlay bg-primary-1 opacity-09 d-md-none"></div>
+                    <!-- End Mobile Overlay -->
+
+                   {{--  --}}
+
+                   <div class="row">
+
+                    <!-- Quote -->
+                    <div class="col-md-6 mb-sm-60 mb-xs-40" style="padding: 100px">
+                        <p class="section-descr mb-0 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <br>
+                            <strong>Sylvia and Martha bring extensive experience in
+                            neonatal and pediatric care, particularly in delivering
+                            home-based, compassionate care through Trusted
+                            Touch Nursing Home Services (TTN).
+                            They are both highly skilled in:</strong>
+                            <br><br>
+                                <p>
+                                    <strong>Neonatal and Critical Infant Care:</strong> Providing
+                                    advanced care to critically ill infants, including
+                                    specialized resuscitation and equipment handling,
+                                    ensuring high-quality support for vulnerable
+                                    newborns.
+                                </p>
+                                <p>
+                                    <strong>Home-Based Newborn Services:</strong> Offering
+                                    individualized, compassionate home care that eases
+                                    the transition for families post-discharge, ensuring
+                                    newborns receive seamless, professional care in a
+                                    home setting.
+                                </p>
+                                <p>
+                                    <strong>Family Education and Support:</strong> Guiding families on
+                                    newborn routines, feeding, health monitoring, and
+                                    emotional coping strategies, they empower parents
+                                    to confidently care for their infants.
+                                </p>
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 mb-sm-60 mb-xs-40">
+                        <img src="{{asset('uploads/5.jpg')}}"  alt="Image Description">
+                    </div>
+
+                   </div>
+
+                </section>
+                <!-- End Call to Action Section -->
+
+
+
                 <!-- Services Section -->
                 <section class="page-section" id="services">
                     <div class="container position-relative">
