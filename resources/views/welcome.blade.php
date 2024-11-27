@@ -54,9 +54,9 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
                     image size for support of retina screens. See details in the template documentation. *) -->
                     <div class="nav-logo-wrap local-scroll">
-                        <a href="index.html" class="logo">
-                            <img src="{{asset('uploads/logo.png')}}" alt="Trusted Touch Nursing Services" width="205"  class="logo-white">
-                            <img src="{{asset('uploads/logo.png')}}" alt="Trusted Touch Nursing Services" width="205"  class="logo-dark">
+                        <a href="#home" class="logo">
+                            <img src="{{asset('uploads/logo.png')}}" alt="Trusted Touch Nursing Services" width="345"  class="logo-white">
+                            <img src="{{asset('uploads/logo.png')}}" alt="Trusted Touch Nursing Services" width="345"  class="logo-dark">
                         </a>
                     </div>
 
@@ -271,7 +271,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <!-- End Image Section --> --}}
                  <!-- Mission -->
                  <section class="page-section bg-orange" id="team" >
-                    <div class="container position-relative">
+                    <div class="containerz position-relative">
 
                         <div class="row">
 
@@ -325,47 +325,192 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                    {{--  --}}
 
-                   <div class="row">
+                   <div class=" position-relative">
+                        <div class="row-fix">
 
-                    <!-- Quote -->
-                    <div class="col-md-6 mb-sm-60 mb-xs-40" style="padding: 100px">
-                        <p class="section-descr mb-0 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                            <br>
-                            <strong>Sylvia and Martha bring extensive experience in
-                            neonatal and pediatric care, particularly in delivering
-                            home-based, compassionate care through Trusted
-                            Touch Nursing Home Services (TTN).
-                            They are both highly skilled in:</strong>
-                            <br><br>
-                                <p>
-                                    <strong>Neonatal and Critical Infant Care:</strong> Providing
-                                    advanced care to critically ill infants, including
-                                    specialized resuscitation and equipment handling,
-                                    ensuring high-quality support for vulnerable
-                                    newborns.
+                            <!-- Quote -->
+                            <div class="containerz col-md-6 mb-sm-60 mb-xs-40">
+                                <p class="section-descr mb-0 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                    <span class="team-title">Our Team</span>
+                                    <br><br>
+                                    <strong style="font-weight:700">Sylvia and Martha bring extensive experience in
+                                    neonatal and pediatric care, particularly in delivering
+                                    home-based, compassionate care through Trusted
+                                    Touch Nursing Home Services (TTN).
+                                    They are both highly skilled in:</strong>
+                                    <br><br>
+                                        <span>
+                                            <strong style="font-weight:800">Neonatal and Critical Infant Care:</strong> Providing
+                                            advanced care to critically ill infants, including
+                                            specialized resuscitation and equipment handling,
+                                            ensuring high-quality support for vulnerable
+                                            newborns.
+                                        </span><br><br>
+                                        <span>
+                                            <strong style="font-weight:800">Home-Based Newborn Services:</strong> Offering
+                                            individualized, compassionate home care that eases
+                                            the transition for families post-discharge, ensuring
+                                            newborns receive seamless, professional care in a
+                                            home setting.
+                                        </span><br><br>
+                                        <span>
+                                            <strong style="font-weight:800">Family Education and Support:</strong> Guiding families on
+                                            newborn routines, feeding, health monitoring, and
+                                            emotional coping strategies, they empower parents
+                                            to confidently care for their infants.
+                                        </span>
+
                                 </p>
-                                <p>
-                                    <strong>Home-Based Newborn Services:</strong> Offering
-                                    individualized, compassionate home care that eases
-                                    the transition for families post-discharge, ensuring
-                                    newborns receive seamless, professional care in a
-                                    home setting.
-                                </p>
-                                <p>
-                                    <strong>Family Education and Support:</strong> Guiding families on
-                                    newborn routines, feeding, health monitoring, and
-                                    emotional coping strategies, they empower parents
-                                    to confidently care for their infants.
-                                </p>
+                                <br><br>
+                            </div>
 
-                        </p>
-                    </div>
-
-                    <div class="col-md-6 mb-sm-60 mb-xs-40">
-                        <img src="{{asset('uploads/5.jpg')}}"  alt="Image Description">
-                    </div>
-
+                            <div class="col-md-6 mb-sm-60 mb-xs-40">
+                                <img class="team-image" src="{{asset('uploads/5.jpg')}}"  alt="Image Description">
+                            </div>
+                        </div>
                    </div>
+
+
+
+                </section>
+                <!-- End Call to Action Section -->
+
+                <!-- Call to Action Section -->
+                <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
+
+                    <!-- Desktop Overlay -->
+                    <div class="bg-overlay bg-gradient-theme-2 d-none d-md-block"></div>
+                    <!-- End Desktop Overlay -->
+
+                    <!-- Mobile Overlay -->
+                    <div class="bg-overlay bg-primary-1 opacity-09 d-md-none"></div>
+                    <!-- End Mobile Overlay -->
+
+                   {{--  --}}
+
+
+
+                   <div class="position-relative">
+                    <div class="row-fix">
+
+                        <div class="col-md-6 mb-sm-60 mb-xs-40 ">
+                            {{-- <br><br><br> --}}
+                            <div class="muthonis">
+
+                               <img class="team-image" src="{{asset('uploads/7.jpg')}}"  alt="Image Description">
+                            </div>
+                        </div>
+                        <!-- Quote -->
+                        <div class="containerz col-md-6 mb-sm-60 mb-xs-40">
+                            <p class="section-descr mb-0 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <span class="team-title-2">Martha Muthoni</span><br><br>
+
+                                   {{--  --}}
+                                    Martha is an <strong style="font-weight:700">experienced nursing professional</strong> with a strong background in
+                                    clinical and leadership roles.
+                                    She currently works at <strong style="font-weight:700">Kenyatta National Hospital.</strong>
+                                    With expertise in neonatal and pediatric care, Martha has also served as a
+                                    Clinical Nurse/Midwife at Aga Khan University Hospital, supporting patients in
+                                    labor, postpartum, and neonatal care.<br><br>
+                                    Martha holds a <strong style="font-weight:700">Bachelor's Degree in Nursing</strong> from Aga Khan University and a
+                                    <strong style="font-weight:700">Degree in Health System Management</strong> from Kenya Methodist University.
+                                    She is certified in <strong style="font-weight:700">Advanced Life Support for Obstetrics, Basic Life Support,
+                                    Advanced Cardiac Life Support, and Quality and Safety,</strong> and is committed to
+                                    enhancing healthcare systems and outcomes for mothers and newborns.
+                                    {{-- <br><br> --}}
+                                    {{-- <u>Key Roles</u>
+                                    <ul style=" font-size: 23px; font-weight: 400; line-height: 1.5; letter-spacing: -0.005em;">
+                                        <li>
+                                            Nurse, Kenyatta National Hospital (2019-Present)
+                                        </li>
+                                        <li>
+                                            Clinical Nurse/Midwife, Labor & Delivery/Nursery, Aga Khan University Hospital (2016-2019)
+                                        </li>
+                                        <li>
+                                            Deputy Clinic Administrator, AAR Healthcare Limited (2014-2016)
+                                        </li>
+                                        <li>
+                                           Nurse, Coptic Hospital (2013-2014)
+                                        </li>
+                                    </ul> --}}
+
+
+                            </p>
+                            <br><br>
+                        </div>
+
+
+                    </div>
+                   </div>
+
+                </section>
+                <!-- End Call to Action Section -->
+
+                  <!-- Call to Action Section -->
+                  <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
+
+                    <!-- Desktop Overlay -->
+                    <div class="bg-overlay bg-gradient-theme d-none d-md-block"></div>
+                    <!-- End Desktop Overlay -->
+
+                    <!-- Mobile Overlay -->
+                    <div class="bg-overlay bg-primary-1 opacity-09 d-md-none"></div>
+                    <!-- End Mobile Overlay -->
+
+                   {{--  --}}
+
+                   <div class=" position-relative">
+                        <div class="row-fix">
+
+                            <!-- Quote -->
+                            <div class="containerz col-md-6 mb-sm-60 mb-xs-40">
+                                <p class="section-descr mb-0 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                    <span class="team-title">Sylvia Kamau</span>
+                                    <br><br>
+
+
+                                    Sylvia is a seasoned nursing professional with over <strong style="font-weight:700">14 years of experience
+                                    specializing in midwifery, neonatal nursing, and maternal-child health.</strong> She
+                                    is currently serving as a Clinical Nurse in the Newborn Surgical Unit/ICU at
+                                    Kenyatta National Hospital, where she provides 24-hour care for premature
+                                    and critically ill newborns.
+                                    <br><br>
+
+                                    Sylvia holds a Bachelor of Science in Midwifery from Aga Khan University
+                                    Hospital (2019-2021) and is currently pursuing a Higher Diploma in Neonatal
+                                    Nursing at Kenyatta National Hospital School of Nursing (2023-2024). She is
+                                    also certified in <strong style="font-weight:700">Basic Life Support, Advanced Life Support in Obstetrics, and
+                                    Helping Babies Breathe.</strong> Sylvia’s expertise includes <strong style="font-weight:700">neonatal resuscitation,
+                                    newborn care, postnatal care, and family counseling,</strong> ensuring both the
+                                    physical and emotional well-being of mothers and their babies.
+                                    <br><br>
+                                    {{-- <u>Key Roles:</u>
+                                    <ul style=" font-size: 23px; font-weight: 400; line-height: 1.5; letter-spacing: -0.005em;">
+                                        <li>
+                                            Clinical Nurse, Newborn Surgical Unit/ICU, Kenyatta National Hospital (2019-Present)
+                                        </li>
+                                        <li>
+                                            Clinical Nurse, Maternal Child Health Unit, Aga Khan University Hospital (2011-2019)
+                                        </li>
+                                        <li>
+                                            Clinical Nurse, General Theatre, P.C.E.A Kikuyu Hospital (2010-2011)
+                                        </li>
+                                        <li>
+                                            Home-Based Care Nurse, Neonatal Nurse (2016-Present)
+                                        </li>
+                                    </ul> --}}
+
+                                </p>
+                                <br><br>
+                            </div>
+
+                            <div class="col-md-6 mb-sm-60 mb-xs-40">
+                                <img class="team-image" src="{{asset('uploads/8.jpg')}}"  alt="Image Description">
+                            </div>
+                        </div>
+                   </div>
+
+
 
                 </section>
                 <!-- End Call to Action Section -->

@@ -177,7 +177,7 @@ Primary use: Multipurpose Template
     --container-width: 1350px;
     --section-padding-y: 120px;
     --menu-bar-height: 85px;
-    --menu-bar-height-scrolled: 65px;
+    --menu-bar-height-scrolled: 95px;
     --color-dark-1: #010101;
     --color-dark-2: #171717;
     --color-dark-3: #272727;
@@ -198,7 +198,9 @@ Primary use: Multipurpose Template
     --theme-blue: #0376c2;
     --theme-orange: #ea854b;
 
-    --gradient-theme: linear-gradient( 90deg, var(--theme-blue) 40%,  transparent 99%);
+    --gradient-theme: linear-gradient( 90deg, var(--theme-blue) 30%,  transparent 99%);
+    --gradient-theme-2: linear-gradient( 270deg, var(--theme-orange) 30%,  transparent 99%);
+
 
     --color-primary-1: #4567ed;
     --color-primary-1-a: #375ae3;
@@ -3519,7 +3521,7 @@ html:not(.mobile) .wow-p{
 .nav-logo-wrap .logo{
     display: flex;
     align-items: center;
-    max-width: 200px;
+    max-width: 250px;
     height: var(--menu-bar-height);
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
@@ -4341,6 +4343,17 @@ a.logo:hover{
     width: 100%;
     height: 100%;
     background-image: var(--gradient-theme);
+    opacity: .97;
+}
+.bg-gradient-theme-2:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: var(--gradient-theme-2);
     opacity: .97;
 }
 .bg-gradient-primary-alpha-2:before{
@@ -12520,6 +12533,48 @@ html:not(.mobile) .owl-animate-fadeInDown{
   .right{
     text-align: right;
     border-left:4px solid #ffff;
+  }
+  .team-title{
+    color:#ea854b;
+    font-size:60px;
+    z-index: 999999999;
+    font-weight: 800;
+  }
+  .team-title-2{
+    color:#0376c2;
+    font-size:60px;
+    z-index: 999999999;
+    font-weight: 800;
+  }
+
+  .muthoni{
+    width:700px;
+    height:700px;
+    margin:0 auto;
+    border-radius:50%;
+    padding:10px;
+    background-color:#ffffff;
+  }
+
+  .muthoni img{
+    border-radius:50%;
+    border:10px solid #ea854b;
+  }
+
+  .team-image{
+    max-height:1000px;
+    height:100% !important;
+    width:100%;
+    object-fit: cover;
+  }
+
+  .containerz{
+    padding: 0px 100px 0px 100px;
+  }
+
+  .row-fix{
+    display: flex;
+    flex-wrap: wrap;
   }
 
 @media only screen and (max-width: 540px) {
