@@ -199,7 +199,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                                     <!-- Image -->
                                     <div class="position-relative">
-                                        <img src="{{asset('uploads/7.jpg')}}" class="image-fullwidth relative border-gradient-right"  alt="Image Description">
+                                        <img src="{{asset('uploads/7s.jpg')}}" class="image-fullwidth relative border-gradient-right"  alt="Image Description">
                                     </div>
                                     <!-- End Image -->
 
