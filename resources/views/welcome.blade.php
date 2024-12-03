@@ -313,7 +313,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                 <!-- Mission -->
 
                 <!-- Call to Action Section -->
-                <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
+                {{-- <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
 
                     <!-- Desktop Overlay -->
                     <div class="bg-overlay bg-gradient-theme d-none d-md-block"></div>
@@ -323,7 +323,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <div class="bg-overlay bg-primary-1 opacity-09 d-md-none"></div>
                     <!-- End Mobile Overlay -->
 
-                   {{--  --}}
 
                    <div class=" position-relative">
                         <div class="row-fix">
@@ -372,11 +371,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
 
 
-                </section>
+                </section> --}}
                 <!-- End Call to Action Section -->
 
                 <!-- Call to Action Section -->
-                <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
+                {{-- <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
 
                     <!-- Desktop Overlay -->
                     <div class="bg-overlay bg-gradient-theme-2 d-none d-md-block"></div>
@@ -386,7 +385,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <div class="bg-overlay bg-primary-1 opacity-09 d-md-none"></div>
                     <!-- End Mobile Overlay -->
 
-                   {{--  --}}
 
 
 
@@ -394,7 +392,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <div class="row-fix">
 
                         <div class="col-md-6 mb-sm-60 mb-xs-40 ">
-                            {{-- <br><br><br> --}}
+
                             <div class="muthonis">
 
                                <img class="team-image" src="{{asset('uploads/7.jpg')}}"  alt="Image Description">
@@ -405,7 +403,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <p class="section-descr mb-0 wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                                 <span class="team-title-2">Martha Muthoni</span><br><br>
 
-                                   {{--  --}}
+
                                     Martha is an <strong style="font-weight:700">experienced nursing professional</strong> with a strong background in
                                     clinical and leadership roles.
                                     She currently works at <strong style="font-weight:700">Kenyatta National Hospital.</strong>
@@ -417,8 +415,8 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     She is certified in <strong style="font-weight:700">Advanced Life Support for Obstetrics, Basic Life Support,
                                     Advanced Cardiac Life Support, and Quality and Safety,</strong> and is committed to
                                     enhancing healthcare systems and outcomes for mothers and newborns.
-                                    {{-- <br><br> --}}
-                                    {{-- <u>Key Roles</u>
+                                    <br><br>
+                                    <!-- <u>Key Roles</u>
                                     <ul style=" font-size: 23px; font-weight: 400; line-height: 1.5; letter-spacing: -0.005em;">
                                         <li>
                                             Nurse, Kenyatta National Hospital (2019-Present)
@@ -432,7 +430,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                         <li>
                                            Nurse, Coptic Hospital (2013-2014)
                                         </li>
-                                    </ul> --}}
+                                    </ul> -->
 
 
                             </p>
@@ -443,11 +441,11 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     </div>
                    </div>
 
-                </section>
+                </section> --}}
                 <!-- End Call to Action Section -->
 
                   <!-- Call to Action Section -->
-                  <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
+                  {{-- <section class="page-section bg-scroll light-content" style="padding-top:0px !important; padding-bottom:0px !important;">
 
                     <!-- Desktop Overlay -->
                     <div class="bg-overlay bg-gradient-theme d-none d-md-block"></div>
@@ -457,7 +455,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <div class="bg-overlay bg-primary-1 opacity-09 d-md-none"></div>
                     <!-- End Mobile Overlay -->
 
-                   {{--  --}}
+
 
                    <div class=" position-relative">
                         <div class="row-fix">
@@ -484,7 +482,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     newborn care, postnatal care, and family counseling,</strong> ensuring both the
                                     physical and emotional well-being of mothers and their babies.
                                     <br><br>
-                                    {{-- <u>Key Roles:</u>
+                                    <!-- <u>Key Roles:</u>
                                     <ul style=" font-size: 23px; font-weight: 400; line-height: 1.5; letter-spacing: -0.005em;">
                                         <li>
                                             Clinical Nurse, Newborn Surgical Unit/ICU, Kenyatta National Hospital (2019-Present)
@@ -498,7 +496,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                         <li>
                                             Home-Based Care Nurse, Neonatal Nurse (2016-Present)
                                         </li>
-                                    </ul> --}}
+                                    </ul>-->
 
                                 </p>
                                 <br><br>
@@ -512,13 +510,13 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
 
 
-                </section>
+                </section> --}}
                 <!-- End Call to Action Section -->
 
 
 
                 <!-- Services Section -->
-                <section class="page-section" id="services">
+                {{-- <section class="page-section" id="services">
                     <div class="container position-relative">
 
                         <div class="row">
@@ -542,7 +540,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                         </div>
 
-                        {{--  --}}
+
                         <!-- Grid -->
                         <div class="row">
 
@@ -694,10 +692,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
 
                         </div>
                         <!-- End Grid -->
-                        {{--  --}}
+
 
                     </div>
-                </section>
+                </section> --}}
                 <!-- End Services Section -->
 
 
