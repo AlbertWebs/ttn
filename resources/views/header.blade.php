@@ -1,13 +1,13 @@
  <header class="header-area style-4 ">
          <div class="header-wrap">
             <div class="header-logo">
-               <a href="#"><img alt="image" class="img-fluid" src="{{asset('uploads/logo.png')}}"></a>
+               <a href="#"><img alt="image" class="img-fluid" style="width:214px" src="{{asset('uploads/logo.png')}}"></a>
             </div>
             <div class="menu-wrap">
                <div class="main-menu">
                   <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
                      <div class="mobile-logo-wrap">
-                        <a href="#"><img alt="image" src="{{asset('uploads/logo.png')}}"></a>
+                        <a href="#"><img alt="image" style="width:214px" src="{{asset('uploads/logo.png')}}"></a>
                      </div>
                   </div>
                   <ul class="menu-list">
