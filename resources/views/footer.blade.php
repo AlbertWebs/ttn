@@ -60,9 +60,9 @@
                                  <ul>
                                     <li><a href="#about">Our Story</a></li>
                                     <li><a href="#contact-me">Contact Us</a></li>
-                                    <li><a href="#">FAQ’s</a></li>
+                                    {{-- <li><a href="#">FAQ’s</a></li> --}}
                                     <li><a href="#team">Our Consultants</a></li>
-                                    <li><a href="#">Careers</a></li>
+                                    {{-- <li><a href="#">Careers</a></li> --}}
                                  </ul>
                               </div>
                            </div>

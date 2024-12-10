@@ -490,7 +490,7 @@
                     <h2>At Trusted Touch Nursing Home Services <a href="#">(TTN) </a> we offer unparalll expertise in postnatal and neonatal care.
                         Our team is led by highly experienced and specialized nurses who are also our directors, ensuring every aspect of care meets the highest professional standards</h2>
                  </div>
-                 <a class="explore-btn" href="#">
+                 <a class="explore-btn" href="#values">
                     Our Core Values
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
@@ -502,7 +502,7 @@
         </div>
      </div>
       {{--  --}}
-      <div class="feature-card-section overflow-hidden">
+      <div class="feature-card-section overflow-hidden" id="values">
         <div class="row g-4">
            <div class="col-lg-12">
               <div class="row">

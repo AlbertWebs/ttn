@@ -3761,7 +3761,7 @@ body.tt-magic-cursor #magic-cursor {
 }
 
 .header-area.style-4 .header-logo {
-    padding: 10px 26px
+    /* padding: 10px 26px */
 }
 
 @media(max-width:1399px) {
