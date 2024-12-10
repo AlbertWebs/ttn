@@ -15,9 +15,9 @@
                         <a href="#" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
                      </li>
 
-                     <li><a href="#">Who We Are</a></li>
-                     <li><a href="#">What We Do</a></li>
-                     <li><a href="#">Why Choose TTN?</a></li>
+                     <li><a href="#about">Who We Are</a></li>
+                     <li><a href="#services">What We Do</a></li>
+                     <li><a href="#why">Why Choose TTN?</a></li>
                      <li><a href="#contact-me">Contact Us</a></li>
                   </ul>
                   <div class="d-lg-none d-block">

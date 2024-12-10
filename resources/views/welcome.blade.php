@@ -58,18 +58,12 @@
                      </ul>
                   </div>
                   <div class="banner-btn magnetic-item">
-                     <a href="services1.html">
-                        <div class="bg">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="178" height="178" viewBox="0 0 178 178">
-                              <path d="M107.104 13.1663L91.9409 2.13881C90.1876 0.863714 87.8124 0.863712 86.0591 2.1388L70.8963 13.1663C69.9429 13.8597 68.7751 14.1939 67.5992 14.1099L47.8337 12.6981C45.8159 12.554 43.91 13.6399 43.0053 15.4493L34.5654 32.3293C34.0815 33.2969 33.2969 34.0815 32.3293 34.5654L15.4493 43.0053C13.64 43.91 12.554 45.8159 12.6981 47.8337L14.1099 67.5992C14.1939 68.7751 13.8597 69.9429 13.1663 70.8963L2.13881 86.0591C0.863714 87.8124 0.863712 90.1876 2.1388 91.9409L13.1663 107.104C13.8597 108.057 14.1939 109.225 14.1099 110.401L12.6981 130.166C12.554 132.184 13.6399 134.09 15.4493 134.995L32.3293 143.435C33.2969 143.918 34.0815 144.703 34.5654 145.671L43.0053 162.551C43.91 164.36 45.8159 165.446 47.8337 165.302L67.5992 163.89C68.7751 163.806 69.9429 164.14 70.8963 164.834L86.0591 175.861C87.8124 177.136 90.1876 177.136 91.9409 175.861L107.104 164.834C108.057 164.14 109.225 163.806 110.401 163.89L130.166 165.302C132.184 165.446 134.09 164.36 134.995 162.551L143.435 145.671C143.918 144.703 144.703 143.918 145.671 143.435L162.551 134.995C164.36 134.09 165.446 132.184 165.302 130.166L163.89 110.401C163.806 109.225 164.14 108.057 164.834 107.104L175.861 91.9409C177.136 90.1876 177.136 87.8124 175.861 86.0591L164.834 70.8963C164.14 69.9429 163.806 68.7751 163.89 67.5992L165.302 47.8337C165.446 45.8159 164.36 43.91 162.551 43.0053L145.671 34.5654C144.703 34.0815 143.918 33.2969 143.435 32.3293L134.995 15.4493C134.09 13.64 132.184 12.554 130.166 12.6981L110.401 14.1099C109.225 14.1939 108.057 13.8597 107.104 13.1663Z" />
-                           </svg>
-                        </div>
-                        <div class="btn-content">
-                           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-                              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z" />
-                           </svg>
-                           <br> Our <br> Services
-                        </div>
+                    <a class="primary-btn1 btn-hover" href="#about">
+                        Explore More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
+                        </svg>
+                        <span style="top: 19px; left: 144.5px;"></span>
                      </a>
                   </div>
                </div>
@@ -77,7 +71,7 @@
          </div>
       </div>
       {{--  --}}
-      <div class="mission-section mb-130 pt-130">
+      <div class="mission-section mb-130 pt-130" id="about">
         <div class="container-fluid one pl--95">
 
            <div class="row g-lg-4 gy-5">
@@ -134,7 +128,7 @@
                     <h1 class="mission">
                         Vision
                     </h1>
-                      <h2>To be the leading provider of nursing care services, <span>known for unwavering dedication to trust, compassion, and cultural sensitivity. </span></h2>
+                      <h2 style="font-size:30px">To be the leading provider of nursing care services, known for unwavering dedication to trust, compassion, and cultural sensitivity. </h2>
                    </div>
                 </div>
               </div>
@@ -145,8 +139,8 @@
                         <h1 class="mission">
                             Mission
                         </h1>
-                      <h2>To deliver compassionate, trust- centered care while celebrating diversity
-                         <span>and upholding the highest standards of professionalism. </span>
+                      <h2 style="font-size:30px">To deliver compassionate, trust- centered care while celebrating diversity
+                         and upholding the highest standards of professionalism.
                       </h2>
                    </div>
                 </div>
@@ -156,7 +150,7 @@
         </div>
       </div>
       {{--  --}}
-      <div class="about-section mt-130 mb-130">
+      <div class="about-section mt-130 mb-130" id="services">
         <div class="container-fluid one pl--95">
            <div class="row g-xl-4 gy-5">
               <div class="col-xl-6">
@@ -165,7 +159,7 @@
                        <span>Our Services</span>
                        <h2>Trusted Touch Nursing: Delivering the Best in Compassionate Care for Newborns, Children, and the Elderly</h2>
                     </div>
-                    <a class="primary-btn1 btn-hover" href="case-study1.html">
+                    <a class="primary-btn1 btn-hover" href="#team">
                        Our Team
                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
@@ -250,7 +244,7 @@
         </div>
      </div>
       {{--  --}}
-      <div class="people-section mb-130">
+      <div class="people-section mb-130" id="team">
         <div class="container-fluid one pl--95">
            <div class="row g-lg-4 gy-5">
               <div class="col-lg-5">
@@ -260,14 +254,14 @@
                        <h2>We Value Our Consultants.</h2><br>
                        <p>
                           <strong>
-                            Sylvia and Martha bring extensive experience inneonatal and pediatric care, particularly in deliveringhome-based, compassionate care through TrustedTouch Nursing Home Services (TTN).
-
+                            Our nurses bring extensive experience in neonatal and pediatric care, particularly in delivering home-based, compassionate care through Trusted Touch Nursing Home Services (TTN).
                           <br>
-                          They are both highly skilled in:<br></strong>
+                          They are highly skilled in:<br></strong>
                           <ul>
-                            <li><strong> Neonatal and Critical Infant Care:</strong>Providingadvanced care to critically ill infants, includingspecialized resuscitation and equipment handling,ensuring high-quality support for vulnerablenewborns.</li>
+                            <li><strong> Neonatal and Critical Infant Care:</strong>Providing advanced care to critically ill infants, including specialized resuscitation and equipment handling, ensuring high-quality support for vulnerable newborns.</li>
 
-                            <li><strong> Home-Based Newborn Services:</strong>Offeringindividualized, compassionate home care that easesthe transition for families post-discharge, ensuringnewborns receive seamless, professional care in ahome setting.</li>
+                            <li><strong> Home-Based Newborn Services:</strong>Offering individualized, compassionate home care that eases the transition for families post-discharge, ensuring newborns receive seamless, professional care in a home setting.
+                            </li>
 
                             <li><strong> Family Education and Support:</strong> Guiding families on newborn routine, feeding, health monitoring and emotional coping strategies, they empower parents to confidently care for their infants</li>
                           </ul>
@@ -483,7 +477,7 @@
            </div>
         </div>
       </div> --}}
-      <div class="home6-about-section">
+      <div class="home6-about-section" id="why">
         <div class="container-fluid one pl--95">
            <div class="row g-4">
               <div class="col-lg-3 d-flex justify-content-lg-center">

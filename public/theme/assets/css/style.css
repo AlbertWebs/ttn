@@ -13332,8 +13332,8 @@ footer .footer-btm .social-area li a:hover i {
     position: relative;
     line-height: 1;
     transition: .5s;
-    height: 178px;
-    width: 178px;
+    /* height: 178px;
+    width: 178px; */
     display: inline-flex;
     align-items: center;
     justify-content: center
@@ -13408,7 +13408,8 @@ footer .footer-btm .social-area li a:hover i {
 }
 
 .home6-about-section {
-    background-color: var(--title-color);
+    /* background-color: var(--title-color); */
+    background-color: #0376c2;
     padding: 100px 0 110px
 }
 

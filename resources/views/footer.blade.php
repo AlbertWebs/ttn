@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="content">
                                        <span>To More Inquiry</span>
-                                       <h6><a href="tel:+990737621432">+254 722 360 332</a></h6>
+                                       <h6><a href="tel:+254 726 961 550">+254 726 961 550</a></h6>
                                     </div>
                                  </div>
                                  <div class="hotline-area">
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="content">
                                        <span>To Send Mail</span>
-                                       <h6><a href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#afc6c1c9c0efc8c2cec6c381ccc0c2"><span class="__cf_email__" data-cfemail="a2cbccc4cde2c5cfc3cbce8cc1cdcf">[email&#160;protected]</span></a></h6>
+                                       <h6><a href="mailto:info@trustedtouchnursing.co.ke"><span class="__cf_email__" data-cfemail="a2cbccc4cde2c5cfc3cbce8cc1cdcf">info@trustedtouchnursing.co.ke</span></a></h6>
                                     </div>
                                  </div>
                               </div>
@@ -58,11 +58,11 @@
                               </div>
                               <div class="menu-container">
                                  <ul>
-                                    <li><a href="about.html">Our Story</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="faq.html">FAQ’s</a></li>
-                                    <li><a href="our-people1.html">Our Consultants</a></li>
-                                    <li><a href="career.html">Careers</a></li>
+                                    <li><a href="#about">Our Story</a></li>
+                                    <li><a href="#contact-me">Contact Us</a></li>
+                                    <li><a href="#">FAQ’s</a></li>
+                                    <li><a href="#team">Our Consultants</a></li>
+                                    <li><a href="#">Careers</a></li>
                                  </ul>
                               </div>
                            </div>
@@ -74,11 +74,11 @@
                               </div>
                               <div class="menu-container">
                                  <ul>
-                                    <li><a href="industry-details.html">Newborn Nannies</a></li>
-                                    <li><a href="industry-details.html">School Nurse Services</a></li>
-                                    <li><a href="industry-details.html">Elderly Care</a></li>
-                                    <li><a href="industry-details.html">Special Need Nursing Services</a></li>
-                                    <li><a href="industry-details.html">Training and Eduation</a></li>
+                                    <li><a href="#">Newborn Nannies</a></li>
+                                    <li><a href="#">School Nurse Services</a></li>
+                                    <li><a href="#">Elderly Care</a></li>
+                                    <li><a href="#">Special Need Nursing Services</a></li>
+                                    <li><a href="#">Training and Eduation</a></li>
                                  </ul>
                               </div>
                            </div>
@@ -90,9 +90,9 @@
                               </div>
                               <div class="menu-container">
                                  <ul>
-                                    <li><a href="terms-conditions.html">Privacy & Policy</a></li>
-                                    <li><a href="terms-conditions.html">Terms & Condition</a></li>
-                                    <li><a href="#">Cookie Policy</a></li>
+                                    <li><a href="{{url('/')}}/privacy-policy">Privacy & Policy</a></li>
+                                    <li><a href="{{url('/')}}/terms-and-conditions">Terms & Condition</a></li>
+                                    <li><a href="{{url('/')}}/cookie-policy">Cookie Policy</a></li>
                                  </ul>
                               </div>
                            </div>
