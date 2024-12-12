@@ -284,7 +284,7 @@
                        <div class="people-card1">
                           <div class="people-flip-box-layer people-flip-box-front">
                              <div class="people-img">
-                                <img src="{{asset('uploads/martha.jpg')}}" alt="">
+                                <img src="{{asset('uploads/team-1.jpg')}}" alt="">
                              </div>
                              <div class="content">
                                 <h5><a href="#">Martha Muthoni</a></h5>
@@ -324,7 +324,7 @@
                        <div class="people-card1">
                           <div class="people-flip-box-layer people-flip-box-front">
                              <div class="people-img">
-                                <img src="{{asset('uploads/sylvia.jpg')}}" alt="">
+                                <img src="{{asset('uploads/team-2.jpg')}}" alt="">
                              </div>
                              <div class="content">
                                 <h5><a href="#">Sylvia Kamau</a></h5>
