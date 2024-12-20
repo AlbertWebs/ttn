@@ -30,7 +30,8 @@
                                     </div>
                                     <div class="content">
                                        <span>To More Inquiry</span>
-                                       <h6><a href="tel:+254 726 961 550">+254 726 961 550</a></h6>
+                                       <h6><a href="tel:+254 726 961 550">+254726961550</a></h6>
+                                       <h6><a href="tel:+254722360332">+254722360332</a></h6>
                                     </div>
                                  </div>
                                  <div class="hotline-area">

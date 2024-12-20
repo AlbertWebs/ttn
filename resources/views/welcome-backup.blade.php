@@ -77,7 +77,7 @@
            <div class="row g-lg-4 gy-5">
               <div class="col-lg-6">
                  <div class="mission-img">
-                    <img class="border-gradient-right" src="{{asset('uploads/WhatsApp Image 2024-12-12 at 06.57.08_54de3197.jpg')}}" alt>
+                    <img class="border-gradient-right" src="{{asset('uploads/4.jpg')}}" alt>
                  </div>
               </div>
               <div class="col-lg-6">
@@ -338,32 +338,6 @@
            </div>
         </div>
      </div>
-     {{-- 1 --}}
-     <div class="people-card-section  ">
-        <div class="container-fluid one">
-           <div class="row mb-70">
-              <div class="col-lg-12">
-                 <div class="people-card-top-area">
-                    <div class="total-team-members-area">
-                       <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78">
-                             <path fill-rule="evenodd" clip-rule="evenodd" d="M66.2125 6.90541L0 73.1144L4.88557 78L71.0946 11.7875V57.5669H78V0H20.4331V6.90541H66.2125Z" />
-                          </svg>
-                       </div>
-                       <div class="content">
-                          <h4>Our Leadership Team</h4>
-                          <p style="font-size:17px;">
-                            Our leadership team at TTN is driven by a dynamic group of neonatal and experienced nurses who bring a wealth of expertise and passion to the forefront of our mission. Their deep understanding of healthcare, combined with hands-on experience, ensures that our organization remains steadfast in delivering exceptional care and innovative solutions to meet the needs of our community.
-                          </p>
-                       </div>
-                    </div>
-                 </div>
-              </div>
-           </div>
-
-        </div>
-     </div>
-     {{-- 2 --}}
       {{--  --}}
       <div class="people-section mb-130" id="team">
         <div class="container-fluid one pl--95">
@@ -407,13 +381,13 @@
                              <div class="people-img">
                                 <img src="{{asset('uploads/team-1.jpg')}}" alt="">
                              </div>
-                             {{-- <div class="content">
+                             <div class="content">
                                 <h5><a href="#">Martha Muthoni</a></h5>
                                 <span>Senior Consultant</span>
-                             </div> --}}
+                             </div>
                           </div>
                           <div class="people-flip-box-layer people-flip-box-back">
-                             {{-- <div class="social-and-comtent">
+                             <div class="social-and-comtent">
                                 <div class="social-and-btn">
                                    <ul class="social-icon">
                                       <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
@@ -435,7 +409,7 @@
                                     Clinical Nurse/Midwife at Aga Khan University Hospital, supporting patients in
                                     labor, postpartum, and neonatal care.<br>
                                 </p>
-                             </div> --}}
+                             </div>
 
                           </div>
                        </div>
@@ -446,13 +420,13 @@
                              <div class="people-img">
                                 <img src="{{asset('uploads/team-2.jpg')}}" alt="">
                              </div>
-                             {{-- <div class="content">
+                             <div class="content">
                                 <h5><a href="#">Sylvia Kamau</a></h5>
                                 <span>Senior Consultant</span>
-                             </div> --}}
+                             </div>
                           </div>
                           <div class="people-flip-box-layer people-flip-box-back">
-                             {{-- <div class="social-and-comtent">
+                             <div class="social-and-comtent">
                                 <div class="social-and-btn">
                                    <ul class="social-icon">
                                       <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
@@ -474,7 +448,7 @@
                                     Kenyatta National Hospital, where she provides 24-hour care for premature
                                     and critically ill newborns.
                                 </p>
-                             </div> --}}
+                             </div>
 
                           </div>
                        </div>
@@ -484,7 +458,119 @@
            </div>
         </div>
      </div>
-{{--  --}}
+      {{-- <div class="home6-people-section mb-90">
+        <div class="container-fluid one">
+           <div class="row">
+              <div class="col-lg-12 pl--95 gap-lg-5 gap-4 d-flex flex-lg-nowrap flex-wrap align-items-end justify-content-between mb-60">
+                 <div class="section-title1 two">
+                    <span>Meet Our Team</span>
+                    <h2>Conduct market research to understand industry trends, competition.</h2>
+                 </div>
+                 <a class="primary-btn1 btn-hover" href="our-people1.html">
+                    Explore People
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                       <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
+                    </svg>
+                    <span></span>
+                 </a>
+              </div>
+           </div>
+           <div class="row g-lg-4 gy-5">
+              <div class="col-lg-3 col-sm-6">
+                 <div class="people-card6">
+                    <div class="people-img">
+                       <img src="{{asset('theme/assets/img/home6/people-01.png')}}" alt>
+                       <div class="explore-btn">
+                          <a href="people-details.html">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.582 1.41649L0 14.9978L1.00217 16L14.5835 2.41795V11.8086H16V0H4.1914V1.41649H13.582Z" />
+                             </svg>
+                          </a>
+                       </div>
+                       <ul class="social-icon">
+                          <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                          <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+                          <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+                       </ul>
+                    </div>
+                    <div class="people-content">
+                       <h5><a href="people-details.html">Mr. Daniel Scoot</a></h5>
+                       <span>Senior Consultant</span>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                 <div class="people-card6">
+                    <div class="people-img">
+                       <img src="{{asset('theme/assets/img/home6/people-02.png')}}" alt>
+                       <div class="explore-btn">
+                          <a href="people-details.html">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.582 1.41649L0 14.9978L1.00217 16L14.5835 2.41795V11.8086H16V0H4.1914V1.41649H13.582Z" />
+                             </svg>
+                          </a>
+                       </div>
+                       <ul class="social-icon">
+                          <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                          <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+                          <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+                       </ul>
+                    </div>
+                    <div class="people-content">
+                       <h5><a href="people-details.html">Mr. Rakhab Uddin</a></h5>
+                       <span>Senior Consultant</span>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                 <div class="people-card6">
+                    <div class="people-img">
+                       <img src="{{asset('theme/assets/img/home6/people-03.png')}}" alt>
+                       <div class="explore-btn">
+                          <a href="people-details.html">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.582 1.41649L0 14.9978L1.00217 16L14.5835 2.41795V11.8086H16V0H4.1914V1.41649H13.582Z" />
+                             </svg>
+                          </a>
+                       </div>
+                       <ul class="social-icon">
+                          <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                          <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+                          <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+                       </ul>
+                    </div>
+                    <div class="people-content">
+                       <h5><a href="people-details.html">Mrs. Flurance Miyagi</a></h5>
+                       <span>Junior Consultant</span>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                 <div class="people-card6">
+                    <div class="people-img">
+                       <img src="{{asset('theme/assets/img/home6/people-04.png')}}" alt>
+                       <div class="explore-btn">
+                          <a href="people-details.html">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.582 1.41649L0 14.9978L1.00217 16L14.5835 2.41795V11.8086H16V0H4.1914V1.41649H13.582Z" />
+                             </svg>
+                          </a>
+                       </div>
+                       <ul class="social-icon">
+                          <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                          <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+                          <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+                       </ul>
+                    </div>
+                    <div class="people-content">
+                       <h5><a href="people-details.html">Mrs. Nhushi Yehara</a></h5>
+                       <span>Junior Consultant</span>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+      </div> --}}
       <div class="home6-about-section" id="why">
         <div class="container-fluid one pl--95">
            <div class="row g-4">
@@ -496,10 +582,7 @@
               <div class="col-lg-9 gap-lg-5 gap-4 d-flex flex-lg-nowrap flex-wrap align-items-start justify-content-between">
                  <div class="section-title1 white">
                     <h2>At Trusted Touch Nursing Home Services <a href="#">(TTN) </a> we offer unparalll expertise in postnatal and neonatal care.
-                        Our team is led by highly experienced and specialized nurses who are also our directors, ensuring every aspect of care meets the highest professional standards<br> <br> Our nurses are
-                        thoroughly vetted, and are mentored by the experienced leadership team <br><br>
-                        TTN is Registered and Licensed by <strong>Nursing Council of Kenya</strong> and our nurses are all licenced to Practice
-                    </h2>
+                        Our team is led by highly experienced and specialized nurses who are also our directors, ensuring every aspect of care meets the highest professional standards</h2>
                  </div>
                  <a class="explore-btn" href="#values">
                     Our Core Values

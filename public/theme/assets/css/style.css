@@ -15882,7 +15882,7 @@ footer .footer-btm .social-area li a:hover i {
 }
 
 .people-card-section .people-card-top-area .total-team-members-area .content {
-    max-width: 470px;
+    /* max-width: 470px; */
     width: 100%
 }
 
@@ -18082,4 +18082,10 @@ footer .footer-btm .social-area li a:hover i {
     font-weight: 800;
     color: #0376c2;
     font-size: 60px !important;
+}
+
+@media(max-width:768px) {
+    .right {
+        text-align: left;
+    }
 }
