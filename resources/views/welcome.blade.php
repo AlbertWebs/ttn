@@ -13,7 +13,64 @@
       <link href="{{asset('theme/assets/css/boxicons.min.css')}}" rel="stylesheet">
       <link href="{{asset('theme/assets/css/aos.css')}}" rel="stylesheet">
       <link rel="stylesheet" href="{{asset('theme/assets/css/style.css')}}">
-      <title>Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing</title>
+
+      {{-- SEO --}}
+        <!-- Meta Title -->
+        <title>Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing</title>
+
+        <!-- Meta Description -->
+        <meta name="description" content="At Trusted Touch Nursing, we offer professional, personalized newborn care by experienced maternity, neonatal, and pediatric nurses in Kenya. Partnering with families to foster safe and nurturing environments for early childhood development.">
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://trustedtouchnursing.co.ke/">
+
+        <!-- Keywords -->
+        <meta name="keywords" content="newborn care, newborn care specialist, Trusted Touch Nursing, Kenya, pediatric nursing, neonatal care, maternity nurses, personalized newborn care, baby care services, early childhood support">
+
+        <!-- Open Graph (OG) Tags -->
+        <meta property="og:title" content="Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing">
+        <meta property="og:description" content="At Trusted Touch Nursing, our compassionate team provides professional newborn care, ensuring families receive attentive, specialized support during early childhood.">
+        <meta property="og:url" content="https://trustedtouchnursing.co.ke/">
+        <meta property="og:image" content="https://trustedtouchnursing.co.ke/uploads/logo.png">
+        <meta property="og:type" content="website">
+
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing">
+        <meta name="twitter:description" content="Professional newborn care in Kenya by Trusted Touch Nursing. Personalized and nurturing support for families by skilled maternity, neonatal, and pediatric nurses.">
+        <meta name="twitter:image" content="https://trustedtouchnursing.co.ke/uploads/logo.png">
+
+        <!-- Schema.org Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Trusted Touch Nursing",
+            "description": "Trusted Touch Nursing provides professional, personalized care for newborns, partnering with families to foster safe and nurturing environments during early childhood development.",
+            "url": "https://trustedtouchnursing.co.ke/",
+            "logo": "https://trustedtouchnursing.co.ke/uploads/logo.png",
+            "image": "https://trustedtouchnursing.co.ke/uploads/logo.png",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Kenya"
+            },
+            "areaServed": "Kenya",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "email": "info@trustedtouchnursing.co.ke",
+                "telephone": "+254726961550"
+            },
+            "sameAs": [
+                "https://facebook.com/trustedtouchnursing",
+                "https://twitter.com/trustedtouchnursing",
+                "https://www.instagram.com/trustedtouchnursing/",
+                "https://www.linkedin.com/company/trusted-touch-nursing-home-services/"
+            ]
+        }
+        </script>
+
+      {{-- SEO END --}}
       <link rel="icon" href="{{asset('uploads/favicon.png')}}" type="image/gif" sizes="20x20">
    </head>
    <body id="body" class="tt-smooth-scroll tt-magic-cursor">
