@@ -31,14 +31,14 @@
         <meta property="og:title" content="Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing">
         <meta property="og:description" content="At Trusted Touch Nursing, our compassionate team provides professional newborn care, ensuring families receive attentive, specialized support during early childhood.">
         <meta property="og:url" content="https://trustedtouchnursing.co.ke/">
-        <meta property="og:image" content="https://trustedtouchnursing.co.ke/uploads/logo.png">
+        <meta property="og:image" content="https://trustedtouchnursing.co.ke/uploads/favicon.png">
         <meta property="og:type" content="website">
 
         <!-- Twitter Card Tags -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing">
         <meta name="twitter:description" content="Professional newborn care in Kenya by Trusted Touch Nursing. Personalized and nurturing support for families by skilled maternity, neonatal, and pediatric nurses.">
-        <meta name="twitter:image" content="https://trustedtouchnursing.co.ke/uploads/logo.png">
+        <meta name="twitter:image" content="https://trustedtouchnursing.co.ke/uploads/favicon.png">
 
         <!-- Schema.org Structured Data -->
         <script type="application/ld+json">
@@ -49,7 +49,7 @@
             "description": "Trusted Touch Nursing provides professional, personalized care for newborns, partnering with families to foster safe and nurturing environments during early childhood development.",
             "url": "https://trustedtouchnursing.co.ke/",
             "logo": "https://trustedtouchnursing.co.ke/uploads/logo.png",
-            "image": "https://trustedtouchnursing.co.ke/uploads/logo.png",
+            "image": "https://trustedtouchnursing.co.ke/uploads/favicon.png",
             "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "Kenya"
