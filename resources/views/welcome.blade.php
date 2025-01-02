@@ -355,7 +355,7 @@
                        </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="team-card two">
+                        <div class="team-card three">
                            <div class="content">
                               <h4 style="font-weight:800; color:#ea854b">Available Care Options</h4>
                               <ul>
