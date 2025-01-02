@@ -97,7 +97,8 @@
                         </div>
                         <div class="content">
                            <p>
-                            At Trusted Touch Nursing (TTN), we are deeply committed tosupporting families in nurturing their little ones throughprofessional, personalized care that caters to each child’sunique journey from birth through early childhood.
+                            At Trusted Touch Nursing (TTN), we are deeply committed to supporting families in nurturing their little ones through
+                            professional, personalized care that caters to each child’s unique journey from birth through early childhood.
                            </p>
                         </div>
                      </div>
@@ -312,11 +313,11 @@
       <div class="about-section mt-130 mb-130" id="services">
         <div class="container-fluid one pl--95">
            <div class="row g-xl-4 gy-5">
-              <div class="col-xl-6">
+              <div class="col-xl-4">
                  <div class="about-content pr--95">
                     <div class="section-title1 two mb-50">
                        <span>Our Services</span>
-                       <h2>Trusted Touch Nursing: Delivering the Best in Compassionate Care for Newborns, Children, and the Elderly</h2>
+                       <h2>Delivering the Best in Compassionate Care for Newborns, Children, and the Elderly</h2>
                     </div>
                     <a class="primary-btn1 btn-hover" href="#team">
                        Our Team
@@ -327,9 +328,9 @@
                     </a>
                  </div>
               </div>
-              <div class="col-xl-6">
+              <div class="col-xl-8">
                  <div class="row g-4">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                        <div class="team-card two">
                           <div class="content">
                              <h4 style="font-weight:800; color:#ea854b">Postnatal Care</h4>
@@ -353,7 +354,29 @@
                           </a>
                        </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
+                        <div class="team-card two">
+                           <div class="content">
+                              <h4 style="font-weight:800; color:#ea854b">Available Care Options</h4>
+                              <ul>
+                                 <p><strong>- </strong>Day and Night nurse support</p>
+                                 <p><strong>- </strong>24-hour maternal/newborn nurse</p>
+                                 <p><strong>- </strong>Live - in nurse</p>
+                                 <p><strong>- </strong>Safari nurse</p>
+                                 <p><strong>- </strong>Sleep Consultant</p>
+                                 <p><strong>- </strong>Lactation specialist</p>
+
+                              </ul>
+                           </div>
+                           <a class="explore-btn" href="#">
+                              Read More
+                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                    <div class="col-sm-4">
                        <div class="team-card">
                           <div class="content">
                              <h4>Training and Education</h4>
@@ -449,13 +472,13 @@
                           </ul>
 
                        </p>
-                       <a class="primary-btn1 btn-hover" href="#services">
+                       {{-- <a class="primary-btn1 btn-hover" href="#services">
                           Explore Services
                           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
                           </svg>
                           <span></span>
-                       </a>
+                       </a> --}}
                     </div>
 
                  </div>
@@ -555,7 +578,7 @@
 
               <div class="col-lg-6">
                 <div class="row g-4">
-                   <div class="mission-img">
+                   <div class="mission-img teams-image">
                        <img src="{{asset('uploads/5.jpg')}}" alt="">
                     </div>
                 </div>
@@ -682,6 +705,10 @@
       {{--  --}}
       <div class="testimonial-section2 mb-130 mt-130">
         <div class="container-fluid one pl--95 pr--95">
+            <div class="section-title1 two">
+
+                <h2>Proof of Excelence</h2><br>
+            </div>
            <div class="row">
               <div class="col-lg-12">
                  <div class="tastimonial-wrap2">

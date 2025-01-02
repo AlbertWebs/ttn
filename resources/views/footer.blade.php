@@ -29,7 +29,7 @@
                                        </svg>
                                     </div>
                                     <div class="content">
-                                       <span>To More Inquiry</span>
+                                       <span>For More Inquiry</span>
                                        <h6><a href="tel:+254 726 961 550">+254726961550</a></h6>
                                        <h6><a href="tel:+254722360332">+254722360332</a></h6>
                                     </div>
@@ -78,7 +78,7 @@
                                     <li><a href="#">Newborn Nannies</a></li>
                                     <li><a href="#">School Nurse Services</a></li>
                                     <li><a href="#">Elderly Care</a></li>
-                                    <li><a href="#">Special Need Nursing Services</a></li>
+                                    <li><a href="#">Special Needs Nursing Services</a></li>
                                     <li><a href="#">Training and Eduation</a></li>
                                  </ul>
                               </div>
@@ -87,12 +87,12 @@
                         <div class="col-lg-2 col-md-6 d-flex justify-content-md-end">
                            <div class="footer-widget">
                               <div class="widget-title">
-                                 <h3>Legelity</h3>
+                                 <h3>Legality</h3>
                               </div>
                               <div class="menu-container">
                                  <ul>
                                     <li><a href="{{url('/')}}/privacy-policy">Privacy & Policy</a></li>
-                                    <li><a href="{{url('/')}}/terms-and-conditions">Terms & Condition</a></li>
+                                    <li><a href="{{url('/')}}/terms-and-conditions">Terms & Conditions</a></li>
                                     <li><a href="{{url('/')}}/cookie-policy">Cookie Policy</a></li>
                                  </ul>
                               </div>

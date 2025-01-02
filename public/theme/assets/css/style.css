@@ -18088,4 +18088,7 @@ footer .footer-btm .social-area li a:hover i {
     .right {
         text-align: left;
     }
+    .teams-image img{
+        display: none;
+    }
 }
