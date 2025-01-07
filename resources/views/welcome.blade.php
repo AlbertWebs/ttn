@@ -444,7 +444,7 @@
         </div>
      </div>
       {{--  --}}
-      <div class="event-and-confarance-section mb-130">
+      <div class="event-and-confarance-section mb-130" id="related">
         <div class="title">
            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
               <path d="M25.789 12.721C21.8989 6.99787 16.7033 3.95612 13.9824 5.81985C13.6828 6.03084 13.4224 6.29267 13.2132 6.59348C13.2132 6.61546 6.91425 19.3627 6.91425 19.3627L3.39777 21.7451C2.85794 22.1116 2.3956 22.5808 2.03715 23.126C1.67871 23.6712 1.43119 24.2816 1.30873 24.9225C1.18627 25.5633 1.19127 26.2221 1.32346 26.861C1.45564 27.4999 1.7124 28.1066 2.07909 28.6462L2.23733 28.8792C2.97852 29.9589 4.11549 30.7028 5.40164 30.9497C6.68778 31.1966 8.01939 30.9264 9.10766 30.1979L14.756 38.5188C15.5868 39.5429 17.1824 40.5627 19.1516 39.3627C19.5005 39.1365 19.7981 38.8397 20.0252 38.4914C20.2523 38.1432 20.4039 37.7512 20.4703 37.3407C20.5499 36.9325 20.5477 36.5125 20.4639 36.1051C20.3802 35.6977 20.2165 35.3109 19.9824 34.9671L15.0066 27.6264C15.0066 27.6264 26.7692 26.6902 26.8132 26.6726C27.1804 26.5957 27.5286 26.4463 27.8373 26.233C29.2351 25.2836 29.7362 23.2924 29.2527 20.6242C28.8176 18.1671 27.5824 15.3847 25.789 12.721ZM3.51645 28.0133L3.35821 27.7803C3.10521 27.4078 2.92816 26.9891 2.83718 26.5482C2.74621 26.1072 2.74309 25.6526 2.82801 25.2104C2.91294 24.7683 3.08423 24.3472 3.3321 23.9713C3.57996 23.5954 3.89952 23.2721 4.27249 23.0198L7.30986 20.9539L11.3186 26.8572L8.28129 28.9231C7.90875 29.1765 7.48993 29.3539 7.04879 29.4453C6.60764 29.5366 6.15281 29.5402 5.7103 29.4557C5.26779 29.3712 4.84627 29.2003 4.46984 28.9528C4.0934 28.7053 3.76943 28.386 3.51645 28.0133ZM18.7165 35.833C18.9567 36.1905 19.0453 36.6287 18.9629 37.0514C18.8805 37.4741 18.6338 37.8469 18.2769 38.088C17.9187 38.3284 17.4799 38.4172 17.0564 38.3348C16.633 38.2524 16.2594 38.0056 16.0175 37.6484L10.3868 29.3539L12.6505 27.8155L13.2483 27.7671L18.7165 35.833ZM12.7736 26.2594L8.40436 19.8242L12.5714 11.3275C12.9758 13.7144 14.1582 16.5495 16.0483 19.3319C17.9384 22.1144 20.1362 24.2594 22.2022 25.5166L12.7736 26.2594ZM25.7406 25.2352C23.6395 25.099 20.2197 22.7297 17.323 18.4616C14.4263 14.1935 13.4857 10.1539 14.1318 8.14513C14.2485 7.76807 14.4814 7.43752 14.7971 7.2007C15.1129 6.96388 15.4954 6.83289 15.8901 6.82645C17.9736 6.82645 21.5208 9.20886 24.5011 13.6001C26.1802 16.0704 27.4022 18.655 27.7362 20.9144C28.3912 25.2352 25.7406 25.2352 25.7406 25.2352Z" />
@@ -699,27 +699,59 @@
 
                <div class="col-lg-7 " style="margin:0 auto">
                   <div class="contact-form-area two">
-                     <form>
+                     <form method="POST" action="{{url('send-message')}}">
+                        @csrf
                         <div class="row">
                            <div class="col-lg-6 mb-30">
                               <div class="form-inner">
                                  <label>Name*</label>
-                                 <input type="text" placeholder="Danniel Maeba">
+                                 <input type="text" placeholder="Dan Maeba" name="name">
                               </div>
                            </div>
                            <div class="col-lg-6 mb-30">
                               <div class="form-inner">
                                  <label>Email*</label>
-                                 <input type="email" placeholder="infoexample@gmail.com">
+                                 <input type="email" placeholder="info@trustedtouchnursing.com" name="email">
                               </div>
                            </div>
 
                            <div class="col-lg-12 mb-15">
                               <div class="form-inner">
                                  <label>Write Your Massage*</label>
-                                 <textarea placeholder="What’s on your mind"></textarea>
+                                 <textarea placeholder="What’s on your mind" name="massage"></textarea>
                               </div>
                            </div>
+                           {{--  --}}
+                           <?php
+                           $ops = array('-', '+');
+                           $answer = -1;
+
+                           $num1 = rand(0, 50);
+                           $num2 = rand(0, 15);
+
+                           $answer = $num1 + $num2;
+
+                       ?>
+
+                       <input type="hidden" name="correct_answer" id="correct_answer" value="{{$answer}}">
+                       <input required class="form-control" value="{{$answer}}" type="hidden" id="verify_contact" name="verify_contact">
+                           <div class="row">
+
+
+                               <div class="col-md-6">
+                                   <label>Are you human? {{$num1}} + {{$num2}} =</label>
+                                   <div class="form-grp">
+
+                                       <input required class="form-control" value="" type="text" id="verify_contact" name="verify_contact_input">
+                                   </div>
+                               </div>
+                           </div>
+                           <br>
+
+
+
+
+                           {{--  --}}
                            <div class="col-lg-12 mb-50">
                               <div class="form-check">
                                  <input class="form-check-input" type="checkbox" value id="contactCheck">
