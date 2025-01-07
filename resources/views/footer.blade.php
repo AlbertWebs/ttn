@@ -104,7 +104,7 @@
                <div class="col-lg-12">
                   <div class="footer-menu-wrap">
                      <div class="footer-logo">
-                        <a href="#"><img src="{{asset('uploads/logo.png')}}" alt="footer-logo"></a>
+                        <a href="#"><img src="{{asset('uploads/logo-ttn.png')}}" alt="footer-logo"></a>
                      </div>
                      <ul class="footer-menu">
                         <li>
