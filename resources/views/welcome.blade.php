@@ -752,14 +752,14 @@
 
 
                            {{--  --}}
-                           <div class="col-lg-12 mb-50">
+                           {{-- <div class="col-lg-12 mb-50">
                               <div class="form-check">
                                  <input class="form-check-input" type="checkbox" value id="contactCheck">
                                  <label class="form-check-label" for="contactCheck">
                                  Please save my name, email address for the next time I message with TTN.
                                  </label>
                               </div>
-                           </div>
+                           </div> --}}
                            <div class="col-lg-12">
                               <div class="form-inner">
                                  <button class="primary-btn1 btn-hover" type="submit">

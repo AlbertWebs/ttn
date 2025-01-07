@@ -48,10 +48,7 @@
             <h1>Your message has been posted successfully</h1>
 
         </div>
-        <div class="content">
 
-
-        </div>
         <div class="footer">
             <p>Contact us at: info@trustedtouchnursing.co.ke</p>
             <p>&copy; {{date('Y')}} Trusted Touch Nursing . All rights reserved.</p>
