@@ -7506,7 +7506,7 @@ footer .footer-btm .social-area li a:hover i {
 
 .about-section2 .about-top {
     background-color: #0d1720;
-    padding: 100px 0
+    /* padding: 100px 0 */
 }
 
 .about-section2 .about-top .review-and-feature {
@@ -18083,12 +18083,25 @@ footer .footer-btm .social-area li a:hover i {
     color: #0376c2;
     font-size: 60px !important;
 }
-
+.core-content{
+    font-size:24px;
+}
+.first-banner{
+    color:#0376c2;
+    max-width:650px;
+    animation-delay: 5s;
+}
 @media(max-width:768px) {
     .right {
         text-align: left;
     }
     .teams-image img{
         display: none;
+    }
+    .core-image{
+        display: none;
+    }
+    .core-content{
+        font-size:17px;
     }
 }

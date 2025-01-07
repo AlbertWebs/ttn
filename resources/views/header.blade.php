@@ -1,7 +1,7 @@
  <header class="header-area style-4 ">
          <div class="header-wrap">
             <div class="header-logo">
-               <a href="#"><img alt="image" class="img-fluid" style="width:214px" src="{{asset('uploads/logo.png')}}"></a>
+               <a href="#"><img alt="image" class="img-fluid"  src="{{asset('uploads/logo.png')}}"></a>
             </div>
             <div class="menu-wrap">
                <div class="main-menu">

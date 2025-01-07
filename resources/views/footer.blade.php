@@ -71,7 +71,7 @@
                         <div class="col-lg-3 col-md-6 d-flex justify-content-lg-center">
                            <div class="footer-widget">
                               <div class="widget-title">
-                                 <h3>Extra Services</h3>
+                                 <h3>Related Services</h3>
                               </div>
                               <div class="menu-container">
                                  <ul>
@@ -123,14 +123,14 @@
                               </svg>
                            </a>
                         </li>
-                        <li>
+                        {{-- <li>
                            <a href="services1.html">
                                Newborn nannies
                               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z" />
                               </svg>
                            </a>
-                        </li>
+                        </li> --}}
                         <li>
                            <a href="services1.html">
                             Newborn nannies

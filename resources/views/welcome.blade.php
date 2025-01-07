@@ -69,11 +69,21 @@
             ]
         }
         </script>
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
       {{-- SEO END --}}
       <link rel="icon" href="{{asset('uploads/favicon.png')}}" type="image/gif" sizes="20x20">
+
+      <!--Floating WhatsApp css-->
+     <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
    </head>
    <body id="body" class="tt-smooth-scroll tt-magic-cursor">
+      <h1 style="display:none">Newborn Care Specialist Agency in Kenya</h1>
+      <!--Div where the WhatsApp will be rendered-->
+      <div style="z-index:100000" id="WAButton"></div>
       <div id="magic-cursor">
          <div id="ball"></div>
       </div>
@@ -88,23 +98,24 @@
             <div class="row">
                <div class="col-lg-12 d-flex flex-lg-row flex-column align-items-xxl-end align-items-lg-center justify-content-between gap-5">
                   <div class="banner-left-content">
-                     <h1><span>Newborn Care </span> <br> Specialist Agency</h1>
+                     <h1 class="animate__animated animate__fadeInDown"><span>Newborn Care </span> <br> Specialist Agency</h1>
+                     <h3 class="first-banner animate__animated animate__fadeInLeft">First Homebased Nursing Services in Kenya Specializing in Newborn Care</h3>
                      <div class="quate-text">
-                        <div class="icon">
+                        {{-- <div class="icon">
                            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M35.6529 3.71829L0 39.3693L2.63069 42L38.2817 6.34713V30.9976H42V0H11.0024V3.71829H35.6529Z"></path>
                            </svg>
-                        </div>
-                        <div class="content">
+                        </div> --}}
+                        <div class="content animate__animated animate__fadeInUp">
                            <p>
                             At Trusted Touch Nursing (TTN), we are deeply committed to supporting families in nurturing their little ones through
                             professional, personalized care that caters to each child’s unique journey from birth through early childhood.
                            </p>
                         </div>
                      </div>
-                     <ul class="btn-group">
+                     {{-- <ul class="btn-group">
                         <li class="success-rate">Trust
-                            {{-- <span>90%</span> --}}
+                            <span>90%</span>
                         </li>
                         <li><a href="#">Compassion</a></li>
                         <li><a href="#">Cultural Sensitivity</a></li>
@@ -113,7 +124,7 @@
                         <li><a href="#">Empathy and Care</a></li>
                         <li><a href="#">Integrity</a></li>
                         <li><a href="#">Respect</a></li>
-                     </ul>
+                     </ul> --}}
                   </div>
                   <div class="banner-btn magnetic-item">
                     <a class="primary-btn1 btn-hover" href="#about">
@@ -128,6 +139,8 @@
             </div>
          </div>
       </div>
+      {{--  --}}
+
       {{--  --}}
       <div class="mission-section mb-130 pt-130" id="about">
         <div class="container-fluid one pl--95">
@@ -177,6 +190,37 @@
         </div>
      </div>
       {{--  --}}
+      <div class="about-section2">
+         <div class="about-top">
+            <div class="container-fluid one pl--95">
+               <div class="row">
+                  <div class="col-xxl-6 col-lg-7" >
+                     <div class="about-content pr--95">
+                        <div class="section-title1 two white mb-50 mt-50 ">
+                           <h2>Core Values.</h2><br>
+                           <p class="core-content">
+                              <span>Trust: </span>Build with clients through accountability and dedication<br>
+                              <span>Compassion: </span>Approach all clients with genuine care easing families' concerns<br>
+                              <span>Cultural Sensitivity: </span>Embrase diversity and honor various cutural beliefs<br>
+                              <span>Professionalism: </span>Maintain consistency, ethical standards, and focus on quality care<br>
+                              <span>confidence: </span>protect the privacy and information of our clients<br>
+                              <span>Empathy and Care: </span>Understand and support clients' needs with warmth<br>
+                              <span>Integrity: </span>Practice transparency and honesty in every service<br>
+                              <span>Respect: </span>Treat everyone with respect, honoring their individuality<br>
+                           </p>
+                        </div>
+
+                     </div>
+                  </div>
+                  <div class="col-xxl-6 col-lg-5" style="padding:0px">
+                        <img class="core-image" style="max-height:765px; height:100%; width:100%; object-fit:cover; padding:0px" src="{{asset('uploads/9.webp')}}" alt>
+                  </div>
+               </div>
+            </div>
+         </div>
+         {{--  --}}
+
+      </div>
       {{--  --}}
       <div class="company-activities-area mb-80" id="vis">
         <div class="container-fluid one pl--95">
@@ -218,7 +262,7 @@
             <div class="container-fluid one pl--95">
                 <div class="section-title1 two">
                     {{-- <span>Meet Our Team</span> --}}
-                    <h2>Our Core Values</h2><br>
+                    <h2>Why Choose Us</h2><br>
                 </div>
 
                 <div class="row g-4">
@@ -242,7 +286,7 @@
                                         </div>
                                         <div class="content">
                                         <h5>Experienced Leadership</h5>
-                                        <p>Directors with over 14 years in neonatal and mental healthcare oversee all operations.</p>
+                                        <p>Directors with over 14 years in neonatal and maternal healthcare oversee all operations.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -628,7 +672,7 @@
               </div>
               <div class="col-lg-9 gap-lg-5 gap-4 d-flex flex-lg-nowrap flex-wrap align-items-start justify-content-between">
                  <div class="section-title1 white">
-                    <h2>At Trusted Touch Nursing Home Services <a href="#">(TTN) </a> we offer unparalll expertise in postnatal and neonatal care.
+                    <h2>At Trusted Touch Nursing Home Services <a href="#">(TTN) </a> we offer exceptional expertise in postnatal and neonatal care.
                         Our team is led by highly experienced and specialized nurses who are also our directors, ensuring every aspect of care meets the highest professional standards<br> <br> Our nurses are
                         thoroughly vetted, and are mentored by the experienced leadership team <br><br>
                         TTN is Registered and Licensed by <strong>Nursing Council of Kenya</strong> and our nurses are all licenced to Practice
@@ -707,7 +751,7 @@
         <div class="container-fluid one pl--95 pr--95">
             <div class="section-title1 two">
 
-                <h2>Proof of Excelence</h2><br>
+                <h2>What Our Clients Say</h2><br>
             </div>
            <div class="row">
               <div class="col-lg-12">
@@ -721,7 +765,7 @@
                                 </div>
                                 <div class="testimonal-content">
                                    <span>Amaizing Services</span>
-                                   <p>We are so thankful to find Martha and Sylvia!! Our daughter surprised us a month early, and their expertise as neonatal nurses gave us the much-needed comfort that our premature little one had all the proper care at home. I cannot recommend them enough
+                                   <p>We are so thankful to find the team!! Our daughter surprised us a month early, and their expertise as neonatal nurses gave us the much-needed comfort that our premature little one had all the proper care at home. I cannot recommend them enough
                                    </p>
                                    <div class="author-area">
                                       <div class="content">
@@ -739,7 +783,7 @@
                                 </div>
                                 <div class="testimonal-content">
                                    <span>Great Consulting!</span>
-                                   <p>Sylvia, Martha and their team were nothing short of a godsend with both my new born babies. I couldn't have coped without them. They created such a happy and relaxed atmosphere for a newborn to thrive in.
+                                   <p>Team was nothing short of a godsend with both my new born babies. I couldn't have coped without them. They created such a happy and relaxed atmosphere for a newborn to thrive in.
                                         They helped and advised me when I wasn't feeding properly. Recognised when my baby was sick and helped advise and treated immediately.
                                         My babies had the most wonderful start to life because of them.
                                         They were complete baby whisperers. So brilliant, talented and professional. I cannot recommend their services enough.
@@ -866,5 +910,25 @@
              startVisible: true,
          });
       </script>
+      {{--  --}}
+      <!--Floating WhatsApp javascript-->
+     <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+     <script type="text/javascript">
+         $(function () {
+             $('#WAButton').floatingWhatsApp({
+                 phone: '+254722360332', //WhatsApp Business phone number
+                 headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+                 popupMessage: 'Hello, how can we help you?', //Popup Message
+                 message: 'I have just visited *http://trustedtouchnursing.co.ke/*',
+                 showPopup: true, //Enables popup display
+                 buttonImage: '<img src="{{url('/')}}/uploads/whatsapp.svg" />', //Button Image
+                 //headerColor: 'crimson', //Custom header color
+                 //backgroundColor: 'crimson', //Custom background button color
+                 position: "left" //Position: left | right
+
+             });
+         });
+     </script>
    </body>
 </html>
