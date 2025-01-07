@@ -746,7 +746,7 @@
                                    </div>
                                </div>
                            </div>
-                           <br>
+                           <br><br>
 
 
 
@@ -760,6 +760,7 @@
                                  </label>
                               </div>
                            </div> --}}
+                           <br>
                            <div class="col-lg-12">
                               <div class="form-inner">
                                  <button class="primary-btn1 btn-hover" type="submit">
