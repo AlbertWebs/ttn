@@ -955,7 +955,7 @@
                  popupMessage: 'Hello, how can we help you?', //Popup Message
                  message: 'I have just visited *http://trustedtouchnursing.co.ke/*',
                  showPopup: true, //Enables popup display
-                 buttonImage: '<img src="{{url('/')}}/uploads/whatsapp.svg" />', //Button Image
+                 buttonImage: '<img alt="trusted touch nursing whatsapp" src="{{url('/')}}/uploads/whatsapp.svg" />', //Button Image
                  //headerColor: 'crimson', //Custom header color
                  //backgroundColor: 'crimson', //Custom background button color
                  position: "left" //Position: left | right
