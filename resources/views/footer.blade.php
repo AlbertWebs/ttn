@@ -108,7 +108,7 @@
                      </div>
                      <ul class="footer-menu">
                         <li>
-                           <a href="services1.html">
+                           <a href="services1#">
                             Postnatal Care
                               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z" />
@@ -116,7 +116,7 @@
                            </a>
                         </li>
                         <li>
-                           <a href="services1.html">
+                           <a href="services1#">
                             Training and Education
                               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z" />
@@ -124,7 +124,7 @@
                            </a>
                         </li>
                         {{-- <li>
-                           <a href="services1.html">
+                           <a href="services1#">
                                Newborn nannies
                               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z" />
@@ -132,7 +132,7 @@
                            </a>
                         </li> --}}
                         <li>
-                           <a href="services1.html">
+                           <a href="services1#">
                             Newborn nannies
                               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z" />
@@ -141,7 +141,7 @@
                         </li>
 
                         <li>
-                           <a href="services1.html">
+                           <a href="services1#">
                               More Related Services
                               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.48878 0.885308L0 9.37364L0.626356 10L9.11469 1.51122V7.38037H10V0H2.61963V0.885308H8.48878Z" />

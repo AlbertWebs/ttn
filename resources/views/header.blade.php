@@ -75,12 +75,12 @@
                            <div class="quick-search">
                               <ul>
                                  <li>Quick Search :</li>
-                                 <li><a href="service.html">Home Nursing,</a></li>
-                                 <li><a href="service.html">Finance consulting,</a></li>
-                                 <li><a href="service.html">Human Resources,</a></li>
-                                 <li><a href="service.html">Management,</a></li>
-                                 <li><a href="service.html">Marketing Research,</a></li>
-                                 <li><a href="service-details.html">International Business.</a></li>
+                                 <li><a href="service#">Home Nursing,</a></li>
+                                 <li><a href="service#">Finance consulting,</a></li>
+                                 <li><a href="service#">Human Resources,</a></li>
+                                 <li><a href="service#">Management,</a></li>
+                                 <li><a href="service#">Marketing Research,</a></li>
+                                 <li><a href="service-details#">International Business.</a></li>
                               </ul>
                            </div>
                         </form>
