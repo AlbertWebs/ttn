@@ -75,7 +75,7 @@
   />
 
       {{-- SEO END --}}
-      <link rel="icon" href="{{asset('uploads/favicon.png')}}" type="image/gif" sizes="20x20">
+      <link rel="icon" href="{{asset('uploads/favicon.png')}}" type="image/gif" alt="TTN" sizes="20x20">
 
       <!--Floating WhatsApp css-->
      <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
@@ -148,7 +148,7 @@
            <div class="row g-lg-4 gy-5">
               <div class="col-lg-6">
                  <div class="mission-img">
-                    <img class="border-gradient-right" src="{{asset('uploads/WhatsApp Image 2024-12-12 at 06.57.08_54de3197.jpg')}}" alt>
+                    <img class="border-gradient-right" src="{{asset('uploads/WhatsApp Image 2024-12-12 at 06.57.08_54de3197.jpg')}}" alt="Trusted Touch Nursing">
                  </div>
               </div>
               <div class="col-lg-6">
@@ -213,7 +213,7 @@
                      </div>
                   </div>
                   <div class="col-xxl-6 col-lg-5" style="padding:0px">
-                        <img class="core-image" style="max-height:765px; height:100%; width:100%; object-fit:cover; padding:0px" src="{{asset('uploads/9.webp')}}" alt>
+                        <img alt="TTN Core Values" class="core-image" style="max-height:765px; height:100%; width:100%; object-fit:cover; padding:0px" src="{{asset('uploads/9.webp')}}" alt>
                   </div>
                </div>
             </div>
@@ -454,17 +454,17 @@
         </div>
         <div class="events">
            <div class="marquee_text2">
-              <img width="50" src="{{asset('uploads/favicon.png')}}" />
+              <img width="50" alt="favicon" src="{{asset('uploads/favicon.png')}}" />
               <a href="#">Newborn nannies</a>
-              <img width="50" src="{{asset('uploads/favicon.png')}}" />
+              <img width="50" alt="favicon" src="{{asset('uploads/favicon.png')}}" />
               <a href="#">School nurse services</a>
-              <img width="50" src="{{asset('uploads/favicon.png')}}" />
+              <img width="50" alt="favicon" src="{{asset('uploads/favicon.png')}}" />
               <a href="#">Special need Nurse services</a>
-              <img width="50" src="{{asset('uploads/favicon.png')}}" />
+              <img width="50" alt="favicon" src="{{asset('uploads/favicon.png')}}" />
               <a href="#">Elderly Care</a>
-              <img width="50" src="{{asset('uploads/favicon.png')}}" />
+              <img width="50" alt="favicon" src="{{asset('uploads/favicon.png')}}" />
               <a href="#">General home care services</a>
-              <img width="50" src="{{asset('uploads/favicon.png')}}" />
+              <img width="50" alt="favicon" src="{{asset('uploads/favicon.png')}}" />
               <a href="#">Training and Education</a>
            </div>
         </div>
@@ -533,7 +533,7 @@
                        <div class="people-card1">
                           <div class="people-flip-box-layer people-flip-box-front">
                              <div class="people-img">
-                                <img src="{{asset('uploads/martha.jpg')}}" alt="">
+                                <img src="{{asset('uploads/martha.jpg')}}" alt="Martha Muthon">
                              </div>
                              <div class="content">
                                 <h5><a href="#">Martha Muthoni</a></h5>
@@ -572,7 +572,7 @@
                        <div class="people-card1">
                           <div class="people-flip-box-layer people-flip-box-front">
                              <div class="people-img">
-                                <img src="{{asset('uploads/sylvia.jpg')}}" alt="">
+                                <img src="{{asset('uploads/sylvia.jpg')}}" alt="Sylvia Kamau">
                              </div>
                              <div class="content">
                                 <h5><a href="#">Sylvia Kamau</a></h5>
@@ -623,7 +623,7 @@
               <div class="col-lg-6">
                 <div class="row g-4">
                    <div class="mission-img teams-image">
-                       <img src="{{asset('uploads/5.jpg')}}" alt="">
+                       <img src="{{asset('uploads/5.jpg')}}" alt="Trusted Touch Nursing Team">
                     </div>
                 </div>
               </div>
@@ -797,7 +797,7 @@
                                    {{-- <img src="assets/img/home2/testimonial-img.jpg" alt> --}}
                                 </div>
                                 <div class="testimonal-content">
-                                   <span>Amaizing Services</span>
+                                   <span>Amaizing Services</span> http://trustedtouchnursing.co.ke/
                                    <p>We are so thankful to find the team!! Our daughter surprised us a month early, and their expertise as neonatal nurses gave us the much-needed comfort that our premature little one had all the proper care at home. I cannot recommend them enough
                                    </p>
                                    <div class="author-area">

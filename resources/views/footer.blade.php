@@ -79,7 +79,7 @@
                                     <li><a href="#related">School Nurse Services</a></li>
                                     <li><a href="#related">Elderly Care</a></li>
                                     <li><a href="#related">Special Needs Nursing Services</a></li>
-                                    <li><a href="#related">Training and Eduation</a></li>
+                                    <li><a href="#related">Training and Education</a></li>
                                  </ul>
                               </div>
                            </div>
