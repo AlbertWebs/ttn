@@ -430,7 +430,7 @@
                              <p><strong>- </strong>Baby feeding and weaning support.</p>
                              <p><strong>- </strong>Family and individual nutrition support.</p>
                           </div>
-                          <a class="explore-btn" href="case-study1#">
+                          <a class="explore-btn" href="#">
                              Explore More
                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
@@ -587,7 +587,7 @@
                                       <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
                                    </ul>
                                    <div class="explore-btn">
-                                      <a href="people-details#">
+                                      <a href="#">
                                          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"></path>
                                          </svg>
