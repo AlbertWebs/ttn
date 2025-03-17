@@ -15,16 +15,16 @@
                         <a href="#" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
                      </li>
 
+                     <li><a href="#about">Who We Are</a></li>
                      <li class="menu-item-has-children">
-                        <a href="#" class="drop-down">Who We Are</a><i class="bi bi-plus dropdown-icon"></i>
+                        <a href="#services" class="drop-down">What We Do</a><i class="bi bi-plus dropdown-icon"></i>
                         <ul class="sub-menu">
                            <li><a href="#postnatal-care">Postnatal Care</a></li>
                            <li class="active"><a href="#lactation-support">Lactation Support</a></li>
                            <li><a href="#sleep-training">Sleep Training</a></li>
                         </ul>
                      </li>
-                     {{-- <li><a href="#about">Who We Are</a></li> --}}
-                     <li><a href="#services">What We Do</a></li>
+                     {{-- <li><a href="#services">What We Do</a></li> --}}
                      <li><a href="#why">Why Choose TTN?</a></li>
                      <li><a href="#contact-me">Contact Us</a></li>
                   </ul>
