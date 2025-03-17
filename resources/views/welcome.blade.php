@@ -16,7 +16,7 @@
 
       {{-- SEO --}}
         <!-- Meta Title -->
-        <title>Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing</title>
+        <title>Trusted Touch Nursing | Expert Newborn & Postnatal Care Services in Kenya</title>
 
         <!-- Meta Description -->
         <meta name="description" content="At Trusted Touch Nursing, we offer professional, personalized newborn care by experienced maternity, neonatal, and pediatric nurses in Kenya. Partnering with families to foster safe and nurturing environments for early childhood development.">
@@ -28,47 +28,47 @@
         <meta name="keywords" content="newborn care, newborn care specialist, Trusted Touch Nursing, Kenya, pediatric nursing, neonatal care, maternity nurses, personalized newborn care, baby care services, early childhood support">
 
         <!-- Open Graph (OG) Tags -->
-        <meta property="og:title" content="Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing">
-        <meta property="og:description" content="At Trusted Touch Nursing, our compassionate team provides professional newborn care, ensuring families receive attentive, specialized support during early childhood.">
-        <meta property="og:url" content="https://trustedtouchnursing.co.ke/">
+        <meta property="og:title" content="Trusted Touch Nursing | Expert Newborn & Postnatal Care Services in Kenya">
+        <meta property="og:description" content="Providing expert postnatal care, lactation support, sleep training, and home-based nursing care. Contact us today for professional newborn care services.">
         <meta property="og:image" content="https://trustedtouchnursing.co.ke/uploads/favicon.png">
+        <meta property="og:url" content="https://trustedtouchnursing.co.ke">
         <meta property="og:type" content="website">
 
         <!-- Twitter Card Tags -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Newborn Care Specialist Agency in Kenya - Trusted Touch Nursing">
-        <meta name="twitter:description" content="Professional newborn care in Kenya by Trusted Touch Nursing. Personalized and nurturing support for families by skilled maternity, neonatal, and pediatric nurses.">
+        <meta name="twitter:title" content="Trusted Touch Nursing | Expert Newborn & Postnatal Care">
+        <meta name="twitter:description" content="Providing expert postnatal care, lactation support, sleep training, and home-based nursing care. Contact us today for professional newborn care services.">
         <meta name="twitter:image" content="https://trustedtouchnursing.co.ke/uploads/favicon.png">
 
         <!-- Schema.org Structured Data -->
         <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Trusted Touch Nursing",
-            "description": "Trusted Touch Nursing provides professional, personalized care for newborns, partnering with families to foster safe and nurturing environments during early childhood development.",
-            "url": "https://trustedtouchnursing.co.ke/",
-            "logo": "https://trustedtouchnursing.co.ke/uploads/logo.png",
-            "image": "https://trustedtouchnursing.co.ke/uploads/favicon.png",
-            "address": {
+            {
+              "@context": "https://schema.org",
+              "@type": "MedicalBusiness",
+              "name": "Trusted Touch Nursing",
+              "url": "https://trustedtouchnursing.co.ke",
+              "logo": "https://trustedtouchnursing.co.ke/uploads/favicon.png",
+              "description": "Trusted Touch Nursing offers professional postnatal care, lactation support, breastfeeding guidance, sleep training, and home-based nursing care services in Kenya.",
+              "address": {
                 "@type": "PostalAddress",
+                "addressLocality": "Nairobi",
                 "addressCountry": "Kenya"
-            },
-            "areaServed": "Kenya",
-            "contactPoint": {
+              },
+              "contactPoint": {
                 "@type": "ContactPoint",
-                "contactType": "customer service",
+                "telephone": "+254722360332",
+                "telephone": "+254726961550",
                 "email": "info@trustedtouchnursing.co.ke",
-                "telephone": "+254726961550"
-            },
-            "sameAs": [
-                "https://facebook.com/trustedtouchnursing",
-                "https://twitter.com/trustedtouchnursing",
+                "contactType": "customer service"
+              },
+              "sameAs": [
                 "https://www.instagram.com/trustedtouchnursing/",
-                "https://www.linkedin.com/company/trusted-touch-nursing-home-services/"
-            ]
-        }
+                "https://www.linkedin.com/company/trusted-touch-nursing-home-services/",
+                "https://facebook.com/trustedtouchnursing"
+              ]
+            }
         </script>
+
         <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -81,7 +81,22 @@
      <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
    </head>
    <body id="body" class="tt-smooth-scroll tt-magic-cursor">
-      <h1 style="display:none">Newborn Care Specialist Agency in Kenya</h1>
+      <h1 style="display:none">Trusted Touch Nursing – Compassionate Newborn & Postnatal Care</h1>
+      <h2 style="display:none">
+        Expert Postnatal & Newborn Care Services in Kenya
+      </h2>
+      <h2 style="display:none">
+        Lactation Support & Breastfeeding Guidance
+      </h2>
+      <h2 style="display:none">
+        Professional Sleep Training & Sleep Consultant Services
+      </h2>
+      <h2 style="display:none">
+        Reliable Home-Based Nursing & Night Nurse Support
+      </h2>
+      <h2 style="display:none">
+        Travel Nurse Services for On-the-Go Care
+      </h2>
       <!--Div where the WhatsApp will be rendered-->
       <div style="z-index:100000" id="WAButton"></div>
       <div id="magic-cursor">
@@ -355,6 +370,9 @@
         {{--  --}}
       {{--  --}}
       <div class="about-section mt-130 mb-130" id="services">
+        <span  id="lactation-support"></span>
+        <span  id="postnatal-care"></span>
+        <span  id="sleep-training"></span>
         <div class="container-fluid one pl--95">
            <div class="row g-xl-4 gy-5">
               <div class="col-xl-4">

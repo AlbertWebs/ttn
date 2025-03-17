@@ -15,7 +15,15 @@
                         <a href="#" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
                      </li>
 
-                     <li><a href="#about">Who We Are</a></li>
+                     <li class="menu-item-has-children">
+                        <a href="#" class="drop-down">Who We Are</a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                           <li><a href="#postnatal-care">Postnatal Care</a></li>
+                           <li class="active"><a href="#lactation-support">Lactation Support</a></li>
+                           <li><a href="#sleep-training">Sleep Training</a></li>
+                        </ul>
+                     </li>
+                     {{-- <li><a href="#about">Who We Are</a></li> --}}
                      <li><a href="#services">What We Do</a></li>
                      <li><a href="#why">Why Choose TTN?</a></li>
                      <li><a href="#contact-me">Contact Us</a></li>
@@ -75,12 +83,12 @@
                            <div class="quick-search">
                               <ul>
                                  <li>Quick Search :</li>
-                                 <li><a href="#service">Home Nursing,</a></li>
-                                 <li><a href="#service">Finance consulting,</a></li>
-                                 <li><a href="#service">Human Resources,</a></li>
-                                 <li><a href="#service">Management,</a></li>
-                                 <li><a href="#service">Marketing Research,</a></li>
-                                 <li><a href="#service-details">International Business.</a></li>
+                                 <li><a href="#service">Expert Postnatal & Newborn Care Services in Kenya,</a></li>
+                                 <li><a href="#service">Lactation Support & Breastfeeding Guidance,</a></li>
+                                 <li><a href="#service">Professional Sleep Training & Sleep Consultant Services,</a></li>
+                                 <li><a href="#service">Reliable Home-Based Nursing & Night Nurse Support,</a></li>
+                                 <li><a href="#service">Travel Nurse Services for On-the-Go Care,</a></li>
+                                 {{-- <li><a href="#service-details">International Business.</a></li> --}}
                               </ul>
                            </div>
                         </form>
