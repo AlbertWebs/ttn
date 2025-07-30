@@ -13,7 +13,7 @@ class SendEmail extends Model
             'content'=>$MessageToSend,
             'subject'=>$Subject,
         );
-        $Sendto="info@trustedtouchnursing.co.ke";
+        $Sendto="info@trustedtouchnursings.co.ke";
         $SendToName ="Trusted Touch Nursing";
 
         Mail::send('mailTheme', $data, function($message) use ($Subject,$Sender,$SenderId,$SubscriberId,$SubscriberName,$Sendto,$SendToName){
