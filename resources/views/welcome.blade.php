@@ -170,6 +170,22 @@
             line-height: 1.5;
             font-weight: 400;
          }
+         .ttn-values-row {
+            align-items: stretch;
+         }
+         .ttn-values-col {
+            display: flex;
+            align-items: center;
+         }
+         .ttn-values-col .about-content {
+            width: 100%;
+            padding-top: 40px;
+            padding-bottom: 40px;
+         }
+         .ttn-values-col .section-title1 {
+            margin-top: 0;
+            margin-bottom: 0;
+         }
          @media (max-width: 767px) {
             .ttn-values-grid {
                grid-template-columns: 1fr;
@@ -401,10 +417,10 @@
       <div class="about-section2">
          <div class="about-top">
             <div class="container-fluid one pl--95">
-               <div class="row">
-                  <div class="col-xxl-6 col-lg-7" >
+               <div class="row ttn-values-row">
+                  <div class="col-xxl-6 col-lg-7 ttn-values-col">
                      <div class="about-content pr--95">
-                        <div class="section-title1 two white mb-50 mt-50 ">
+                        <div class="section-title1 two white">
                            <h2>{{ setting('values_title') }}</h2>
                            <div class="ttn-values-grid">
                               @foreach($coreValues as $value)
