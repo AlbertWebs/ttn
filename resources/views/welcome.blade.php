@@ -143,37 +143,37 @@
                padding: 28px 20px;
             }
          }
-         #values.feature-card-section {
-            background: linear-gradient(180deg, #fff 0%, #fff7f1 100%);
-            padding-bottom: 40px;
+         .ttn-values-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 22px;
          }
-         #values .section-title1 h2 {
-            color: #0D1720;
+         .ttn-value-item {
+            background: rgba(255,255,255,.05);
+            border: 1px solid rgba(234,133,75,.28);
+            border-radius: 12px;
+            padding: 14px 16px 12px;
          }
-         #values .eg-card-2.style-3 {
-            background: #fff;
-            border-top: 3px solid #ea854b;
-         }
-         #values .eg-card-2.style-3 .sl-no h3 {
-            color: rgba(234, 133, 75, .28);
-         }
-         #values .eg-card-2.style-3 .content h5 {
-            color: #0D1720;
-         }
-         .home6-about-section#why {
-            background: linear-gradient(115deg, #0D1720 0%, #1b3348 42%, #ea854b 100%);
-         }
-         .home6-about-section#why .sub-title span {
-            color: #fff;
-            border-color: #ea854b;
-         }
-         .home6-about-section#why .explore-btn {
-            color: #fff;
-            border-color: #fff;
-         }
-         .home6-about-section#why .explore-btn:hover {
+         .ttn-value-item strong {
+            display: block;
             color: #ea854b;
-            border-color: #ea854b;
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            letter-spacing: .01em;
+         }
+         .ttn-value-item p {
+            margin: 0;
+            color: rgba(255,255,255,.82);
+            font-size: 13px;
+            line-height: 1.5;
+            font-weight: 400;
+         }
+         @media (max-width: 767px) {
+            .ttn-values-grid {
+               grid-template-columns: 1fr;
+            }
          }
       </style>
 
@@ -358,12 +358,15 @@
                   <div class="col-xxl-6 col-lg-7" >
                      <div class="about-content pr--95">
                         <div class="section-title1 two white mb-50 mt-50 ">
-                           <h2>{{ setting('values_title') }}</h2><br>
-                           <p class="core-content">
+                           <h2>{{ setting('values_title') }}</h2>
+                           <div class="ttn-values-grid">
                               @foreach($coreValues as $value)
-                              <span>{{ $value->title }}: </span>{{ $value->description }}<br>
+                              <div class="ttn-value-item">
+                                 <strong>{{ \Illuminate\Support\Str::title($value->title) }}</strong>
+                                 <p>{{ $value->description }}</p>
+                              </div>
                               @endforeach
-                           </p>
+                           </div>
                         </div>
 
                      </div>
