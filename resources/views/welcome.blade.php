@@ -307,10 +307,7 @@
               <div class="col-xl-8">
                  <div class="row g-4">
                     @foreach($services as $service)
-                    @if($service->anchor)
-                    <span id="{{ $service->anchor }}"></span>
-                    @endif
-                    <div class="col-sm-4">
+                    <div class="col-md-4" @if($service->anchor) id="{{ $service->anchor }}" @endif>
                        <div class="team-card {{ $service->card_style }}">
                           <div class="content">
                              <h4 style="font-weight:800; color:#ea854b">{{ $service->title }}</h4>
