@@ -687,7 +687,7 @@
       {{--  --}}
 
       {{--  --}}
-      <div class="people-section ttn-consultants-section" id="team">
+      <div class="people-section ttn-consultants-section mb-130" id="team">
         <div class="container-fluid one pl--95">
            <div class="row g-lg-4 gy-5 ttn-consultants-row">
 

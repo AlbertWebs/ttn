@@ -10,6 +10,12 @@
 <body class="admin-app">
 @php
     $currentResource = request()->route('resource');
+    $adminUser = auth()->user();
+    $adminInitials = collect(preg_split('/\s+/', trim($adminUser->name) ?: 'A'))
+        ->filter()
+        ->map(fn ($part) => mb_strtoupper(mb_substr($part, 0, 1)))
+        ->take(2)
+        ->implode('');
     $newInquiries = 0;
     try { $newInquiries = \App\Models\Inquiry::query()->where('status', 'new')->count(); } catch (\Throwable $e) {}
     $homepageResources = collect(config('cms.resources'))->except('pages');
@@ -48,14 +54,27 @@
         </div>
         <div class="admin-nav-foot">
             <div class="admin-user">
-                <strong>{{ auth()->user()->name }}</strong>
-                <span>{{ auth()->user()->email }}</span>
+                <span class="admin-user-mark" aria-hidden="true">{{ $adminInitials }}</span>
+                <div class="admin-user-meta">
+                    <strong>{{ $adminUser->name }}</strong>
+                    <em>Signed in</em>
+                    <span title="{{ $adminUser->email }}">{{ $adminUser->email }}</span>
+                </div>
             </div>
-            <a class="{{ request()->routeIs('admin.profile') ? 'active' : '' }}" href="{{ route('admin.profile') }}">Account</a>
-            <a href="{{ url('/') }}" target="_blank" rel="noopener">View website</a>
+            <div class="admin-foot-links">
+                <a class="{{ request()->routeIs('admin.profile') ? 'active' : '' }}" href="{{ route('admin.profile') }}">Account</a>
+                <a href="{{ url('/') }}" target="_blank" rel="noopener">View website</a>
+            </div>
             <form method="POST" action="{{ route('admin.logout') }}">
                 @csrf
-                <button class="nav-logout" type="submit">Log out</button>
+                <button class="nav-logout" type="submit">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <path d="M9 21H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3"></path>
+                        <polyline points="16 17 21 12 16 7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                    </svg>
+                    Sign out
+                </button>
             </form>
         </div>
     </aside>

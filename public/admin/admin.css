@@ -242,29 +242,106 @@ body.admin-app {
     text-transform: uppercase;
 }
 .admin-nav-foot {
-    padding: 12px;
+    padding: 14px 12px 12px;
     border-top: 1px solid rgba(255,255,255,.08);
     background: #0c1824;
 }
 .admin-user {
     display: grid;
-    gap: 2px;
-    padding: 8px 12px 10px;
+    grid-template-columns: 36px 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 12px;
+    background: rgba(255,255,255,.04);
+    min-width: 0;
 }
-.admin-user strong { color: #fff; font-size: 13px; }
-.admin-user span { color: #93a4b5; font-size: 11px; overflow: hidden; text-overflow: ellipsis; }
+.admin-user-mark {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, #ea854b, #c96a35);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+.admin-user-meta {
+    min-width: 0;
+    display: grid;
+    gap: 1px;
+}
+.admin-user strong {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.admin-user em {
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #8ea0b3;
+    font-weight: 700;
+}
+.admin-user span {
+    color: #93a4b5;
+    font-size: 11px;
+    line-height: 1.35;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.admin-foot-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+.admin-foot-links a {
+    justify-content: center;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #c5d0dc;
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.08);
+}
+.admin-foot-links a:hover,
+.admin-foot-links a.active {
+    background: rgba(255,255,255,.09);
+    color: #fff;
+    box-shadow: none;
+}
 .nav-logout {
     width: 100%;
-    margin-top: 6px;
-    height: 38px;
-    border: 1px solid rgba(255,255,255,.12);
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid rgba(234, 133, 75, .35);
     background: transparent;
-    color: #d7e0ea;
+    color: #f3c2a4;
     border-radius: 10px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .02em;
     cursor: pointer;
 }
-.nav-logout:hover { background: rgba(255,255,255,.08); color: #fff; }
+.nav-logout:hover {
+    background: rgba(234, 133, 75, .14);
+    border-color: #ea854b;
+    color: #fff;
+}
 .admin-nav-backdrop { display: none; }
 .admin-main { padding: 28px 32px 48px; min-width: 0; }
 .admin-top {
