@@ -13409,7 +13409,8 @@ footer .footer-btm .social-area li a:hover i {
 
 .home6-about-section {
     /* background-color: var(--title-color); */
-    background-color: #0376c2;
+    background-color: #0D1720;
+    background-image: linear-gradient(115deg, #0D1720 0%, #1b3348 42%, #ea854b 100%);
     padding: 100px 0 110px
 }
 

@@ -175,6 +175,22 @@
                grid-template-columns: 1fr;
             }
          }
+         .home6-about-section#why {
+            background-color: #0D1720 !important;
+            background-image: linear-gradient(115deg, #0D1720 0%, #1b3348 42%, #ea854b 100%) !important;
+         }
+         .home6-about-section#why .sub-title span {
+            color: #fff;
+            border-color: #ea854b;
+         }
+         .home6-about-section#why .explore-btn {
+            color: #fff;
+            border-color: #fff;
+         }
+         .home6-about-section#why .explore-btn:hover {
+            color: #ea854b;
+            border-color: #ea854b;
+         }
       </style>
 
       {{-- SEO --}}
