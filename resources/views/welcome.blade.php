@@ -13,6 +13,169 @@
       <link href="{{asset('theme/assets/css/boxicons.min.css')}}" rel="stylesheet">
       <link href="{{asset('theme/assets/css/aos.css')}}" rel="stylesheet">
       <link rel="stylesheet" href="{{asset('theme/assets/css/style.css')}}">
+      <style>
+         .people-section .people-card1 .people-img {
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+         }
+         .people-section .people-card1 .people-img img {
+            min-height: 0 !important;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+         }
+         .contect-section6 {
+            background: linear-gradient(180deg, #fff7f1 0%, #ffffff 42%, #f4f9fd 100%);
+            padding: 90px 0 110px;
+         }
+         .ttn-contact-card {
+            background: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 18px 50px rgba(13, 23, 32, .08);
+            border: 1px solid rgba(234, 133, 75, .18);
+         }
+         .ttn-contact-card::before {
+            content: "";
+            display: block;
+            height: 6px;
+            background: linear-gradient(90deg, #0D1720, #ea854b, #f4c430);
+         }
+         .ttn-contact-card .contact-form-area.two {
+            padding: 42px 42px 36px;
+            background: transparent;
+         }
+         .ttn-contact-head {
+            margin-bottom: 28px;
+         }
+         .ttn-contact-head span {
+            display: inline-block;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 700;
+            color: #ea854b;
+            margin-bottom: 8px;
+         }
+         .ttn-contact-head h2 {
+            color: #0D1720;
+            font-size: 34px;
+            margin: 0 0 10px;
+         }
+         .ttn-contact-head p {
+            color: #566064;
+            margin: 0 0 16px;
+         }
+         .ttn-contact-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+         }
+         .ttn-contact-meta a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #fff7f1;
+            color: #0D1720;
+            border: 1px solid rgba(234, 133, 75, .28);
+            border-radius: 999px;
+            padding: 8px 14px;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+         }
+         .ttn-contact-meta a:hover {
+            background: #ea854b;
+            color: #fff;
+            border-color: #ea854b;
+         }
+         .contact-form-area.two .form-inner label,
+         .ttn-human-check label {
+            color: #0D1720;
+            font-weight: 600;
+            margin-bottom: 8px;
+         }
+         .contact-form-area.two .form-inner input,
+         .contact-form-area.two .form-inner textarea,
+         .ttn-human-check input {
+            border: 1px solid #eadfd6 !important;
+            border-radius: 12px !important;
+            background: #fffdfb !important;
+            color: #0D1720 !important;
+            height: 54px;
+            transition: border-color .2s, box-shadow .2s;
+         }
+         .contact-form-area.two .form-inner textarea {
+            min-height: 140px;
+            height: auto;
+         }
+         .contact-form-area.two .form-inner input:focus,
+         .contact-form-area.two .form-inner textarea:focus,
+         .ttn-human-check input:focus {
+            outline: 0;
+            border-color: #ea854b !important;
+            box-shadow: 0 0 0 4px rgba(234, 133, 75, .16);
+         }
+         .ttn-human-check {
+            margin-top: 8px;
+         }
+         .ttn-human-check input {
+            width: 100%;
+            padding: 10px 18px;
+            font-size: 14px;
+         }
+         .ttn-form-error {
+            background: #fff1f1;
+            color: #9b1c1c;
+            border-left: 4px solid #ea854b;
+            border-radius: 10px;
+            padding: 12px 14px;
+            margin-bottom: 18px;
+         }
+         .ttn-contact-card .primary-btn1 {
+            width: 100%;
+            justify-content: center;
+            border-radius: 12px;
+         }
+         @media (max-width: 767px) {
+            .ttn-contact-card .contact-form-area.two {
+               padding: 28px 20px;
+            }
+         }
+         #values.feature-card-section {
+            background: linear-gradient(180deg, #fff 0%, #fff7f1 100%);
+            padding-bottom: 40px;
+         }
+         #values .section-title1 h2 {
+            color: #0D1720;
+         }
+         #values .eg-card-2.style-3 {
+            background: #fff;
+            border-top: 3px solid #ea854b;
+         }
+         #values .eg-card-2.style-3 .sl-no h3 {
+            color: rgba(234, 133, 75, .28);
+         }
+         #values .eg-card-2.style-3 .content h5 {
+            color: #0D1720;
+         }
+         .home6-about-section#why {
+            background: linear-gradient(115deg, #0D1720 0%, #1b3348 42%, #ea854b 100%);
+         }
+         .home6-about-section#why .sub-title span {
+            color: #fff;
+            border-color: #ea854b;
+         }
+         .home6-about-section#why .explore-btn {
+            color: #fff;
+            border-color: #fff;
+         }
+         .home6-about-section#why .explore-btn:hover {
+            color: #ea854b;
+            border-color: #ea854b;
+         }
+      </style>
 
       {{-- SEO --}}
         <!-- Meta Title -->
@@ -499,74 +662,60 @@
       <div class="contect-section6" id="contact-me">
          <div class="container-fluid one pl--95">
             <div class="row g-lg-4 gy-5">
-
-               <div class="col-lg-7 " style="margin:0 auto">
+               <div class="col-lg-7" style="margin:0 auto">
+                  <div class="ttn-contact-card">
                   <div class="contact-form-area two">
+                     <div class="ttn-contact-head">
+                        <span>Contact Us</span>
+                        <h2>{{ setting('cta_label', 'Get in Touch') }}</h2>
+                        <p>Share a little about your family and we will get back to you.</p>
+                        <div class="ttn-contact-meta">
+                           @if(setting('contact_email'))
+                           <a href="mailto:{{ setting('contact_email') }}">{{ setting('contact_email') }}</a>
+                           @endif
+                           @if(setting('phone_primary'))
+                           <a href="tel:{{ setting('phone_primary') }}">{{ setting('phone_primary') }}</a>
+                           @endif
+                           @if(setting('phone_secondary'))
+                           <a href="tel:{{ setting('phone_secondary') }}">{{ setting('phone_secondary') }}</a>
+                           @endif
+                        </div>
+                     </div>
                      <form method="POST" action="{{url('send-message')}}">
                         @csrf
                         @if(session('error'))
-                            <p style="color:#b91c1c;margin-bottom:16px">{{ session('error') }}</p>
+                            <p class="ttn-form-error">{{ session('error') }}</p>
                         @endif
                         <div class="row">
                            <div class="col-lg-6 mb-30">
                               <div class="form-inner">
                                  <label>{{ setting("contact_name_label") }}</label>
-                                 <input type="text" placeholder="Dan Maeba" name="name">
+                                 <input required type="text" placeholder="Dan Maeba" name="name">
                               </div>
                            </div>
                            <div class="col-lg-6 mb-30">
                               <div class="form-inner">
                                  <label>{{ setting("contact_email_label") }}</label>
-                                 <input type="email" placeholder="{{ setting("contact_email") }}" name="email">
+                                 <input required type="email" placeholder="{{ setting("contact_email") }}" name="email">
                               </div>
                            </div>
-
                            <div class="col-lg-12 mb-15">
                               <div class="form-inner">
                                  <label>{{ setting("contact_message_label") }}</label>
-                                 <textarea placeholder="What’s on your mind" name="massage"></textarea>
+                                 <textarea required placeholder="What’s on your mind" name="massage"></textarea>
                               </div>
                            </div>
-                           {{--  --}}
                            <?php
-                           $ops = array('-', '+');
-                           $answer = -1;
-
                            $num1 = rand(0, 50);
                            $num2 = rand(0, 15);
-
                            $answer = $num1 + $num2;
-
-                       ?>
-
+                           ?>
                        <input type="hidden" name="correct_answer" id="correct_answer" value="{{$answer}}">
-                       <input required class="form-control" value="{{$answer}}" type="hidden" id="verify_contact" name="verify_contact">
-                           <div class="row">
-
-
-                               <div class="col-md-6">
-                                   <label>{{ setting('contact_human_label', 'Are you human?') }} {{$num1}} + {{$num2}} =</label>
-                                   <div class="form-grp">
-
-                                       <input required class="form-control" value="" type="text" id="verify_contact" name="verify_contact_input">
-                                   </div>
-                               </div>
+                       <input required value="{{$answer}}" type="hidden" name="verify_contact">
+                           <div class="col-md-6 mb-30 ttn-human-check">
+                               <label>{{ setting('contact_human_label', 'Are you human?') }} {{$num1}} + {{$num2}} =</label>
+                               <input required type="text" name="verify_contact_input" placeholder="Your answer">
                            </div>
-                           <br><br>
-
-
-
-
-                           {{--  --}}
-                           {{-- <div class="col-lg-12 mb-50">
-                              <div class="form-check">
-                                 <input class="form-check-input" type="checkbox" value id="contactCheck">
-                                 <label class="form-check-label" for="contactCheck">
-                                 Please save my name, email address for the next time I message with TTN.
-                                 </label>
-                              </div>
-                           </div> --}}
-                           <br>
                            <div class="col-lg-12">
                               <div class="form-inner">
                                  <button class="primary-btn1 btn-hover" type="submit">
@@ -580,6 +729,7 @@
                            </div>
                         </div>
                      </form>
+                  </div>
                   </div>
                </div>
             </div>
