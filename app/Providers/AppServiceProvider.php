@@ -11,7 +11,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $helpers = app_path('helpers.php');
+        if (is_file($helpers)) {
+            require_once $helpers;
+        }
     }
 
     /**
@@ -24,12 +27,17 @@ class AppServiceProvider extends ServiceProvider
         }
 
         view()->composer(['header', 'footer'], function ($view) {
-            $data = $view->getData();
-            if (! isset($data['relatedServices'])) {
-                $view->with('relatedServices', \App\Models\RelatedService::query()->where('is_visible', true)->orderBy('sort_order')->get());
-            }
-            if (! isset($data['services'])) {
-                $view->with('services', \App\Models\Service::query()->where('is_visible', true)->orderBy('sort_order')->get());
+            try {
+                $data = $view->getData();
+                if (! isset($data['relatedServices'])) {
+                    $view->with('relatedServices', \App\Models\RelatedService::query()->where('is_visible', true)->orderBy('sort_order')->get());
+                }
+                if (! isset($data['services'])) {
+                    $view->with('services', \App\Models\Service::query()->where('is_visible', true)->orderBy('sort_order')->get());
+                }
+            } catch (\Throwable $e) {
+                $view->with('relatedServices', collect());
+                $view->with('services', collect());
             }
         });
     }
