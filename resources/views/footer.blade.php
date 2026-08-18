@@ -7,7 +7,7 @@
                         <div class="col-lg-4  col-md-8 d-flex justify-content-lg-start">
                            <div class="footer-widget">
                               <div class="subscribed-area">
-                                 <h2>Stay Subscribed!</h2>
+                                 <h2>{{ setting('footer_subscribe_title') }}</h2>
                                  <form>
                                     <div class="form-inner">
                                        <input type="text" placeholder="Enter Email">
@@ -29,9 +29,9 @@
                                        </svg>
                                     </div>
                                     <div class="content">
-                                       <span>For More Inquiry</span>
-                                       <h6><a href="tel:+254 726 961 550">+254726961550</a></h6>
-                                       <h6><a href="tel:+254722360332">+254722360332</a></h6>
+                                       <span>{{ setting('footer_inquiry_label') }}</span>
+                                       <h6><a href="tel:{{ setting('phone_primary') }}">{{ setting('phone_primary') }}</a></h6>
+                                       <h6><a href="tel:{{ setting('phone_secondary') }}">{{ setting('phone_secondary') }}</a></h6>
                                     </div>
                                  </div>
                                  <div class="hotline-area">
@@ -45,8 +45,8 @@
                                        </svg>
                                     </div>
                                     <div class="content">
-                                       <span>To Send Mail</span>
-                                       <h6><a href="mailto:info@trustedtouchnursing.co.ke"><span class="__cf_email__" data-cfemail="a2cbccc4cde2c5cfc3cbce8cc1cdcf">info@trustedtouchnursing.co.ke</span></a></h6>
+                                       <span>{{ setting('footer_mail_label') }}</span>
+                                       <h6><a href="mailto:{{ setting('contact_email') }}"><span class="__cf_email__">{{ setting('contact_email') }}</span></a></h6>
                                     </div>
                                  </div>
                               </div>
@@ -55,7 +55,7 @@
                         <div class="col-lg-3 col-md-4 d-flex justify-content-lg-center justify-content-md-end">
                            <div class="footer-widget">
                               <div class="widget-title">
-                                 <h3>About Us</h3>
+                                 <h3>{{ setting('footer_about_title') }}</h3>
                               </div>
                               <div class="menu-container">
                                  <ul>
@@ -71,15 +71,13 @@
                         <div class="col-lg-3 col-md-6 d-flex justify-content-lg-center">
                            <div class="footer-widget">
                               <div class="widget-title">
-                                 <h3>Related Services</h3>
+                                 <h3>{{ setting('footer_related_title') }}</h3>
                               </div>
                               <div class="menu-container">
                                  <ul>
-                                    <li><a href="#related">Newborn Nannies</a></li>
-                                    <li><a href="#related">School Nurse Services</a></li>
-                                    <li><a href="#related">Elderly Care</a></li>
-                                    <li><a href="#related">Special Needs Nursing Services</a></li>
-                                    <li><a href="#related">Training and Education</a></li>
+                                    @foreach($relatedServices as $related)
+                                    <li><a href="{{ $related->url ?: '#related' }}">{{ $related->title }}</a></li>
+                                    @endforeach
                                  </ul>
                               </div>
                            </div>
@@ -87,7 +85,7 @@
                         <div class="col-lg-2 col-md-6 d-flex justify-content-md-end">
                            <div class="footer-widget">
                               <div class="widget-title">
-                                 <h3>Legality</h3>
+                                 <h3>{{ setting('footer_legal_title') }}</h3>
                               </div>
                               <div class="menu-container">
                                  <ul>
@@ -104,7 +102,7 @@
                <div class="col-lg-12">
                   <div class="footer-menu-wrap">
                      <div class="footer-logo">
-                        <a href="#"><img src="{{asset('uploads/logo-ttn.png')}}" alt="footer-logo"></a>
+                        <a href="{{ url('/') }}"><img src="{{ media_url(setting('logo'), 'uploads/logo-ttn.png') }}" alt="footer-logo"></a>
                      </div>
                      <ul class="footer-menu">
                         <li>
@@ -152,13 +150,13 @@
                   </div>
                   <div class="footer-btm">
                      <div class="copyright-area">
-                        <p>Copyright {{date('Y')}} <a href="#">Trusted Touch Nursing Home Services</a> | Powered By <a href="https://designekta.com">Designekta Studios</a></p>
+                        <p>Copyright {{date('Y')}} <a href="{{ url('/') }}">{{ setting('copyright_name') }}</a> | Powered By <a href="https://designekta.com">Designekta Studios</a></p>
                      </div>
                      <ul class="social-area">
-                        <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
-                        <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a></li>
+                        @if(setting('social_facebook'))<li><a href="{{ setting('social_facebook') }}"><i class="bx bxl-facebook"></i></a></li>@endif
+                        @if(setting('social_twitter'))<li><a href="{{ setting('social_twitter') }}"><i class="bx bxl-twitter"></i></a></li>@endif
+                        @if(setting('social_linkedin'))<li><a href="{{ setting('social_linkedin') }}"><i class="bx bxl-linkedin"></i></a></li>@endif
+                        @if(setting('social_instagram'))<li><a href="{{ setting('social_instagram') }}"><i class="bx bxl-instagram-alt"></i></a></li>@endif
                      </ul>
                   </div>
                </div>

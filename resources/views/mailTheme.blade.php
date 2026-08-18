@@ -50,7 +50,11 @@
         </div>
         <div class="content">
 
-            <p>{!!html_entity_decode($content)!!}</p>
+            @if (!empty($name) || !empty($email))
+                <p><strong>From:</strong> {{ $name }} ({{ $email }})</p>
+                <br>
+            @endif
+            <p>{!! html_entity_decode($content) !!}</p>
         </div>
         <div class="footer">
             <p>Contact us at: info@trustedtouchnursing.co.ke</p>
