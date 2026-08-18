@@ -1,12 +1,27 @@
 @extends('admin.layout')
 
 @section('title', $group['title'])
-@section('subtitle', 'Changes appear on the public website immediately')
+@section('subtitle', 'These fields publish on the website as soon as you save.')
 
 @section('content')
-<div class="tabs">
-    @foreach ($groups as $key => $item)
-        <a class="{{ $groupKey === $key ? 'active' : '' }}" href="{{ route('admin.settings.edit', $key) }}">{{ $item['title'] }}</a>
+@php
+    $families = [
+        'Site' => ['general', 'contact', 'social', 'seo', 'mail', 'footer'],
+        'Homepage' => ['hero', 'about', 'vision', 'values', 'why', 'services', 'team', 'testimonials', 'contact_form'],
+    ];
+@endphp
+<div class="settings-nav">
+    @foreach ($families as $family => $keys)
+        <div>
+            <span class="tab-family-label">{{ $family }}</span>
+            <div class="tabs">
+                @foreach ($keys as $key)
+                    @if (isset($groups[$key]))
+                        <a class="{{ $groupKey === $key ? 'active' : '' }}" href="{{ route('admin.settings.edit', $key) }}">{{ $groups[$key]['title'] }}</a>
+                    @endif
+                @endforeach
+            </div>
+        </div>
     @endforeach
 </div>
 <div class="card">
@@ -14,26 +29,35 @@
         @csrf
         @method('PUT')
         @foreach ($group['fields'] as $field)
-            @php $value = setting($field['key']); @endphp
-            @if (($field['type'] ?? 'text') === 'textarea')
-                <label>{{ $field['label'] }}
+            @php
+                $value = setting($field['key']);
+                $type = $field['type'] ?? 'text';
+                $wide = in_array($type, ['textarea', 'image', 'html'], true);
+            @endphp
+            @if ($type === 'textarea')
+                <div class="form-field wide">
+                    <span class="field-label">{{ $field['label'] }}</span>
                     <textarea name="{{ $field['key'] }}">{{ old($field['key'], $value) }}</textarea>
-                </label>
-            @elseif (($field['type'] ?? '') === 'image')
-                <label>{{ $field['label'] }}
+                </div>
+            @elseif ($type === 'image')
+                <div class="form-field wide">
+                    <span class="field-label">{{ $field['label'] }}</span>
                     <input type="file" name="{{ $field['key'] }}" accept="image/*">
+                    <span class="form-hint">Leave empty to keep the current image.</span>
                     @if ($value)
                         <img class="preview" src="{{ media_url($value) }}" alt="">
                     @endif
-                </label>
+                </div>
             @else
-                <label>{{ $field['label'] }}
+                <div class="form-field{{ $wide ? ' wide' : '' }}">
+                    <span class="field-label">{{ $field['label'] }}</span>
                     <input type="text" name="{{ $field['key'] }}" value="{{ old($field['key'], $value) }}">
-                </label>
+                </div>
             @endif
         @endforeach
-        <div>
+        <div class="form-actions">
             <button class="btn btn-primary" type="submit">Save {{ strtolower($group['title']) }}</button>
+            <span class="muted">Visible on the public site immediately.</span>
         </div>
     </form>
 </div>
