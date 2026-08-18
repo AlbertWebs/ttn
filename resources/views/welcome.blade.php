@@ -191,6 +191,37 @@
             color: #ea854b;
             border-color: #ea854b;
          }
+         #values.feature-card-section {
+            background: transparent;
+         }
+         #values .section-title1 h2 {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 12px;
+         }
+         #values .section-title1 h2::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 56px;
+            height: 3px;
+            background: #ea854b;
+            border-radius: 2px;
+         }
+         #values .eg-card-2.style-3 {
+            background: transparent;
+            border-top: 2px solid #ea854b;
+         }
+         #values .eg-card-2.style-3 .sl-no h3 {
+            color: rgba(234, 133, 75, .35);
+         }
+         #values .eg-card-2.style-3 .content h5 {
+            color: #0D1720;
+         }
+         #values .eg-card-2.style-3:hover {
+            background: rgba(234, 133, 75, .04);
+         }
       </style>
 
       {{-- SEO --}}

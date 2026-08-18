@@ -1,7 +1,7 @@
 @extends('admin.layout')
 
 @section('title', $config['title'])
-@section('subtitle', 'Add, edit, hide, or remove items shown on the homepage')
+@section('subtitle', $resource === 'pages' ? 'Privacy, terms, and cookie policy shown on the website' : 'Add, edit, hide, or remove items shown on the homepage')
 
 @section('actions')
     <a class="btn btn-primary" href="{{ route('admin.resources.create', $resource) }}">Add {{ $config['singular'] }}</a>
