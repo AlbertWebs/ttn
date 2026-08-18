@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin Login | {{ setting('site_name', 'Trusted Touch Nursing') }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="{{ media_url(setting('favicon'), 'uploads/favicon.png') }}">
-    <link rel="stylesheet" href="{{ asset('admin/admin.css') }}">
+    <link rel="stylesheet" href="{{ asset('admin/admin.css') }}?v={{ @filemtime(public_path('admin/admin.css')) }}">
 </head>
 <body class="admin-login">
     <div class="login-shell">
