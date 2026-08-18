@@ -191,6 +191,32 @@
                grid-template-columns: 1fr;
             }
          }
+         .ttn-consultants-section .people-left-content .section-title1 {
+            margin-bottom: 0;
+         }
+         @media (min-width: 992px) {
+            .ttn-consultants-row {
+               align-items: stretch;
+            }
+            .ttn-consultants-media {
+               position: relative;
+               min-height: 100%;
+            }
+            .ttn-consultants-section .teams-image {
+               position: absolute;
+               inset: 0;
+               height: 100%;
+               width: 100%;
+               overflow: hidden;
+            }
+            .ttn-consultants-section .teams-image img {
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               object-position: center;
+               display: block;
+            }
+         }
          .home6-about-section#why {
             background-color: #0D1720 !important;
             background-image: linear-gradient(115deg, #0D1720 0%, #1b3348 42%, #ea854b 100%) !important;
@@ -661,16 +687,14 @@
       {{--  --}}
 
       {{--  --}}
-      <div class="people-section" id="team">
+      <div class="people-section ttn-consultants-section" id="team">
         <div class="container-fluid one pl--95">
-           <div class="row g-lg-4 gy-5">
+           <div class="row g-lg-4 gy-5 ttn-consultants-row">
 
-              <div class="col-lg-6">
-                <div class="row g-4">
+              <div class="col-lg-6 ttn-consultants-media">
                    <div class="mission-img teams-image">
                        <img src="{{ media_url(setting('consultants_image'), 'uploads/5.jpg') }}" alt="{{ setting('site_name') }} Team">
                     </div>
-                </div>
               </div>
               <div class="col-lg-6">
                  <div class="people-left-content pr--95">
